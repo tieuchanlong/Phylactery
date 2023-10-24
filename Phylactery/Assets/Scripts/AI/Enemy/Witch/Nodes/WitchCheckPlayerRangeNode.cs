@@ -13,7 +13,8 @@ public class WitchCheckPlayerRangeNode : BaseNode
     {
         WitchControl witchControl = (WitchControl)_aiControl;
 
-        if (!witchControl.IsInPlayerRange())
+        // If there are no loud noises, the witch can continue idle state
+        if (LoudNoiseLocation.LoudNoiseLocations.Count == 0)
         {
             return NodeStatus.Success;
         }

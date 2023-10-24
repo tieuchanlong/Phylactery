@@ -11,7 +11,13 @@ public class WitchFindRandomSpotNode : BaseNode
 
     protected override NodeStatus Execute(float fDeltaTime)
     {
-        // Find random node on map to investigate
-        return NodeStatus.Running;
+        WitchControl _witchControl = (WitchControl)_aiControl;
+
+        if (_witchControl.FindRandomSpot())
+        {
+            return NodeStatus.Success;
+        }
+
+        return NodeStatus.Failure;
     }
 }
