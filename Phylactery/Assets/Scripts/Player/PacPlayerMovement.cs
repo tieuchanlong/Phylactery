@@ -7,7 +7,7 @@ public class PlayerMovement : MonoBehaviour
     public float speed = 5.0f;
 
     private Rigidbody2D body;
-    private SceneHandler scene;
+    //private SceneHandler scene;
 
     void Start()
     {
@@ -29,8 +29,10 @@ public class PlayerMovement : MonoBehaviour
         }
 
         // press A to move left
-        if(Input.GetKeyDown(KeyCode.A)) {
+        if (Input.GetKeyDown(KeyCode.A))
+        {
             MoveLeft();
+        }
 
         // press S to move left
         if(Input.GetKeyDown(KeyCode.S)) {
