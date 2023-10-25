@@ -12,10 +12,22 @@ public class LoudNoiseLocation : DestinationLocationControl
 
     private float _currentNoiseLifeSpan = 0.0f;
 
+    private bool _markedForPathfinding = false;
+
+    public bool MarkedForPathfinding
+    {
+        set
+        {
+            _markedForPathfinding = value;
+        }
+    }
+
     // Start is called before the first frame update
     protected override void Start()
     {
         base.Start();
+        _destinationType = DestinationType.LOUD_NOISE;
+        LoudNoiseLocations.Add(this);
     }
 
     // Update is called once per frame
@@ -23,12 +35,16 @@ public class LoudNoiseLocation : DestinationLocationControl
     {
         base.Update();
 
-        _currentNoiseLifeSpan += Time.deltaTime;
-
-        if (_currentNoiseLifeSpan >= _maxNoiseLifeSpanInSeconds)
+        // Loud sound cannot be destroyed if targetted for pathfinding
+        if (!_markedForPathfinding)
         {
-            LoudNoiseLocations.Remove(this);
-            Destroy(gameObject);
+            _currentNoiseLifeSpan += Time.deltaTime;
+
+            if (_currentNoiseLifeSpan >= _maxNoiseLifeSpanInSeconds)
+            {
+                LoudNoiseLocations.Remove(this);
+                Destroy(gameObject);
+            }
         }
     }
 

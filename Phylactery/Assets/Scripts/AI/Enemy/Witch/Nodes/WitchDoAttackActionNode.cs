@@ -11,6 +11,19 @@ public class WitchDoAttackActionNode : BaseNode
 
     protected override NodeStatus Execute(float fDeltaTime)
     {
-        return NodeStatus.Running;
+        WitchControl _witchControl = (WitchControl)_aiControl;
+
+        if (!_witchControl.IsInPlayerRange())
+        {
+            _witchControl.ResetState();
+            return NodeStatus.Failure;
+        }
+
+        if (!_witchControl.DoAttackAction())
+        {
+            return NodeStatus.Running;
+        }
+
+        return NodeStatus.Success;
     }
 }

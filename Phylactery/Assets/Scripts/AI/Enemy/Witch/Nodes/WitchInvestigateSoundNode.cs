@@ -11,6 +11,15 @@ public class WitchInvestigateSoundNode : BaseNode
 
     protected override NodeStatus Execute(float fDeltaTime)
     {
-        return NodeStatus.Running;
+        WitchControl _witchControl = (WitchControl)_aiControl;
+
+        if (!_witchControl.ReachedDestination())
+        {
+            _witchControl.MoveToDestination();
+            return NodeStatus.Running;
+        }
+
+        _witchControl.FinishInvestigateNoise();
+        return NodeStatus.Success;
     }
 }

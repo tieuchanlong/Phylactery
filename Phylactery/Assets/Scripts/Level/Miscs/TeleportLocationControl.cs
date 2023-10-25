@@ -15,6 +15,7 @@ public class TeleportLocationControl : DestinationLocationControl
     protected override void Start()
     {
         base.Start();
+        _destinationType = DestinationType.TELEPORT_POINT;
         TeleportPoints.Add(this);
     }
 

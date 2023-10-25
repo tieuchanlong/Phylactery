@@ -42,7 +42,12 @@ public class AIControl : MonoBehaviour
         // Update AI Root node actions
         if (_aiRootNode != null)
         {
-            _aiRootNode.Update(Time.deltaTime);
+            GameControl gameControl = FindAnyObjectByType<GameControl>();
+
+            if (!gameControl.IsLevelCompleted)
+            {
+                _aiRootNode.Update(Time.deltaTime);
+            }
         }
     }
 

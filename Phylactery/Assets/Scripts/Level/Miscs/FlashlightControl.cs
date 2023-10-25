@@ -15,6 +15,7 @@ public class FlashlightControl : MonoBehaviour
 
     [SerializeField]
     private float _flashLightRechargeIntensity;
+    private AudioSource _flashLightAudioSource;
 
     // Start is called before the first frame update
     void Start()
@@ -22,12 +23,18 @@ public class FlashlightControl : MonoBehaviour
         _lightComp = GetComponent<UnityEngine.Rendering.Universal.Light2D>();
         _lightComp.intensity = _flashLightMaxIntensity;
         _flashLightMinIntensity = Mathf.Max(_flashLightMinIntensity, 0.0f);
+        _flashLightAudioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
     void Update()
     {
         Dim();
+    }
+
+    public bool IsFullBattery()
+    {
+        return (_lightComp.intensity < _flashLightMaxIntensity);
     }
 
     private void Dim()
@@ -42,11 +49,13 @@ public class FlashlightControl : MonoBehaviour
 
     public void Recharge()
     {
-        _lightComp.intensity += _flashLightRechargeIntensity;
-
-        if (_lightComp.intensity >= _flashLightMaxIntensity)
-        {
-            _lightComp.intensity = _flashLightMaxIntensity;
-        }
+        _flashLightAudioSource.Play();
+        //         _lightComp.intensity += _flashLightRechargeIntensity;
+        // 
+        //         if (_lightComp.intensity >= _flashLightMaxIntensity)
+        //         {
+        //             _lightComp.intensity = _flashLightMaxIntensity;
+        //         }
+        _lightComp.intensity = _flashLightMaxIntensity;
     }
 }

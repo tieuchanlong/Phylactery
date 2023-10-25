@@ -8,5 +8,6 @@ public class WitchNode : SelectorNode
     {
         AddChild(new WitchIdleNode(aiControl, this));
         AddChild(new WitchAttackNode(aiControl, this));
+        AddChild(new WitchDirectAttackNode(aiControl, this));
     }
 }

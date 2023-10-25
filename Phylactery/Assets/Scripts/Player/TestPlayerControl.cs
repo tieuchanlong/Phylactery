@@ -25,6 +25,10 @@ public class TestPlayerControl : MonoBehaviour
         {
             _rechargeFlashlightPressed = true;
             _flashlight.Recharge();
+
+            // Spawn loud sound
+            GameObject loudSound = Resources.Load<GameObject>("Borrowed/Prefabs/LoudSound");
+            Instantiate(loudSound, transform.position, Quaternion.identity);
         }
 
         if (Input.GetKeyUp(KeyCode.Space))

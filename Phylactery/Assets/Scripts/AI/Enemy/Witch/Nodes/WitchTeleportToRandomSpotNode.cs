@@ -13,11 +13,20 @@ public class WitchTeleportToRandomSpotNode : BaseNode
     {
         WitchControl _witchControl = (WitchControl)_aiControl;
 
-        if (_witchControl.TeleportToRandomSpot())
+        if (TeleportLocationControl.TeleportPoints.Count == 0)
         {
-            return NodeStatus.Success;
+            return NodeStatus.Failure;
         }
 
-        return NodeStatus.Failure;
+        if (!_witchControl.TeleportToRandomSpot())
+        {
+            if (!_witchControl.FindNewRandomSpot)
+            {
+                return NodeStatus.Failure;
+            }
+            return NodeStatus.Running;
+        }
+
+        return NodeStatus.Success;
     }
 }

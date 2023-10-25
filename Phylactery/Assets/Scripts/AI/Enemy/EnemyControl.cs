@@ -4,15 +4,18 @@ using UnityEngine;
 
 public class EnemyControl : AIControl
 {
+    [SerializeField]
     protected float _playerDetectionDistance;
     protected float _playerDetectionAngle;
     protected float _attackRange;
     protected Vector2 _forwardVec;
+    protected PacPlayerMovement _player;
 
     // Start is called before the first frame update
     protected override void Start()
     {
         base.Start();
+        _player = FindObjectOfType<PacPlayerMovement>();
     }
 
     // Update is called once per frame
@@ -24,7 +27,7 @@ public class EnemyControl : AIControl
     // Waiting for Amy to finish implementing the player control
     public virtual bool IsInPlayerRange()
     {
-        Vector2 playerPos = new Vector2(0.0f, 0.0f);
+        Vector2 playerPos = _player.transform.position;
         Vector2 enemyPos = new Vector2(transform.position.x, transform.position.y);
 
         if (Vector2.Distance(playerPos, enemyPos) > _playerDetectionDistance)

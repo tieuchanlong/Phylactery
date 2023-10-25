@@ -8,7 +8,7 @@ public class PlayerMovement : MonoBehaviour
     public float jumpForce = 300.0f;
 
     private Rigidbody2D body;
-    private SceneHandler scene;
+    //private SceneHandler scene;
 
     void Start()
     {
@@ -25,8 +25,10 @@ public class PlayerMovement : MonoBehaviour
         }
 
         // press A to move left
-        if(Input.GetKeyDown(KeyCode.LeftArrow)) {
+        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        {
             MoveLeft();
+        }
 
         // press space to jump
         if(Input.GetKeyDown(KeyCode.Space)) {
@@ -46,6 +48,6 @@ public class PlayerMovement : MonoBehaviour
     }
 
     void Jump(){
-            body.AddForce(Vector2.up * jumpForce)
+            body.AddForce(Vector2.up * jumpForce);
     }
 }
