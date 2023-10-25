@@ -6,6 +6,7 @@ public class LoudNoiseLocation : DestinationLocationControl
 {
     public static List<LoudNoiseLocation> LoudNoiseLocations = new List<LoudNoiseLocation>();
     private static int _loudNoiseStackSize = 10;
+    private SpriteRenderer _spriteRenderer;
 
     [SerializeField]
     private float _maxNoiseLifeSpanInSeconds = 10.0f;
@@ -26,6 +27,8 @@ public class LoudNoiseLocation : DestinationLocationControl
     protected override void Start()
     {
         base.Start();
+        _spriteRenderer = GetComponent<SpriteRenderer>();
+        _spriteRenderer.enabled = false;
         _destinationType = DestinationType.LOUD_NOISE;
         LoudNoiseLocations.Add(this);
     }

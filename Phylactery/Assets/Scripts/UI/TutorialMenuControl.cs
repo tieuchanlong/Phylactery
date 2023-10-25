@@ -7,6 +7,9 @@ public class TutorialMenuControl : MonoBehaviour
     private Camera _beginLevelCamera;
     private GameControl _gameControl;
 
+    [SerializeField]
+    private GameObject _inLevelTutorialMenu;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +25,7 @@ public class TutorialMenuControl : MonoBehaviour
             gameObject.SetActive(false);
             _beginLevelCamera.gameObject.SetActive(false);
             _gameControl.BeginGame();
+            _inLevelTutorialMenu.SetActive(true);
         }
     }
 }
