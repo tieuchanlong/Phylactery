@@ -41,9 +41,9 @@ public class WitchControl : EnemyControl
     {
         float playerDist = Vector3.Distance(_player.transform.position, transform.position);
 
-        if (_isScreamAnimationPlaying)
+        if (_gameControl.IsLevelCompleted)
         {
-            _witchAudioSource.volume = 1.0f;
+            _witchAudioSource.volume = 0.0f;
             return;
         }
 
@@ -182,7 +182,7 @@ public class WitchControl : EnemyControl
     {
         _isScreamAnimationPlaying = true;
         // Play the animation
-        _witchAudioSource.loop = false;
+        //_witchAudioSource.loop = false;
         AudioClip audio = Resources.Load<AudioClip>("Borrowed/Sounds/WitchScream");
         _witchAudioSource.clip = audio;
         _witchAudioSource.Play();

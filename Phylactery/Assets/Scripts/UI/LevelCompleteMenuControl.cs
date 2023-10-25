@@ -31,6 +31,6 @@ public class LevelCompleteMenuControl : MonoBehaviour
 
     public void QuitLevel()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(0);
     }
 }
