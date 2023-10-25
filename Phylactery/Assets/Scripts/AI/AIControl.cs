@@ -74,6 +74,11 @@ public class AIControl : MonoBehaviour
 
     public virtual bool ReachedDestination()
     {
+        if (_destination == null)
+        {
+            return true;
+        }
+
         Vector3 distanceVec = _destination.transform.position - transform.position;
         distanceVec = new Vector3(distanceVec.x, distanceVec.y, 0.0f); // We don't want the AI to move in depth and mess up each layer depth
 

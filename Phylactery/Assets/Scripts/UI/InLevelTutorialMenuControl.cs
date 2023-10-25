@@ -38,6 +38,8 @@ public class InLevelTutorialMenuControl : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.F))
             {
+                _tutorialStep = 0;
+                _tutorialText.text = "Press A, D to move left and right";
                 gameObject.SetActive(false);
             }
         }

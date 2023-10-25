@@ -155,6 +155,16 @@ public class PacPlayerMovement : MonoBehaviour
     {
         _isDead = true;
         _playerAudioSource.Play();
+        StartCoroutine(PlayDeathAnimation());
+    }
+
+    IEnumerator PlayDeathAnimation()
+    {
+        _playerAnimator.SetBool("IsDead", true);
+
+        yield return new WaitForSeconds(1);
+
+        _playerAnimator.SetBool("IsDead", false);
     }
 
     protected void OnTriggerEnter2D(Collider2D collision)

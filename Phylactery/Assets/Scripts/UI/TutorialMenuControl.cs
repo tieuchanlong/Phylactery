@@ -28,4 +28,14 @@ public class TutorialMenuControl : MonoBehaviour
             _inLevelTutorialMenu.SetActive(true);
         }
     }
+
+    private void OnEnable()
+    {
+        if (_beginLevelCamera == null)
+        {
+            _beginLevelCamera = FindAnyObjectByType<Camera>();
+        }
+
+        _beginLevelCamera.gameObject.SetActive(true);
+    }
 }

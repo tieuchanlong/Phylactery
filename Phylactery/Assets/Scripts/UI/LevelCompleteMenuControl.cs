@@ -5,6 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class LevelCompleteMenuControl : MonoBehaviour
 {
+    [SerializeField]
+    private GameObject _tutorialMenu;
+
     private GameControl _gameControl;
 
     // Start is called before the first frame update
@@ -22,11 +25,12 @@ public class LevelCompleteMenuControl : MonoBehaviour
     public void ReplayLevel()
     {
         _gameControl.ClearGame();
-        SceneManager.LoadScene(1);
+        _tutorialMenu.SetActive(true);
+        gameObject.SetActive(false);
     }
 
     public void QuitLevel()
     {
-
+        SceneManager.LoadScene(1);
     }
 }

@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class GameControl : MonoBehaviour
 {
-    private bool _isGameBegun = false;
     private bool _isLevelCompleted = false;
 
     [SerializeField]
@@ -15,6 +14,8 @@ public class GameControl : MonoBehaviour
 
     [SerializeField]
     private GameObject _inLevelTutorialMenu;
+
+    private GameObject _map;
 
     public bool IsLevelCompleted
     {
@@ -38,13 +39,7 @@ public class GameControl : MonoBehaviour
 
     public void BeginGame()
     {
-        if (_isGameBegun)
-        {
-            return;
-        }
-
-        _isGameBegun = true;
-        Instantiate(Resources.Load<GameObject>("Maps/GameJam1Map"));
+        _map = Instantiate(Resources.Load<GameObject>("Maps/GameJam1Map"));
         Camera cam = Camera.main;
         cam.gameObject.SetActive(true);
     }
@@ -65,10 +60,7 @@ public class GameControl : MonoBehaviour
 
     public void ClearGame()
     {
-        foreach (LoudNoiseLocation loudNoise in LoudNoiseLocation.LoudNoiseLocations)
-        {
-            Destroy(loudNoise);
-        }
-        LoudNoiseLocation.LoudNoiseLocations.Clear();
+        _isLevelCompleted = false;
+        Destroy(_map);
     }
 }
