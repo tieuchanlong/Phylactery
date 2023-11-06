@@ -51,7 +51,7 @@ public class AIControl : MonoBehaviour
         }
     }
 
-    public virtual void MoveToDestination(bool usePathfinding = false)
+    public virtual void MoveToDestination(bool running = false, bool usePathfinding = false)
     {
         if (!usePathfinding)
         {
@@ -68,7 +68,15 @@ public class AIControl : MonoBehaviour
             }
 
             distanceVec = new Vector3(distanceVec.x, distanceVec.y, 0.0f); // We don't want the AI to move in depth and mess up each layer depth
-            transform.position += _walkingSpeed * Time.deltaTime * distanceVec.normalized;
+
+            if (running)
+            {
+                transform.position += _rushSpeed * Time.deltaTime * distanceVec.normalized;
+            }
+            else
+            {
+                transform.position += _walkingSpeed * Time.deltaTime * distanceVec.normalized;
+            }
         }
     }
 

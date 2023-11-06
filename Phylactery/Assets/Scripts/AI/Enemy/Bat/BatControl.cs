@@ -2,14 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ZombieControl : EnemyControl
+public class BatControl : EnemyControl
 {
     private bool _doAttackAnimation = false;
 
-    // Start is called before the first frame update
     protected override void Start()
     {
-        _aiRootNode = new ZombieNode(this, null);
+        _aiRootNode = new BatNode(this, null);
         base.Start();
     }
 
@@ -59,7 +58,13 @@ public class ZombieControl : EnemyControl
     {
         // Damage player every 2s
         _doAttackAnimation = true;
-        yield return new WaitForSeconds(2);
+
+        // Spawn projectile
+        GameObject projectTilePrefab = Resources.Load("Borrowed/Prefabs/Miscs/ProjectTile") as GameObject;
+        GameObject projectTile = Instantiate(projectTilePrefab, transform.position, Quaternion.identity);
+        projectTile.GetComponent<ProjectTileControl>().ProjectTileDirection = (_player.transform.position - transform.position).normalized;
+
+        yield return new WaitForSeconds(4);
 
         _doAttackAnimation = false;
     }

@@ -2,29 +2,29 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ZombieChaseNode : BaseNode
+public class BatChaseNode : BaseNode
 {
-    public ZombieChaseNode(AIControl aiControl, BaseNode parentNode) : base(aiControl, parentNode)
+    public BatChaseNode(AIControl aiControl, BaseNode parentNode) : base(aiControl, parentNode)
     {
 
     }
 
     protected override NodeStatus Execute(float fDeltaTime)
     {
-        ZombieControl zombieControl = (ZombieControl)_aiControl;
-        if (zombieControl.ChasePlayer())
+        BatControl batControl = (BatControl)_aiControl;
+        if (batControl.ChasePlayer())
         {
             return NodeStatus.Success;
         }
 
         // If out side player range, don't chase, go back to idle
-        if (!zombieControl.IsInPlayerRange())
+        if (!batControl.IsInPlayerRange())
         {
             return NodeStatus.Failure;
         }
 
         // Do chasing animation
-        zombieControl.MoveToDestination();
+        batControl.MoveToDestination(true);
         return NodeStatus.Running;
     }
 }

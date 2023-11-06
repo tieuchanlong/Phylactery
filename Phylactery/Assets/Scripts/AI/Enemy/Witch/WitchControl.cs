@@ -230,7 +230,7 @@ public class WitchControl : EnemyControl
         _witchAudioSource.Play();
     }
 
-    public override void MoveToDestination(bool usePathfinding = false)
+    public override void MoveToDestination(bool running = false, bool usePathfinding = false)
     {
         if (!usePathfinding)
         {
