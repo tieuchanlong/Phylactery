@@ -6,16 +6,18 @@ public class EnemyControl : AIControl
 {
     [SerializeField]
     protected float _playerDetectionDistance;
+    [SerializeField]
     protected float _playerDetectionAngle;
+    [SerializeField]
     protected float _attackRange;
     protected Vector2 _forwardVec;
-    protected PacPlayerMovement _player;
+    protected BasePlayerMovement _player;
 
     // Start is called before the first frame update
     protected override void Start()
     {
         base.Start();
-        _player = FindObjectOfType<PacPlayerMovement>();
+        _player = FindObjectOfType<BasePlayerMovement>();
     }
 
     // Update is called once per frame

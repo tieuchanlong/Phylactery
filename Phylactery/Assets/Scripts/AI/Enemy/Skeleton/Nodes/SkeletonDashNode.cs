@@ -2,19 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ZombieDoDamageNode : BaseNode
+public class SkeletonDashNode : BaseNode
 {
-    public ZombieDoDamageNode(AIControl aiControl, BaseNode parentNode) : base(aiControl, parentNode)
+    public SkeletonDashNode(AIControl aiControl, BaseNode parentNode) : base(aiControl, parentNode)
     {
 
     }
 
     protected override NodeStatus Execute(float fDeltaTime)
     {
-        ZombieControl zombieControl = (ZombieControl)_aiControl;
+        SkeletonControl skeletonControl = (SkeletonControl)_aiControl;
 
         // Do attack animation
-        if (zombieControl.DoAttackAction())
+        if (skeletonControl.DoDashAction())
         {
             return NodeStatus.Success;
         }
