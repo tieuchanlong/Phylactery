@@ -5,7 +5,7 @@ using UnityEngine;
 public class PhylacteryPlayerMovement : BasePlayerMovement
 {
     // speed constants
-    public float speed = 5.0f;
+    public float speed = 3.0f;
     public float runspeed = 7.0f;
 
     // stamina variables
@@ -30,11 +30,22 @@ public class PhylacteryPlayerMovement : BasePlayerMovement
     private HPBarControl _hpBar;
     #endregion
 
+    #region Animation Directions
+    private PlayerCharacterRenderer _playerRenderer;
+    private Vector2 _headingDir = new Vector2(0, -1);
+
+    public static string[] staticDirections = { "Static N", "Static NW", "Static W", "Static SW", "Static S", "Static SE", "Static E", "Static NE" };
+    public static string[] walkDirections = { "Walk N", "Walk NW", "Walk W", "Walk SW", "Walk S", "Walk SE", "Walk E", "Walk NE" };
+    public static string[] runDirections = { "Run N", "Run NW", "Run W", "Run SW", "Run S", "Run SE", "Run E", "Run NE" };
+    public static string[] dieDirections = { "Die N", "Die NW", "Die W", "Die SW", "Die S", "Die SE", "Die E", "Die NE" };
+    #endregion
+
     protected override void Start()
     {
         specialattStam = totalStam / 5;
         currentStam = totalStam;
         _hpBar = GameObject.FindAnyObjectByType<HPBarControl>();
+        _playerRenderer = GetComponent<PlayerCharacterRenderer>();
         base.Start();
     }
 
@@ -86,6 +97,10 @@ public class PhylacteryPlayerMovement : BasePlayerMovement
         //if current status is disabled, the player cannot move or attack
         if (!disabled)
         {
+            if (_gameControl.IsLevelCompleted || _isDead)
+            {
+                return;
+            }
 
             // press Space to attack
             if (Input.GetKeyDown(KeyCode.Space))
@@ -129,6 +144,28 @@ public class PhylacteryPlayerMovement : BasePlayerMovement
                     SpecialAttack4();
                 }
             }
+        }
+
+        float vertical = Input.GetAxis("Vertical");
+        float horizontal = Input.GetAxis("Horizontal");
+
+        if (vertical != 0 || horizontal != 0)
+        {
+            _headingDir = new Vector2(horizontal, vertical);
+            if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
+            {
+                _speed = runspeed;
+                _playerRenderer.SetDirection(new Vector2(horizontal, vertical), runDirections);
+            }
+            else
+            {
+                _speed = speed;
+                _playerRenderer.SetDirection(new Vector2(horizontal, vertical), walkDirections);
+            }
+        }
+        else
+        {
+            _playerRenderer.SetDirection(_headingDir, staticDirections);
         }
 
         base.Update();
@@ -197,6 +234,11 @@ public class PhylacteryPlayerMovement : BasePlayerMovement
 
     public override void TakeDamage(float damageAmount)
     {
+        if (_isDead)
+        {
+            return;
+        }
+
         if (damageAmount > _currentHP)
         {
             damageAmount = _currentHP;
@@ -206,6 +248,44 @@ public class PhylacteryPlayerMovement : BasePlayerMovement
 
         float hpDamagePercentage = -damageAmount / _maxHP;
         _hpBar.UpdateHP(hpDamagePercentage);
+
+        if (_currentHP <= 0)
+        {
+            Die();
+        }
+    }
+
+    public override void AddHP(float hpAmount)
+    {
+        if (_isDead)
+        {
+            return;
+        }
+
+        if (hpAmount > MaxHP - _currentHP)
+        {
+            hpAmount = MaxHP - _currentHP;
+        }
+
+        base.AddHP(hpAmount);
+
+        float hpAddPercentage = hpAmount / _maxHP;
+        _hpBar.UpdateHP(hpAddPercentage);
+    }
+
+    public override void Die()
+    {
+        base.Die();
+        StartCoroutine(PlayDeadAnimation());
+    }
+    
+    IEnumerator PlayDeadAnimation()
+    {
+        // Play death animation
+
+        yield return new WaitForSeconds(2.0f);
+
+        _gameControl.GameOver();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

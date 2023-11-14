@@ -15,6 +15,9 @@ public class GameControl : MonoBehaviour
     [SerializeField]
     private GameObject _inLevelTutorialMenu;
 
+    [SerializeField]
+    private GameObject _pauseMenu;
+
     private GameObject _map;
 
     public bool IsLevelCompleted
@@ -34,7 +37,10 @@ public class GameControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            PauseGame();
+        }
     }
 
     public void BeginGame()
@@ -47,8 +53,16 @@ public class GameControl : MonoBehaviour
     public void GameOver()
     {
         _isLevelCompleted = true;
-        _gameOverMenu.SetActive(true);
-        _inLevelTutorialMenu.SetActive(false);
+
+        if (_gameOverMenu)
+        {
+            _gameOverMenu.SetActive(true);
+        }
+
+        if (_inLevelTutorialMenu)
+        {
+            _inLevelTutorialMenu.SetActive(false);
+        }
     }
 
     public void EndLevel()
@@ -62,5 +76,10 @@ public class GameControl : MonoBehaviour
     {
         _isLevelCompleted = false;
         Destroy(_map);
+    }
+
+    public void PauseGame()
+    {
+        _pauseMenu.SetActive(true);
     }
 }

@@ -10,6 +10,10 @@ public class SkeletonControl : EnemyControl
     [SerializeField]
     private float _dashStopDist = 0.1f;
 
+    [SerializeField]
+    private float _dashDamageRange = 0.1f;
+    private bool _finishedDashDamage = false;
+
     private bool _doDashAnimation;
     private float _prevDashSpeed;
     private bool _delayAttack = false;
@@ -69,6 +73,12 @@ public class SkeletonControl : EnemyControl
             _doDashAnimation = true;
         }
 
+        if (Vector3.Distance(_player.transform.position, transform.position) <= _dashDamageRange && !_finishedDashDamage)
+        {
+            _finishedDashDamage = true;
+            _player.TakeDamage(1.0f);
+        }
+
         if (!ReachedDestination())
         {
             MoveToDestination(true);
@@ -90,6 +100,8 @@ public class SkeletonControl : EnemyControl
     IEnumerator DoDelayAction()
     {
         _delayAttack = true;
+        _finishedDashDamage = false;
+        PlayIdleAnimation();
 
         yield return new WaitForSeconds(3);
 
