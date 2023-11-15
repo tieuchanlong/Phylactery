@@ -398,5 +398,20 @@ public class PhylacteryPlayerMovement : BasePlayerMovement
             TakeDamage(projectTile.ProjectTileDamage);
             Destroy(collision.gameObject);
         }
+
+        if (collision.tag == "SpikeTrigger")
+        {
+            SpikeTriggerControl spikeTriggerControl = collision.GetComponent<SpikeTriggerControl>();
+            spikeTriggerControl.TriggerSpike();
+        }
+    }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.tag == "Spike")
+        {
+            SpikeControl spike = collision.GetComponent<SpikeControl>();
+            spike.GiveDamage(this);
+        }
     }
 }
