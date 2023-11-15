@@ -347,6 +347,13 @@ public class PhylacteryPlayerMovement : BasePlayerMovement
             return false;
         }
 
+        float angle = Vector3.Dot(_headingDir.normalized, (enemyPos - transform.position).normalized) * Mathf.Rad2Deg;
+
+        if (Mathf.Abs(angle) > _axeAttackAngle)
+        {
+            return false;
+        }
+
         return true;
     }
 

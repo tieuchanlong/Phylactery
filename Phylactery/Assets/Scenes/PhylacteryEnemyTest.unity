@@ -2100,7 +2100,7 @@ MonoBehaviour:
   weaponselected: 1
   _swordSwingSound: {fileID: 8300000, guid: 7817e423d9381e144919afe5cb4e7280, type: 3}
   _damageSound: {fileID: 8300000, guid: 2ffb688dee4a08e45befc31149e74b94, type: 3}
-  _axeAttackAngle: 30
+  _axeAttackAngle: 50
   _axeAttackDist: 1
 --- !u!114 &1044099996
 MonoBehaviour:
