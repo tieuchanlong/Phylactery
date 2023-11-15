@@ -23,7 +23,7 @@ public class TitleMenuControl : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -39,8 +39,9 @@ public class TitleMenuControl : MonoBehaviour
 
         if (Input.anyKey)
         {
+            GameControl gameControl = FindObjectOfType<GameControl>();
+            _continueBtn.SetActive(!gameControl.IsGameFirstTime);
             _newGameBtn.SetActive(true);
-            _continueBtn.SetActive(true);
             _pressKeyText.gameObject.SetActive(false);
         }
     }
@@ -49,6 +50,7 @@ public class TitleMenuControl : MonoBehaviour
     {
         GameControl gameControl = FindObjectOfType<GameControl>();
         gameControl.SetNewGame(true);
+        gameControl.BeginGame();
         SceneManager.LoadScene(2);
     }
 
@@ -56,6 +58,7 @@ public class TitleMenuControl : MonoBehaviour
     {
         GameControl gameControl = FindObjectOfType<GameControl>();
         gameControl.SetNewGame(false);
+        gameControl.BeginGame();
         SceneManager.LoadScene(2);
     }
 }

@@ -26,14 +26,16 @@ public class GameOverMenuControl : MonoBehaviour
 
     public void RestartGame()
     {
-        Time.timeScale = 1.0f;
+        GameControl gameControl = FindObjectOfType<GameControl>();
+        gameControl.RestartGame();
         SceneManager.LoadScene(2);
     }
 
     public void ExitGame()
     {
         // Exit to title
-        Time.timeScale = 1.0f;
+        GameControl gameControl = FindObjectOfType<GameControl>();
+        gameControl.ExitLevel();
         SceneManager.LoadScene(0);
     }
 }

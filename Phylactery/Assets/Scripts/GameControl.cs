@@ -19,6 +19,14 @@ public class GameControl : MonoBehaviour
     private bool _isNewGame = true;
     private bool _gameFirstTime = true;
 
+    public bool IsGameFirstTime
+    {
+        get
+        {
+            return _gameFirstTime;
+        }
+    }
+
     private Vector3 _playerSpawnPos;
 
     public bool IsLevelCompleted
@@ -61,7 +69,6 @@ public class GameControl : MonoBehaviour
                 _playerSpawnPos = _spawnControl.transform.position;
             }
 
-            _gameFirstTime = false;
             player.transform.position = _playerSpawnPos;
         }
 
@@ -108,15 +115,28 @@ public class GameControl : MonoBehaviour
         _isNewGame = newGame;
     }
 
+    public void RestartGame()
+    {
+        _isLevelCompleted = false;
+        Time.timeScale = 1.0f;
+    }
+
     public void SaveGame()
     {
         PhylacteryPlayerMovement player = FindObjectOfType<PhylacteryPlayerMovement>();
         _playerSpawnPos = player.transform.position;
+        _isNewGame = false;
 
         if (_saveMenu)
         {
             _saveMenu.SetActive(true);
         }
+    }
+
+    public void ExitLevel()
+    {
+        _isLevelCompleted = false;
+        Time.timeScale = 1.0f;
     }
 
     public void GameOver()
