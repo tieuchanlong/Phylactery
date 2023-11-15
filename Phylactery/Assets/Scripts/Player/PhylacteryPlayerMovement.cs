@@ -24,27 +24,75 @@ public class PhylacteryPlayerMovement : BasePlayerMovement
 
     public int weaponselected = 1; // 1-4 corresponding to the weapon1, 2, 3, and 4
                                    // create a variable that updates the angle that the players look at/aim
+    private int _attackSequence = 0;
+    public int AttackSequence
+    {
+        get
+        {
+            return _attackSequence;
+        }
+    }
     #endregion
 
     #region HP Bar and Stam Bar variables
     private HPBarControl _hpBar;
+    private StaminaBarControl _staminaBar;
     #endregion
 
     #region Animation Directions
     private PlayerCharacterRenderer _playerRenderer;
     private Vector2 _headingDir = new Vector2(0, -1);
+    private bool _doAxeAttackAnimation = false;
+    private bool _doDamageAnimation = false;
 
     public static string[] staticDirections = { "Static N", "Static NW", "Static W", "Static SW", "Static S", "Static SE", "Static E", "Static NE" };
     public static string[] walkDirections = { "Walk N", "Walk NW", "Walk W", "Walk SW", "Walk S", "Walk SE", "Walk E", "Walk NE" };
     public static string[] runDirections = { "Run N", "Run NW", "Run W", "Run SW", "Run S", "Run SE", "Run E", "Run NE" };
+    public static string[] axeAttackDirections = { "Axe Attack N", "Axe Attack NW", "Axe Attack W", "Axe Attack SW", "Axe Attack S", "Axe Attack SE", "Axe Attack E", "Axe Attack NE" };
+    public static string[] hitDirections = { "Hit N", "Hit NW", "Hit W", "Hit SW", "Hit S", "Hit SE", "Hit E", "Hit NE" };
     public static string[] dieDirections = { "Die N", "Die NW", "Die W", "Die SW", "Die S", "Die SE", "Die E", "Die NE" };
+    #endregion
+
+    #region Audio
+    private AudioSource _audio;
+
+    [SerializeField]
+    private AudioClip _swordSwingSound;
+    [SerializeField]
+    private AudioClip _damageSound;
+    #endregion
+
+    #region Player Axe Attack Management
+    [SerializeField]
+    private float _axeAttackAngle = 30.0f;
+    
+    [SerializeField]
+    private float _axeAttackDist = 1.0f;
+
+    public float AxeAttackAngle
+    {
+        get
+        {
+            return _axeAttackAngle;
+        }
+    }
+
+    public float AxeAttackDist
+    {
+        get
+        {
+            return _axeAttackDist;
+        }
+    }
     #endregion
 
     protected override void Start()
     {
         specialattStam = totalStam / 5;
         currentStam = totalStam;
+        _audio = GetComponent<AudioSource>();
         _hpBar = GameObject.FindAnyObjectByType<HPBarControl>();
+        _staminaBar = FindAnyObjectByType<StaminaBarControl>();
         _playerRenderer = GetComponent<PlayerCharacterRenderer>();
         base.Start();
     }
@@ -163,18 +211,32 @@ public class PhylacteryPlayerMovement : BasePlayerMovement
                 _playerRenderer.SetDirection(new Vector2(horizontal, vertical), walkDirections);
             }
         }
-        else
+        else if (!_doAxeAttackAnimation && !_doDamageAnimation)
         {
             _playerRenderer.SetDirection(_headingDir, staticDirections);
         }
 
+        _staminaBar.UpdateStamina(0.02f * Time.deltaTime);
         base.Update();
     }
 
     // TO BE MOVED TO WEAPON CODING FILE
     void Attack1()
     {
-        // for weapon 1
+        // for axe weapon
+        StartCoroutine(DoAxeAttackAnimation());
+        _staminaBar.UpdateStamina(-0.2f);
+    }
+
+    IEnumerator DoAxeAttackAnimation()
+    {
+        _doAxeAttackAnimation = true;
+        _audio.clip = _swordSwingSound;
+        _audio.Play();
+        _playerRenderer.SetDirection(_headingDir, axeAttackDirections);
+        yield return new WaitForSeconds(1.0f);
+        _attackSequence++;
+        _doAxeAttackAnimation = false;
     }
 
     void Attack2()
@@ -248,11 +310,44 @@ public class PhylacteryPlayerMovement : BasePlayerMovement
 
         float hpDamagePercentage = -damageAmount / _maxHP;
         _hpBar.UpdateHP(hpDamagePercentage);
+        StartCoroutine(DoDamageAnimation());
 
         if (_currentHP <= 0)
         {
             Die();
         }
+    }
+
+    IEnumerator DoDamageAnimation()
+    {
+        _doDamageAnimation = true;
+        _audio.clip = _damageSound;
+        _audio.Play();
+        _playerRenderer.SetDirection(_headingDir, hitDirections);
+        yield return new WaitForSeconds(1.0f);
+        _doDamageAnimation = false;
+    }
+
+    public bool IsInAxeAttackRange(Vector3 enemyPos)
+    {
+        if (!_doAxeAttackAnimation)
+        {
+            return false;
+        }
+
+        if (weaponselected != 1)
+        {
+            return false;
+        }
+
+        float dist = Vector3.Distance(transform.position, enemyPos);
+
+        if (dist > _axeAttackDist)
+        {
+            return false;
+        }
+
+        return true;
     }
 
     public override void AddHP(float hpAmount)
@@ -282,7 +377,7 @@ public class PhylacteryPlayerMovement : BasePlayerMovement
     IEnumerator PlayDeadAnimation()
     {
         // Play death animation
-
+        _playerRenderer.SetDirection(_headingDir, dieDirections);
         yield return new WaitForSeconds(2.0f);
 
         _gameControl.GameOver();

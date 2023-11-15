@@ -48,11 +48,14 @@ public class AIControl : MonoBehaviour
     public static string[] dieDirections = { "Die N", "Die NW", "Die W", "Die SW", "Die S", "Die SE", "Die E", "Die NE" };
     #endregion
 
+    PhylacteryPlayerMovement _player;
+
     // Start is called before the first frame update
     protected virtual void Start()
     {
         _charRenderer = GetComponent<AICharacterRenderer>();
         _rigidBody = GetComponent<Rigidbody2D>();
+        _player = FindObjectOfType<PhylacteryPlayerMovement>();
     }
 
     // Update is called once per frame
@@ -136,19 +139,33 @@ public class AIControl : MonoBehaviour
 
     public virtual void TakeDamage(float hpChangeAmount)
     {
+        if (_takingDamage || _isDead)
+        {
+            return;
+        }
+
         _hp -= hpChangeAmount;
+        _charRenderer.SetDirection(new Vector2(_headingDirection.x, _headingDirection.y), staticDirections);
 
         if (_hp > 0)
         {
             _takingDamage = true;
-
-            //_rigidBody.AddForce(-new Vector2(_headingDirection.x * 60, _headingDirection.y * 60));
         }
         else if (!_isDead)
         {
             _isDead = true;
             Die();
         }
+    }
+
+    public bool IsInPlayerAttackRange()
+    {
+        return _player.IsInAxeAttackRange(transform.position);
+    }
+
+    public bool IsTakingDamage()
+    {
+        return _takingDamage; 
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

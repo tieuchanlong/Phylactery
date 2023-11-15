@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -151,7 +151,637 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Death_Sword_Body_225_0
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 760
+        width: 38
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b24adc47aef47d46b7780b111a26936
+      internalID: -1783595283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Sword_Body_225_1
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 761
+        width: 53
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 547741f3991e489448b001067f813219
+      internalID: 785174267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Sword_Body_225_2
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 761
+        width: 59
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 102d70dd92601734bb1cb0edc3a2d9f5
+      internalID: 1004759711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Sword_Body_225_3
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 761
+        width: 58
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8005f0036aee1c44842eeb425644dd9
+      internalID: 951476867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Sword_Body_225_4
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 760
+        width: 50
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeae309ca1b824b4c833d0d1080f985c
+      internalID: 705550212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Sword_Body_225_5
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 760
+        width: 53
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ce042408de2594198d9ff96e818001
+      internalID: -1846164340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Sword_Body_225_6
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 583
+        width: 56
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf48077e7e37ad847b7c141482a27ebb
+      internalID: 203804587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Sword_Body_225_7
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 582
+        width: 60
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 905ddba9091e2b04faab3cde1add0f3f
+      internalID: 1936939799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Sword_Body_225_8
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 582
+        width: 60
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c61e4e0a91dd9a4ea87c72b1d8d1393
+      internalID: 1340687084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Sword_Body_225_9
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 581
+        width: 57
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60de0070ea4f83f4c93fe3073fa6fe07
+      internalID: -1123167681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Sword_Body_225_10
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 581
+        width: 53
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd015a1dce8180d4a913805fa15a097f
+      internalID: -1643148971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Sword_Body_225_11
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 580
+        width: 53
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1619a20251330a44aba49cd717b77c0
+      internalID: 1429023043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Sword_Body_225_12
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 398
+        width: 51
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e05c954fe2b4d1e47944edc5bb7e0cbe
+      internalID: 1922256728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Sword_Body_225_13
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 394
+        width: 53
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8616e2bac97850499ece58d0c64c501
+      internalID: 1055600710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Sword_Body_225_14
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 393
+        width: 56
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88750c24bb7f3c14da5d42e91d853327
+      internalID: -408810621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Sword_Body_225_15
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 392
+        width: 64
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60da8795fad1520458c0eb0b4820a853
+      internalID: -1878009140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Sword_Body_225_16
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 399
+        width: 81
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 678172fe705e42341a445c4a68a7b960
+      internalID: 2003396402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Sword_Body_225_17
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 418
+        width: 86
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acfbc4354078a2049bb1d92d23134541
+      internalID: -998235015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Sword_Body_225_18
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 242
+        width: 85
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de237a831240e924fa1b2f8193043466
+      internalID: -34750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Sword_Body_225_19
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 238
+        width: 87
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 080dd8a1866d9324da3d9a5a416003c5
+      internalID: -1107409227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Sword_Body_225_20
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 236
+        width: 92
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d656198f3d7e8b14cb073498501d110f
+      internalID: -338645549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Sword_Body_225_21
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 230
+        width: 98
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9acb14c2ab9613489b2f6d4c645c37f
+      internalID: 1580420400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Sword_Body_225_22
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 227
+        width: 107
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 029c2f7a9871bdc49abc513947688a35
+      internalID: 9907832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Sword_Body_225_23
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 212
+        width: 114
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d3416f31bcd8149859421f6ad69b56
+      internalID: 398701234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Sword_Body_225_24
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 30
+        width: 116
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a1da0e054b9d1a4fa9a07ceb0908ea2
+      internalID: -2130874882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Sword_Body_225_25
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 28
+        width: 115
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 806aa2eaa1e109f4da9ee96a28b899ba
+      internalID: -1382292679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Sword_Body_225_26
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 24
+        width: 115
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a1e8936d2cda541a6c46e990326a7b
+      internalID: -1237819631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Sword_Body_225_27
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 23
+        width: 115
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89a0c24ff79c7e9428568ac7628b1ee8
+      internalID: -287565853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Sword_Body_225_28
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 23
+        width: 115
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e408e8db2dc7b4e88d4f1f1b706258
+      internalID: -3884745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Sword_Body_225_29
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 23
+        width: 115
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a165755b0fe98b4daff6b34bd98b726
+      internalID: 31549501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -162,7 +792,37 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Death_Sword_Body_225_0: -1783595283
+      Death_Sword_Body_225_1: 785174267
+      Death_Sword_Body_225_10: -1643148971
+      Death_Sword_Body_225_11: 1429023043
+      Death_Sword_Body_225_12: 1922256728
+      Death_Sword_Body_225_13: 1055600710
+      Death_Sword_Body_225_14: -408810621
+      Death_Sword_Body_225_15: -1878009140
+      Death_Sword_Body_225_16: 2003396402
+      Death_Sword_Body_225_17: -998235015
+      Death_Sword_Body_225_18: -34750
+      Death_Sword_Body_225_19: -1107409227
+      Death_Sword_Body_225_2: 1004759711
+      Death_Sword_Body_225_20: -338645549
+      Death_Sword_Body_225_21: 1580420400
+      Death_Sword_Body_225_22: 9907832
+      Death_Sword_Body_225_23: 398701234
+      Death_Sword_Body_225_24: -2130874882
+      Death_Sword_Body_225_25: -1382292679
+      Death_Sword_Body_225_26: -1237819631
+      Death_Sword_Body_225_27: -287565853
+      Death_Sword_Body_225_28: -3884745
+      Death_Sword_Body_225_29: 31549501
+      Death_Sword_Body_225_3: 951476867
+      Death_Sword_Body_225_4: 705550212
+      Death_Sword_Body_225_5: -1846164340
+      Death_Sword_Body_225_6: 203804587
+      Death_Sword_Body_225_7: 1936939799
+      Death_Sword_Body_225_8: 1340687084
+      Death_Sword_Body_225_9: -1123167681
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -6,6 +6,7 @@ public class CoachmenIdleNode : SequenceNode
 {
     public CoachmenIdleNode(AIControl aiControl, BaseNode parentNode) : base(aiControl, parentNode)
     {
+        AddChild(new EnemyTakeDamageNode(aiControl, this));
         AddChild(new CoachmenCheckPlayerDistanceNode(aiControl, this));
         AddChild(new CoachmenMoveAroundNode(aiControl, this));
     }

@@ -1978,6 +1978,7 @@ GameObject:
   - component: {fileID: 1044099996}
   - component: {fileID: 1044099997}
   - component: {fileID: 1044099998}
+  - component: {fileID: 1044100000}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -2097,6 +2098,10 @@ MonoBehaviour:
   getweapon3: 0
   getweapon4: 0
   weaponselected: 1
+  _swordSwingSound: {fileID: 8300000, guid: 7817e423d9381e144919afe5cb4e7280, type: 3}
+  _damageSound: {fileID: 8300000, guid: 2ffb688dee4a08e45befc31149e74b94, type: 3}
+  _axeAttackAngle: 30
+  _axeAttackDist: 1
 --- !u!114 &1044099996
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2168,6 +2173,102 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7a20082c70716a49813f5955cec9093, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!82 &1044100000
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1044099990}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 0.303
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1044623046
 GameObject:
   m_ObjectHideFlags: 0
@@ -2313,6 +2414,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1102044383}
   - component: {fileID: 1102044384}
+  - component: {fileID: 1102044385}
   m_Layer: 5
   m_Name: StaminaBar
   m_TagString: Untagged
@@ -2395,6 +2497,20 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1102044385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1102044382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 119d51f190c96134087c2cd1e9d3170a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _staminaPrevFillBar: {fileID: 815797747}
+  _staminaBarSpeed: 0.1
 --- !u!1 &1114821249
 GameObject:
   m_ObjectHideFlags: 0
@@ -3607,6 +3723,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BatSpawn
       objectReference: {fileID: 0}
+    - target: {fileID: 886369653424161670, guid: 1ce911e8b863cb44888f086fa17d6947, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5719225696680248515, guid: 1ce911e8b863cb44888f086fa17d6947, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -3689,6 +3809,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SkeletonSpawn
       objectReference: {fileID: 0}
+    - target: {fileID: 3151418186582222889, guid: 6d9f6aa23c5c2c545b9a4353aaa62ba3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3151418186582222895, guid: 6d9f6aa23c5c2c545b9a4353aaa62ba3, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -3745,6 +3869,10 @@ PrefabInstance:
     - target: {fileID: 4865137423137804361, guid: a0a1f0503c56af34da7403afff7fa9ba, type: 3}
       propertyPath: m_Name
       value: ZombieSpawn
+      objectReference: {fileID: 0}
+    - target: {fileID: 4865137423137804361, guid: a0a1f0503c56af34da7403afff7fa9ba, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4865137423137804363, guid: a0a1f0503c56af34da7403afff7fa9ba, type: 3}
       propertyPath: m_RootOrder
@@ -3859,6 +3987,10 @@ PrefabInstance:
     - target: {fileID: 8869674287912099956, guid: 94f8cc9724576014795c918451b70f31, type: 3}
       propertyPath: m_Name
       value: CoachmenSpawn
+      objectReference: {fileID: 0}
+    - target: {fileID: 8869674287912099956, guid: 94f8cc9724576014795c918451b70f31, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8869674287912099958, guid: 94f8cc9724576014795c918451b70f31, type: 3}
       propertyPath: m_RootOrder
