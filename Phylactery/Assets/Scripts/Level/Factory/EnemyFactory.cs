@@ -5,22 +5,22 @@ using UnityEngine;
 public class EnemyFactory : MonoBehaviour
 {
     [SerializeField]
-    private GameObject _enemyPrefab;
+    protected GameObject _enemyPrefab;
 
     [SerializeField]
-    private int _maxEnemySpawn = 1;
+    protected int _maxEnemySpawn = 1;
 
     [SerializeField]
-    private float _enemySpawnFrequency;
+    protected float _enemySpawnFrequency;
 
     [SerializeField]
-    private float _spawnRadius;
+    protected float _spawnRadius;
 
-    private float _currentEnemySpawnTime;
-    private int _currentEnemySpawnCount = 0;
+    protected float _currentEnemySpawnTime;
+    protected int _currentEnemySpawnCount = 0;
 
     // Start is called before the first frame update
-    void Start()
+    protected virtual void Start()
     {
         SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
 
@@ -32,13 +32,18 @@ public class EnemyFactory : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    protected virtual void Update()
     {
         if (_currentEnemySpawnCount >= _maxEnemySpawn)
         {
             return;
         }
 
+        SpawnEnemy();
+    }
+
+    protected virtual void SpawnEnemy()
+    {
         if (_currentEnemySpawnTime == 0)
         {
             GameObject enemy = Instantiate(_enemyPrefab, transform.position + new Vector3(Random.RandomRange(-_spawnRadius, _spawnRadius), Random.RandomRange(-_spawnRadius, _spawnRadius), 0.0f), Quaternion.identity);
