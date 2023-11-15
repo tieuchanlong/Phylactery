@@ -1,24 +1,25 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameControl : MonoBehaviour
 {
     private bool _isLevelCompleted = false;
 
-    [SerializeField]
+    #region Menu
     private GameObject _levelCompleteMenu;
-
-    [SerializeField]
     private GameObject _gameOverMenu;
-
-    [SerializeField]
     private GameObject _inLevelTutorialMenu;
-
-    [SerializeField]
     private GameObject _pauseMenu;
+    private GameObject _saveMenu;
+    #endregion
 
     private GameObject _map;
+    private bool _isNewGame = true;
+    private bool _gameFirstTime = true;
+
+    private Vector3 _playerSpawnPos;
 
     public bool IsLevelCompleted
     {
@@ -28,11 +29,62 @@ public class GameControl : MonoBehaviour
         }
     }
 
+    private void Awake()
+    {
+        GameControl[] gameControls = FindObjectsOfType<GameControl>();
+
+        if (gameControls.Length > 1)
+        {
+            Destroy(gameObject);
+        }
+
+        _playerSpawnPos = transform.position;
+        DontDestroyOnLoad(this.gameObject);
+    }
+
     // Start is called before the first frame update
     void Start()
     {
         RenderSettings.ambientLight = new Color(0.1f, 0.1f, 0.1f);
+        SceneManager.sceneLoaded += OnSceneLoaded;
     }
+
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        PhylacteryPlayerMovement player = FindObjectOfType<PhylacteryPlayerMovement>();
+
+        if (player)
+        {
+            if (_isNewGame || _gameFirstTime)
+            {
+                PlayerSpawnControl _spawnControl = FindObjectOfType<PlayerSpawnControl>();
+                _playerSpawnPos = _spawnControl.transform.position;
+            }
+
+            _gameFirstTime = false;
+            player.transform.position = _playerSpawnPos;
+        }
+
+        // Find menu
+        if (FindObjectOfType<GameOverMenuControl>())
+        {
+            _gameOverMenu = FindObjectOfType<GameOverMenuControl>().gameObject;
+            _gameOverMenu.SetActive(false);
+        }
+
+        if (FindObjectOfType<PauseMenuControl>())
+        {
+            _pauseMenu = FindObjectOfType<PauseMenuControl>().gameObject;
+            _pauseMenu.SetActive(false);
+        }
+
+        if (FindObjectOfType<SaveGameHUDControl>())
+        {
+            _saveMenu = FindObjectOfType<SaveGameHUDControl>().gameObject;
+            _saveMenu.SetActive(false);
+        }
+    }
+
 
     // Update is called once per frame
     void Update()
@@ -45,9 +97,26 @@ public class GameControl : MonoBehaviour
 
     public void BeginGame()
     {
-        _map = Instantiate(Resources.Load<GameObject>("Maps/GameJam1Map"));
-        Camera cam = Camera.main;
-        cam.gameObject.SetActive(true);
+        _gameFirstTime = false;
+//         _map = Instantiate(Resources.Load<GameObject>("Maps/GameJam1Map"));
+//         Camera cam = Camera.main;
+//         cam.gameObject.SetActive(true);
+    }
+
+    public void SetNewGame(bool newGame)
+    {
+        _isNewGame = newGame;
+    }
+
+    public void SaveGame()
+    {
+        PhylacteryPlayerMovement player = FindObjectOfType<PhylacteryPlayerMovement>();
+        _playerSpawnPos = player.transform.position;
+
+        if (_saveMenu)
+        {
+            _saveMenu.SetActive(true);
+        }
     }
 
     public void GameOver()

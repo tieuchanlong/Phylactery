@@ -47,11 +47,15 @@ public class TitleMenuControl : MonoBehaviour
 
     public void StartNewGame()
     {
+        GameControl gameControl = FindObjectOfType<GameControl>();
+        gameControl.SetNewGame(true);
         SceneManager.LoadScene(2);
     }
 
     public void ContinueGame()
     {
+        GameControl gameControl = FindObjectOfType<GameControl>();
+        gameControl.SetNewGame(false);
         SceneManager.LoadScene(2);
     }
 }

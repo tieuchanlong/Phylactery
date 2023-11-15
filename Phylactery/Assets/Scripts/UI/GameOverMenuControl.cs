@@ -1,14 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
-using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
-public class PauseMenuControl : MonoBehaviour
+public class GameOverMenuControl : MonoBehaviour
 {
     [SerializeField]
-    private Button _resumeBtn;
+    private Button _restartBtn;
 
     [SerializeField]
     private Button _exitBtn;
@@ -22,26 +21,7 @@ public class PauseMenuControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            ResumeGame();
-        }
-    }
-
-    private void OnEnable()
-    {
-        Time.timeScale = 0.0f;
-    }
-
-    private void OnDisable()
-    {
-        Time.timeScale = 1.0f;
-    }
-
-    public void ResumeGame()
-    {
-        Time.timeScale = 1.0f;
-        gameObject.SetActive(false);
+        
     }
 
     public void RestartGame()
