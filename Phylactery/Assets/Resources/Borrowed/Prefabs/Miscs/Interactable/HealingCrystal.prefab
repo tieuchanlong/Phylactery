@@ -101,7 +101,7 @@ MonoBehaviour:
   _maxHit: 1
   _destroyedAfterInteraction: 1
   _maxDamageFlash: 4
-  _timeBtwnDamageFlash: 0.5
+  _timeBtwnDamageFlash: 0.1
 --- !u!61 &5606222996631882190
 BoxCollider2D:
   m_ObjectHideFlags: 0
