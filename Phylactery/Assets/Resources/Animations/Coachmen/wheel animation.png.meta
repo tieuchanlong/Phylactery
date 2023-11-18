@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 38c7a9b316dffb341b6e4d25fb1bd3c2
+guid: fd96f0bff3ed721488d0afa86223c651
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: coachman 2nd wheel throw_0
+      name: wheel animation_0
       rect:
         serializedVersion: 2
-        x: 1243
-        y: 455
-        width: 277
-        height: 367
+        x: 101
+        y: 411
+        width: 99
+        height: 71
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43316401edf4b7f429fb203e3526b70e
-      internalID: -605214605
+      spriteID: cd2353a57689b6d42bee5ecc9d98923d
+      internalID: 1374387328
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coachman 2nd wheel throw_1
+      name: wheel animation_1
       rect:
         serializedVersion: 2
-        x: 1189
-        y: 434
-        width: 299
-        height: 368
+        x: 13
+        y: 357
+        width: 97
+        height: 70
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,71 +158,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3980a1893aa212a4ab7dc866defc615d
-      internalID: -2145473013
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: coachman 2nd wheel throw_2
-      rect:
-        serializedVersion: 2
-        x: 839
-        y: 442
-        width: 277
-        height: 368
-      alignment: 9
-      pivot: {x: 0.46883056, y: 0.4815143}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5132823b7c5ec7147b015ab11726c9d3
-      internalID: -977678812
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: coachman 2nd wheel throw_3
-      rect:
-        serializedVersion: 2
-        x: 433
-        y: 476
-        width: 277
-        height: 363
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4a6c9576ae6eeba449067fb096ea4dc0
-      internalID: -523944989
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: coachman 2nd wheel throw_4
-      rect:
-        serializedVersion: 2
-        x: 125
-        y: 485
-        width: 265
-        height: 346
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9d26039ee5372a34b9d7281f690a34fd
-      internalID: 586164130
+      spriteID: bb56ea143a47f8c498ae1a123924ad11
+      internalID: 1955358194
       vertices: []
       indices: 
       edges: []
@@ -238,11 +175,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      coachman 2nd wheel throw_0: -605214605
-      coachman 2nd wheel throw_1: -2145473013
-      coachman 2nd wheel throw_2: -977678812
-      coachman 2nd wheel throw_3: -523944989
-      coachman 2nd wheel throw_4: 586164130
+      wheel animation_0: 1374387328
+      wheel animation_1: 1955358194
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

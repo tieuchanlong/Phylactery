@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 38c7a9b316dffb341b6e4d25fb1bd3c2
+guid: 94292be8c861c5547aed42888bd8cb74
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: coachman 2nd wheel throw_0
+      name: coachman wheel catch_0
       rect:
         serializedVersion: 2
-        x: 1243
-        y: 455
-        width: 277
-        height: 367
+        x: 168
+        y: 102
+        width: 191
+        height: 311
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43316401edf4b7f429fb203e3526b70e
-      internalID: -605214605
+      spriteID: eb0fa4a4da2633d43b1873fdb61db737
+      internalID: 345183975
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coachman 2nd wheel throw_1
+      name: coachman wheel catch_1
       rect:
         serializedVersion: 2
-        x: 1189
-        y: 434
-        width: 299
-        height: 368
+        x: 436
+        y: 114
+        width: 206
+        height: 306
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,41 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3980a1893aa212a4ab7dc866defc615d
-      internalID: -2145473013
+      spriteID: 86846ef8358aab7478b0492b1408d3e4
+      internalID: -944570055
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coachman 2nd wheel throw_2
+      name: coachman wheel catch_2
       rect:
         serializedVersion: 2
-        x: 839
-        y: 442
-        width: 277
-        height: 368
-      alignment: 9
-      pivot: {x: 0.46883056, y: 0.4815143}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5132823b7c5ec7147b015ab11726c9d3
-      internalID: -977678812
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: coachman 2nd wheel throw_3
-      rect:
-        serializedVersion: 2
-        x: 433
-        y: 476
-        width: 277
-        height: 363
+        x: 690
+        y: 102
+        width: 229
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a6c9576ae6eeba449067fb096ea4dc0
-      internalID: -523944989
+      spriteID: 8b9094357bfd1604daec7161d4788988
+      internalID: 673882619
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coachman 2nd wheel throw_4
+      name: coachman wheel catch_3
       rect:
         serializedVersion: 2
-        x: 125
-        y: 485
-        width: 265
-        height: 346
+        x: 973
+        y: 111
+        width: 231
+        height: 325
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,8 +200,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d26039ee5372a34b9d7281f690a34fd
-      internalID: 586164130
+      spriteID: cb64f25c6562e8c42b3b1186d2e43d65
+      internalID: -483188723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coachman wheel catch_4
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 109
+        width: 161
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0fa3886cadd1bc4fb6a138876b70a9c
+      internalID: -1366065614
       vertices: []
       indices: 
       edges: []
@@ -238,11 +238,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      coachman 2nd wheel throw_0: -605214605
-      coachman 2nd wheel throw_1: -2145473013
-      coachman 2nd wheel throw_2: -977678812
-      coachman 2nd wheel throw_3: -523944989
-      coachman 2nd wheel throw_4: 586164130
+      coachman wheel catch_0: 345183975
+      coachman wheel catch_1: -944570055
+      coachman wheel catch_2: 673882619
+      coachman wheel catch_3: -483188723
+      coachman wheel catch_4: -1366065614
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
