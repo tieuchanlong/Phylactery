@@ -15,6 +15,10 @@ public class PhylacteryPlayerMovement : BasePlayerMovement
     public float totalStam = 100;
     private float currentStam = 100;
 
+    // ammo count
+    public int spike_count = 0
+    public int stone_count = 0
+
     protected override void Start()
     {
         currentStam = totalStam;
@@ -213,6 +217,23 @@ public class PhylacteryPlayerMovement : BasePlayerMovement
         {
             SpikeControl spike = collision.GetComponent<SpikeControl>();
             spike.GiveDamage(this);
+        }
+    }
+
+
+    // ammo pick up
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Thorn")
+        {
+            thorn_count += 10
+            Destroy(collision.gameObject);
+        }
+
+        if (collision.tag == "Stone")
+        {
+            stone_count += 10
+            Destroy(collision.gameObject);
         }
     }
 }
