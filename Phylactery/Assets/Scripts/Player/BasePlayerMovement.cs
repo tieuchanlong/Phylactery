@@ -10,13 +10,26 @@ public class BasePlayerMovement : MonoBehaviour
 
     private Animator _playerAnimator;
     private AudioSource _playerAudioSource;
-    private GameControl _gameControl;
+    protected GameControl _gameControl;
 
     [SerializeField]
     protected float _maxHP;
     protected float _currentHP;
 
-    private bool _isDead = false;
+    [SerializeField]
+    protected bool _isDamaged = false;
+    protected float _damageInviciblePeriod = 0.5f;
+    protected float _currentDamageInviciblePeriod = 0.0f;
+
+    public float MaxHP
+    {
+        get
+        {
+            return _maxHP;
+        }
+    }
+
+    protected bool _isDead = false;
 
     // Start is called before the first frame update
     protected virtual void Start()
@@ -59,6 +72,18 @@ public class BasePlayerMovement : MonoBehaviour
         {
             MoveDown();
         }
+
+        // WHen damage, have iframe period
+        if (_isDamaged)
+        {
+            _currentDamageInviciblePeriod += Time.deltaTime;
+
+            if (_currentDamageInviciblePeriod >= _damageInviciblePeriod)
+            {
+                _isDamaged = false;
+                _currentDamageInviciblePeriod = 0;
+            }
+        }
     }
 
     // Move to the right every frame *per second*
@@ -66,14 +91,14 @@ public class BasePlayerMovement : MonoBehaviour
     {
         transform.position +=
             new Vector3(_speed, 0.0f, 0.0f) * Time.deltaTime;
-        transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+        //transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
     }
 
     public virtual void MoveLeft()
     {
         transform.position +=
             new Vector3(-_speed, 0.0f, 0.0f) * Time.deltaTime;
-        transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+        //transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
     }
 
     public virtual void MoveUp()
@@ -95,11 +120,28 @@ public class BasePlayerMovement : MonoBehaviour
 
     public virtual void TakeDamage(float damageAmount)
     {
-        _currentHP -= damageAmount;
-
-        if (_currentHP <= 0)
+        if (!_isDamaged)
         {
-            _isDead = true;
+            _currentHP -= damageAmount;
+            _isDamaged = true;
+
+            if (_currentHP <= 0)
+            {
+                _isDead = true;
+            }
+        }
+    }
+
+    public virtual void AddHP(float hpAmount)
+    {
+        if (!_isDamaged)
+        {
+            _currentHP += hpAmount;
+
+            if (_currentHP > _maxHP)
+            {
+                _currentHP = _maxHP;
+            }
         }
     }
 }

@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - ProjectTile
+  - SpikeTrigger
+  - Spike
   layers:
   - Default
   - TransparentFX

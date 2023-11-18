@@ -15,6 +15,7 @@ public class CoachmenWagonWheelControl : MonoBehaviour
 
     [SerializeField]
     private float _attackRange = 2.0f;
+    private bool _damagingPlayer = false;
 
     private Vector3 _destination;
     private int travelPhase = 0;
@@ -58,6 +59,13 @@ public class CoachmenWagonWheelControl : MonoBehaviour
     public virtual void Travel()
     {
         transform.position += _projectTileSpeed * Time.deltaTime * _projectTileDirection;
+        PhylacteryPlayerMovement player = FindObjectOfType<PhylacteryPlayerMovement>();
+
+        if (Vector3.Distance(player.transform.position, transform.position) <= _attackRange && !_damagingPlayer)
+        {
+            player.TakeDamage(1.0f);
+            _damagingPlayer = true;
+        }
 
         if (Vector3.Distance(transform.position, _destination) <= _stopDist)
         {
@@ -66,12 +74,14 @@ public class CoachmenWagonWheelControl : MonoBehaviour
                 _destination = GetComponentInParent<CoachmenControl>().transform.position;
                 _projectTileDirection = -_projectTileDirection;
                 travelPhase = 1;
+                _damagingPlayer = false;
                 return;
             }
 
             if (travelPhase == 1)
             {
                 travelPhase = 0;
+                _damagingPlayer = false;
                 gameObject.SetActive(false);
             }
         }

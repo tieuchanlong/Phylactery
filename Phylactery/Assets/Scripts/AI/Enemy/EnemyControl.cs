@@ -10,6 +10,8 @@ public class EnemyControl : AIControl
     protected float _playerDetectionAngle;
     [SerializeField]
     protected float _attackRange;
+    [SerializeField]
+    protected float _attackDamage = 1.0f;
     protected Vector2 _forwardVec;
     protected BasePlayerMovement _player;
 

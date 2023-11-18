@@ -8,7 +8,7 @@ using PhylacteryPlayerStatus;
 public class PhylacteryPlayerMovement : BasePlayerMovement
 {
     // speed constants
-    public float speed = 5.0f;
+    public float speed = 3.0f;
     public float runspeed = 7.0f;
 
     // stamina variables
@@ -18,7 +18,10 @@ public class PhylacteryPlayerMovement : BasePlayerMovement
     protected override void Start()
     {
         currentStam = totalStam;
+        _audio = GetComponent<AudioSource>();
         _hpBar = GameObject.FindAnyObjectByType<HPBarControl>();
+        _staminaBar = FindAnyObjectByType<StaminaBarControl>();
+        _playerRenderer = GetComponent<PlayerCharacterRenderer>();
         base.Start();
     }
 
@@ -66,11 +69,39 @@ public class PhylacteryPlayerMovement : BasePlayerMovement
             }
         }
 
+        float vertical = Input.GetAxis("Vertical");
+        float horizontal = Input.GetAxis("Horizontal");
+
+        if (vertical != 0 || horizontal != 0)
+        {
+            _headingDir = new Vector2(horizontal, vertical);
+            if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
+            {
+                _speed = runspeed;
+                _playerRenderer.SetDirection(new Vector2(horizontal, vertical), runDirections);
+            }
+            else
+            {
+                _speed = speed;
+                _playerRenderer.SetDirection(new Vector2(horizontal, vertical), walkDirections);
+            }
+        }
+        else if (!_doAxeAttackAnimation && !_doDamageAnimation)
+        {
+            _playerRenderer.SetDirection(_headingDir, staticDirections);
+        }
+
+        _staminaBar.UpdateStamina(0.02f * Time.deltaTime);
         base.Update();
     }
 
     public override void TakeDamage(float damageAmount)
     {
+        if (_isDead)
+        {
+            return;
+        }
+
         if (damageAmount > _currentHP)
         {
             damageAmount = _currentHP;
@@ -80,6 +111,84 @@ public class PhylacteryPlayerMovement : BasePlayerMovement
 
         float hpDamagePercentage = -damageAmount / _maxHP;
         _hpBar.UpdateHP(hpDamagePercentage);
+        StartCoroutine(DoDamageAnimation());
+
+        if (_currentHP <= 0)
+        {
+            Die();
+        }
+    }
+
+    IEnumerator DoDamageAnimation()
+    {
+        _doDamageAnimation = true;
+        _audio.clip = _damageSound;
+        _audio.Play();
+        _playerRenderer.SetDirection(_headingDir, hitDirections);
+        yield return new WaitForSeconds(1.0f);
+        _doDamageAnimation = false;
+    }
+
+    public bool IsInAxeAttackRange(Vector3 enemyPos)
+    {
+        if (!_doAxeAttackAnimation)
+        {
+            return false;
+        }
+
+        if (weaponselected != 1)
+        {
+            return false;
+        }
+
+        float dist = Vector3.Distance(transform.position, enemyPos);
+
+        if (dist > _axeAttackDist)
+        {
+            return false;
+        }
+
+        float angle = Vector3.Dot(_headingDir.normalized, (enemyPos - transform.position).normalized) * Mathf.Rad2Deg;
+
+        if (Mathf.Abs(angle) > _axeAttackAngle)
+        {
+            return false;
+        }
+
+        return true;
+    }
+
+    public override void AddHP(float hpAmount)
+    {
+        if (_isDead)
+        {
+            return;
+        }
+
+        if (hpAmount > MaxHP - _currentHP)
+        {
+            hpAmount = MaxHP - _currentHP;
+        }
+
+        base.AddHP(hpAmount);
+
+        float hpAddPercentage = hpAmount / _maxHP;
+        _hpBar.UpdateHP(hpAddPercentage);
+    }
+
+    public override void Die()
+    {
+        base.Die();
+        StartCoroutine(PlayDeadAnimation());
+    }
+    
+    IEnumerator PlayDeadAnimation()
+    {
+        // Play death animation
+        _playerRenderer.SetDirection(_headingDir, dieDirections);
+        yield return new WaitForSeconds(2.0f);
+
+        _gameControl.GameOver();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -89,6 +198,21 @@ public class PhylacteryPlayerMovement : BasePlayerMovement
             ProjectTileControl projectTile = collision.GetComponent<ProjectTileControl>();
             TakeDamage(projectTile.ProjectTileDamage);
             Destroy(collision.gameObject);
+        }
+
+        if (collision.tag == "SpikeTrigger")
+        {
+            SpikeTriggerControl spikeTriggerControl = collision.GetComponent<SpikeTriggerControl>();
+            spikeTriggerControl.TriggerSpike();
+        }
+    }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.tag == "Spike")
+        {
+            SpikeControl spike = collision.GetComponent<SpikeControl>();
+            spike.GiveDamage(this);
         }
     }
 }

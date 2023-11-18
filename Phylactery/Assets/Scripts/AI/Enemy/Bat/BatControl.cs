@@ -8,6 +8,7 @@ public class BatControl : EnemyControl
 
     protected override void Start()
     {
+        runDirections = new string[] { "Walk N", "Walk NW", "Walk W", "Walk SW", "Walk S", "Walk SE", "Walk E", "Walk NE" };
         _aiRootNode = new BatNode(this, null);
         base.Start();
     }
