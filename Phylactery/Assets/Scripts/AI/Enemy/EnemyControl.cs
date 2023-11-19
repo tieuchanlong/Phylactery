@@ -15,6 +15,15 @@ public class EnemyControl : AIControl
     protected Vector2 _forwardVec;
     protected BasePlayerMovement _player;
 
+    protected bool _detectedPlayer = false;
+    public bool DetectedPlayer
+    {
+        get
+        {
+            return _detectedPlayer;
+        }
+    }
+
     // Start is called before the first frame update
     protected override void Start()
     {
@@ -36,14 +45,17 @@ public class EnemyControl : AIControl
 
         if (Vector2.Distance(playerPos, enemyPos) > _playerDetectionDistance)
         {
+            _detectedPlayer = false;
             return false;
         }
 
         if (Vector2.Angle(_forwardVec, playerPos - enemyPos) > _playerDetectionAngle)
         {
+            _detectedPlayer = false;
             return false;
         }
 
+        _detectedPlayer = true;
         return true;
     }
 
@@ -55,5 +67,11 @@ public class EnemyControl : AIControl
             TakeDamage(projectTile.ProjectTileDamage);
             Destroy(collision.gameObject);
         }
+    }
+
+    public override void Die()
+    {
+        _detectedPlayer = false;
+        base.Die();
     }
 }

@@ -41,10 +41,12 @@ public class ProjectTileControl : MonoBehaviour
 
     public float ProjectTileDamage = 0.5f;
 
+    private PhylacteryPlayerMovement _player;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        _player = FindObjectOfType<PhylacteryPlayerMovement>();
     }
 
     // Update is called once per frame
@@ -55,6 +57,11 @@ public class ProjectTileControl : MonoBehaviour
 
     public virtual void Travel()
     {
+        if (tag == "ProjectTile" && _player.IsInAxeAttackRange(transform.position))
+        {
+            Destroy(gameObject);
+        }
+
         _currentProjectTileLifeTime += Time.deltaTime;
         transform.position += _projectTileSpeed * Time.deltaTime * _projectTileDirection;
 

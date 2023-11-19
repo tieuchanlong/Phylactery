@@ -35,9 +35,11 @@ public class CoachmenControl : EnemyControl
 
         if (Vector2.Distance(playerPos, enemyPos) > _playerDetectionDistance)
         {
+            _detectedPlayer = false;
             return false;
         }
 
+        _detectedPlayer = true;
         return true;
     }
 

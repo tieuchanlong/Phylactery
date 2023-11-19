@@ -9,6 +9,7 @@ TagManager:
   - Spike
   - StonePebble
   - StoneAmmo
+  - BattleTrigger
   layers:
   - Default
   - TransparentFX
@@ -19,7 +20,7 @@ TagManager:
   - Background
   - Enemy
   - Player
-  - 
+  - BattleTrigger
   - 
   - 
   - 
