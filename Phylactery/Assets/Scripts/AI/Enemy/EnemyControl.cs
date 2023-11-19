@@ -46,4 +46,14 @@ public class EnemyControl : AIControl
 
         return true;
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "StonePebble")
+        {
+            ProjectTileControl projectTile = collision.GetComponent<ProjectTileControl>();
+            TakeDamage(projectTile.ProjectTileDamage);
+            Destroy(collision.gameObject);
+        }
+    }
 }

@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -151,7 +151,511 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Attack_Bow_Body_135_0
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 579
+        width: 58
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb77476fa2860154d8c66b7de29dcecc
+      internalID: -401562110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_Bow_Body_135_1
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 579
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ec2f83862193e7458db86815be80ede
+      internalID: 1579974461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_Bow_Body_135_2
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 579
+        width: 61
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571ad523a08909c49b9c037f0174aae1
+      internalID: 1534568798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_Bow_Body_135_3
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 579
+        width: 62
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a13955ae661c0a240b11837346b831c8
+      internalID: -1828851360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_Bow_Body_135_4
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 579
+        width: 62
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb1e4c66d90a1cf458809faecb848203
+      internalID: -1924663797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_Bow_Body_135_5
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 579
+        width: 61
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4c675f2e10c4264f958d1f91ae7188a
+      internalID: 939835978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_Bow_Body_135_6
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 399
+        width: 61
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 505119433afba754b92d444ea081c1d0
+      internalID: 88755815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_Bow_Body_135_7
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 399
+        width: 63
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0a8807a8fbf86141bee5e471b499ee3
+      internalID: 1779309392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_Bow_Body_135_8
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 399
+        width: 66
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac7ff7aed6fdd2f478bb9f97a842e534
+      internalID: -571399266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_Bow_Body_135_9
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 399
+        width: 66
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d571dd40c78dfe04593917b34ed1a205
+      internalID: 1888931680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_Bow_Body_135_10
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 399
+        width: 62
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7bfeb64ef646824b8bc952aaf14ec81
+      internalID: -495414547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_Bow_Body_135_11
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 400
+        width: 61
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f0b0ea0486f35b4b8d6cb76b0081dda
+      internalID: 33492580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_Bow_Body_135_12
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 220
+        width: 61
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac17d9709f39a14a83e5a86cdebda1e
+      internalID: 241516563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_Bow_Body_135_13
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 220
+        width: 61
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe79129ebf7f20c489c6d83abc64287b
+      internalID: -166563925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_Bow_Body_135_14
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 219
+        width: 67
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b1390afa4786a4bb4df0be211cdc16
+      internalID: 378679946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_Bow_Body_135_15
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 220
+        width: 67
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b124fb8052fcba04e8d742cf33591be5
+      internalID: -1389919681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_Bow_Body_135_16
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 220
+        width: 64
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ce245c727764d45a270e3393cb8673
+      internalID: -1271105724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_Bow_Body_135_17
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 219
+        width: 61
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f9115606f83d2048a352020659060f8
+      internalID: 302716525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_Bow_Body_135_18
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 39
+        width: 57
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bc0c613df3094b42a6570a5d453be8b
+      internalID: 1671336908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_Bow_Body_135_19
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 39
+        width: 56
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fbf272a8184f704786fc1f5abc9226f
+      internalID: 1335816313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_Bow_Body_135_20
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 40
+        width: 56
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9cf6b5d01ca0ba43835e9aec0bd5120
+      internalID: -1048915851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_Bow_Body_135_21
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 40
+        width: 57
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e284f42dc3163b46adaf7d558ab1d95
+      internalID: 1615767334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_Bow_Body_135_22
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 40
+        width: 57
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d6172f251c1474eb46244f71dffc13
+      internalID: 1509773935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_Bow_Body_135_23
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 39
+        width: 58
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e305d6aa97d76fc4f8c82a6ad1cff020
+      internalID: -451987151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -162,7 +666,31 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Attack_Bow_Body_135_0: -401562110
+      Attack_Bow_Body_135_1: 1579974461
+      Attack_Bow_Body_135_10: -495414547
+      Attack_Bow_Body_135_11: 33492580
+      Attack_Bow_Body_135_12: 241516563
+      Attack_Bow_Body_135_13: -166563925
+      Attack_Bow_Body_135_14: 378679946
+      Attack_Bow_Body_135_15: -1389919681
+      Attack_Bow_Body_135_16: -1271105724
+      Attack_Bow_Body_135_17: 302716525
+      Attack_Bow_Body_135_18: 1671336908
+      Attack_Bow_Body_135_19: 1335816313
+      Attack_Bow_Body_135_2: 1534568798
+      Attack_Bow_Body_135_20: -1048915851
+      Attack_Bow_Body_135_21: 1615767334
+      Attack_Bow_Body_135_22: 1509773935
+      Attack_Bow_Body_135_23: -451987151
+      Attack_Bow_Body_135_3: -1828851360
+      Attack_Bow_Body_135_4: -1924663797
+      Attack_Bow_Body_135_5: 939835978
+      Attack_Bow_Body_135_6: 88755815
+      Attack_Bow_Body_135_7: 1779309392
+      Attack_Bow_Body_135_8: -571399266
+      Attack_Bow_Body_135_9: 1888931680
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

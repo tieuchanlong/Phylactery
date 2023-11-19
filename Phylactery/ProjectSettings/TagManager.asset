@@ -7,6 +7,8 @@ TagManager:
   - ProjectTile
   - SpikeTrigger
   - Spike
+  - Stone
+  - StonePebble
   layers:
   - Default
   - TransparentFX
@@ -15,8 +17,8 @@ TagManager:
   - Water
   - UI
   - Background
-  - 
-  - 
+  - Enemy
+  - Player
   - 
   - 
   - 

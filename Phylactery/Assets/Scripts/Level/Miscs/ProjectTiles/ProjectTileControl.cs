@@ -63,4 +63,9 @@ public class ProjectTileControl : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+    private void OnDestroy()
+    {
+        
+    }
 }
