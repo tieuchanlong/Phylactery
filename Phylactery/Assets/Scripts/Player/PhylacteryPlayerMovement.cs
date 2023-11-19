@@ -8,8 +8,8 @@ using UnityEngine;
 public class PhylacteryPlayerMovement : BasePlayerMovement
 {
     // speed constants
-    public float speed = 3.0f;
-    public float runspeed = 7.0f;
+    public float speed = 1.0f;
+    public float runspeed = 5.0f;
 
     // stamina variables
     public float totalStam = 100;
@@ -91,12 +91,19 @@ public class PhylacteryPlayerMovement : BasePlayerMovement
 
     #region Slingshot component
     public GameObject stonePrefab;
-    private int stoneAmmoCount = 0;
     private bool _startCountingSlingshotChargeTime = false;
     private float _currentSlingShotChargeTime = 0.0f;
 
     [SerializeField]
     private float _maxSlingshotChargeTime = 5.0f;
+    #endregion
+
+    #region Footstep Management
+    [SerializeField]
+    private AudioClip _footStep1Sound;
+    [SerializeField]
+    private AudioClip _footStep2Sound;
+    private bool _startFootStep = false;
     #endregion
 
     public int AttackSequence = 0;
@@ -252,11 +259,21 @@ public class PhylacteryPlayerMovement : BasePlayerMovement
                         {
                             currentStam = 0;
                         }
+
+                        if (!_startFootStep)
+                        {
+                            StartCoroutine(PlayRunFootStep());
+                        }
                     }
                     else
                     {
                         _speed = speed;
                         _playerRenderer.SetDirection(new Vector2(horizontal, vertical), walkDirections);
+
+                        if (!_startFootStep)
+                        {
+                            StartCoroutine(PlayWalkFootStep());
+                        }
                     }
                 }
                 else if (!_doDamageAnimation)
@@ -287,6 +304,30 @@ public class PhylacteryPlayerMovement : BasePlayerMovement
 
             base.Update();
         }
+    }
+
+    IEnumerator PlayWalkFootStep()
+    {
+        _startFootStep = true;
+        _audio.clip = _footStep1Sound;
+        _audio.Play();
+        yield return new WaitForSeconds(0.4f);
+        _audio.clip = _footStep2Sound;
+        _audio.Play();
+        yield return new WaitForSeconds(0.3f);
+        _startFootStep = false;
+    }
+
+    IEnumerator PlayRunFootStep()
+    {
+        _startFootStep = true;
+        _audio.clip = _footStep1Sound;
+        _audio.Play();
+        yield return new WaitForSeconds(0.2f);
+        _audio.clip = _footStep2Sound;
+        _audio.Play();
+        yield return new WaitForSeconds(0.1f);
+        _startFootStep = false;
     }
 
     public override void MoveDown()
@@ -449,12 +490,14 @@ public class PhylacteryPlayerMovement : BasePlayerMovement
         if (collision.tag == "ThornAmmo")
         {
             spike_count += 10;
+            _ammoHUD.PlayAmmoPickUpSound();
             Destroy(collision.gameObject);
         }
 
         if (collision.tag == "StoneAmmo")
         {
-            stoneAmmoCount += 10;
+            stone_count += 9;
+            _ammoHUD.PlayAmmoPickUpSound();
             Destroy(collision.gameObject);
         }
     }

@@ -12,3 +12,6 @@
 12/ SlingshotSpray.mp3 link: https://mixkit.co/free-sound-effects/gun/
 13/ FemaleBreathIn.mp3 link: https://www.youtube.com/watch?v=bWv04HEDt48
 14/ AxeRelease.mp3 link: https://www.youtube.com/watch?v=pAY8ni5sNyo
+15/ Footstep 1.mp3 link: https://www.youtube.com/watch?v=Qjsa_Dp0hbw
+16/ Footstep 2.mp3 link: https://www.youtube.com/watch?v=Qjsa_Dp0hbw
+17/ ItemPickUp.mp3 link: https://www.youtube.com/watch?v=CeKL4sPWFeY

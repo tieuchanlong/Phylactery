@@ -7,8 +7,8 @@ TagManager:
   - ProjectTile
   - SpikeTrigger
   - Spike
-  - Stone
   - StonePebble
+  - StoneAmmo
   layers:
   - Default
   - TransparentFX

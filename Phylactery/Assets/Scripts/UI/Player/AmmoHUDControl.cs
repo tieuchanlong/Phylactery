@@ -18,10 +18,14 @@ public class AmmoHUDControl : MonoBehaviour
     [SerializeField]
     private TextMeshProUGUI _ammoCountText;
 
+    [SerializeField]
+    private AudioClip _itemPickUpSound;
+    private AudioSource _audio;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        _audio = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -56,5 +60,11 @@ public class AmmoHUDControl : MonoBehaviour
     public void UpdateAmmoCount(int ammoCount)
     {
         _ammoCountText.text = ammoCount.ToString();
+    }
+
+    public void PlayAmmoPickUpSound()
+    {
+        _audio.clip = _itemPickUpSound;
+        _audio.Play();
     }
 }
