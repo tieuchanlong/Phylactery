@@ -105,6 +105,32 @@ public class PhylacteryPlayerMovement : BasePlayerMovement
     public int AttackSequence = 0;
     private AmmoHUDControl _ammoHUD;
 
+    public int StoneAmmoCount
+    {
+        get
+        {
+            return stone_count;
+        }
+
+        set
+        {
+            stone_count = value;
+        }
+    }
+
+    public int WeaponSelected
+    {
+        get
+        {
+            return weaponSelected;
+        }
+
+        set
+        {
+            weaponSelected = value;
+        }
+    }
+
     protected override void Start()
     {
         currentStam = totalStam;
@@ -126,7 +152,7 @@ public class PhylacteryPlayerMovement : BasePlayerMovement
         Vector3 mouse = Input.mousePosition;
 
         //if current status is disabled, the player cannot move or attack
-        if (!_gameControl.IsLevelCompleted && !_isDead)
+        if (!_gameControl.IsLevelCompleted && !_isDead && Time.timeScale > 0)
         {
             if (_startCountingSlingshotChargeTime)
             {
@@ -169,14 +195,14 @@ public class PhylacteryPlayerMovement : BasePlayerMovement
             {
                 if (weaponSelected == 1)
                 {
-                    if (_doAxeAttackAnimation)
+                    if (_doAxeAttackAnimation && _startCountingAxeChargeTime)
                     {
                         AttackRelease1();
                     }
                 }
                 else if (weaponSelected == 3)
                 {
-                    if (_doSlingshotAnimation)
+                    if (_doSlingshotAnimation && _startCountingSlingshotChargeTime)
                     {
                         AttackRelease3();
                     }
@@ -203,17 +229,17 @@ public class PhylacteryPlayerMovement : BasePlayerMovement
                 AttackSequence++;
             }
 
-            if (Input.GetKeyDown(KeyCode.Alpha1))
+            if (Input.GetKeyDown(KeyCode.Alpha1) && _gameControl.IsWeaponUnlocked(1))
             {
                 weaponSelected = 1;
                 _ammoHUD.ChangeWeapon(1);
             }
-            else if (Input.GetKeyDown(KeyCode.Alpha2))
+            else if (Input.GetKeyDown(KeyCode.Alpha2) && _gameControl.IsWeaponUnlocked(2))
             {
                 weaponSelected = 2;
                 _ammoHUD.ChangeWeapon(2);
             }
-            else if (Input.GetKeyDown(KeyCode.Alpha3))
+            else if (Input.GetKeyDown(KeyCode.Alpha3) && _gameControl.IsWeaponUnlocked(3))
             {
                 weaponSelected = 3;
                 _ammoHUD.ChangeWeapon(3);
@@ -474,6 +500,11 @@ public class PhylacteryPlayerMovement : BasePlayerMovement
         {
             SpikeControl spike = collision.GetComponent<SpikeControl>();
             spike.GiveDamage(this);
+        }
+
+        if (collision.tag == "TutorialTrigger")
+        {
+            collision.GetComponent<TutorialTriggerControl>().ActivateTutorial();
         }
     }
 

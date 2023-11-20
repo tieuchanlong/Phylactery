@@ -35,7 +35,7 @@ public class DestructibleObjectControl : MonoBehaviour
     // Update is called once per frame
     protected virtual void Update()
     {
-        DebugTakeDamage();
+        //DebugTakeDamage();
 
         if (_player.IsInAxeAttackRange(transform.position) && _damageSequence <= _player.AttackSequence)
         {

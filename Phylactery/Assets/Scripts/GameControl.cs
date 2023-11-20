@@ -37,6 +37,14 @@ public class GameControl : MonoBehaviour
         }
     }
 
+    private bool[] _weaponsUnlocked = { true, false, false };
+    private int _savedWeaponSelected = 1;
+    private int _savedStoneAmmo = 0;
+
+    public bool IsMovementTutorialUnlocked = false;
+    public bool IsHealingCrystalTutorialUnlocked = false;
+    public bool IsSlingshotTutorialUnlocked = false;
+
     private void Awake()
     {
         GameControl[] gameControls = FindObjectsOfType<GameControl>();
@@ -67,9 +75,19 @@ public class GameControl : MonoBehaviour
             {
                 PlayerSpawnControl _spawnControl = FindObjectOfType<PlayerSpawnControl>();
                 _playerSpawnPos = _spawnControl.transform.position;
+                _savedWeaponSelected = 1;
+                _savedStoneAmmo = 0;
+                IsHealingCrystalTutorialUnlocked = false;
+                IsSlingshotTutorialUnlocked = false;
+                IsMovementTutorialUnlocked = false;
+                _weaponsUnlocked[0] = true;
+                _weaponsUnlocked[1] = false;
+                _weaponsUnlocked[2] = false;
             }
 
             player.transform.position = _playerSpawnPos;
+            player.WeaponSelected = _savedWeaponSelected;
+            player.StoneAmmoCount = _savedStoneAmmo;
         }
 
         // Find menu
@@ -126,6 +144,8 @@ public class GameControl : MonoBehaviour
         PhylacteryPlayerMovement player = FindObjectOfType<PhylacteryPlayerMovement>();
         _playerSpawnPos = player.transform.position;
         _isNewGame = false;
+        _savedWeaponSelected = player.WeaponSelected;
+        _savedStoneAmmo = player.StoneAmmoCount;
 
         if (_saveMenu)
         {
@@ -170,5 +190,15 @@ public class GameControl : MonoBehaviour
     public void PauseGame()
     {
         _pauseMenu.SetActive(true);
+    }
+
+    public bool IsWeaponUnlocked(int weaponIndex)
+    {
+        return _weaponsUnlocked[weaponIndex - 1];
+    }
+
+    public void UnlockWeapon(int weaponIndex)
+    {
+        _weaponsUnlocked[weaponIndex - 1] = true;
     }
 }

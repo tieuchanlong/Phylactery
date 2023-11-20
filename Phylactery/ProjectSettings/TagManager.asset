@@ -10,6 +10,7 @@ TagManager:
   - StonePebble
   - StoneAmmo
   - BattleTrigger
+  - TutorialTrigger
   layers:
   - Default
   - TransparentFX

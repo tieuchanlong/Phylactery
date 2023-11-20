@@ -13,7 +13,6 @@ public class EnemyControl : AIControl
     [SerializeField]
     protected float _attackDamage = 1.0f;
     protected Vector2 _forwardVec;
-    protected BasePlayerMovement _player;
 
     protected bool _detectedPlayer = false;
     public bool DetectedPlayer
@@ -28,7 +27,6 @@ public class EnemyControl : AIControl
     protected override void Start()
     {
         base.Start();
-        _player = FindObjectOfType<BasePlayerMovement>();
     }
 
     // Update is called once per frame

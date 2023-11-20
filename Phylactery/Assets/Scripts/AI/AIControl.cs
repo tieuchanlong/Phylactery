@@ -48,7 +48,8 @@ public class AIControl : MonoBehaviour
     public static string[] dieDirections = { "Die N", "Die NW", "Die W", "Die SW", "Die S", "Die SE", "Die E", "Die NE" };
     #endregion
 
-    PhylacteryPlayerMovement _player;
+    protected PhylacteryPlayerMovement _player;
+    protected AudioSource _audio;
 
     // Start is called before the first frame update
     protected virtual void Start()
@@ -56,6 +57,7 @@ public class AIControl : MonoBehaviour
         _charRenderer = GetComponent<AICharacterRenderer>();
         _rigidBody = GetComponent<Rigidbody2D>();
         _player = FindObjectOfType<PhylacteryPlayerMovement>();
+        _audio = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -84,7 +86,7 @@ public class AIControl : MonoBehaviour
             }
         }
 
-        DebugTakeDamage();
+        //DebugTakeDamage();
     }
 
     public virtual void MoveToDestination(bool running = false, bool usePathfinding = false)
@@ -144,6 +146,7 @@ public class AIControl : MonoBehaviour
             return;
         }
 
+        _audio.Play();
         _hp -= hpChangeAmount;
         _charRenderer.SetDirection(new Vector2(_headingDirection.x, _headingDirection.y), staticDirections);
 
