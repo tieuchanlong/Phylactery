@@ -108,6 +108,12 @@ public class GameControl : MonoBehaviour
             _saveMenu = FindObjectOfType<SaveGameHUDControl>().gameObject;
             _saveMenu.SetActive(false);
         }
+
+        if (FindObjectOfType<LevelCompleteMenuControl>())
+        {
+            _levelCompleteMenu = FindObjectOfType<LevelCompleteMenuControl>().gameObject;
+            _levelCompleteMenu.SetActive(false);
+        }
     }
 
 
@@ -122,6 +128,7 @@ public class GameControl : MonoBehaviour
 
     public void BeginGame()
     {
+        _isLevelCompleted = false;
         _gameFirstTime = false;
 //         _map = Instantiate(Resources.Load<GameObject>("Maps/GameJam1Map"));
 //         Camera cam = Camera.main;
@@ -177,8 +184,16 @@ public class GameControl : MonoBehaviour
     public void EndLevel()
     {
         _isLevelCompleted = true;
-        _levelCompleteMenu.SetActive(true);
-        _inLevelTutorialMenu.SetActive(false);
+
+        if (_levelCompleteMenu)
+        {
+            _levelCompleteMenu.SetActive(true);
+        }
+
+        if (_inLevelTutorialMenu)
+        {
+            _inLevelTutorialMenu.SetActive(false);
+        }
     }
 
     public void ClearGame()

@@ -51,7 +51,7 @@ public class TitleMenuControl : MonoBehaviour
         GameControl gameControl = FindObjectOfType<GameControl>();
         gameControl.SetNewGame(true);
         gameControl.BeginGame();
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(1);
     }
 
     public void ContinueGame()
@@ -59,6 +59,6 @@ public class TitleMenuControl : MonoBehaviour
         GameControl gameControl = FindObjectOfType<GameControl>();
         gameControl.SetNewGame(false);
         gameControl.BeginGame();
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(1);
     }
 }

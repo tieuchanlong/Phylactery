@@ -22,15 +22,25 @@ public class LevelCompleteMenuControl : MonoBehaviour
         
     }
 
+    private void OnEnable()
+    {
+        Time.timeScale = 0;
+    }
+
     public void ReplayLevel()
     {
         _gameControl.ClearGame();
-        _tutorialMenu.SetActive(true);
+
+        if (_tutorialMenu)
+        {
+            _tutorialMenu.SetActive(true);
+        }
         gameObject.SetActive(false);
     }
 
     public void QuitLevel()
     {
+        Time.timeScale = 1;
         SceneManager.LoadScene(0);
     }
 }

@@ -9,9 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/PhylacteryTitle.unity
     guid: 38b95d7bd0fb3874e817b1182555d273
   - enabled: 1
-    path: Assets/Scenes/PhylacteryEnemyTest.unity
-    guid: a8fe2273d451a4f4994f97fa4a99c949
-  - enabled: 1
     path: Assets/Scenes/Phylactery Level Layout.unity
     guid: dbe55341c57438549affeb05541d8050
   - enabled: 0

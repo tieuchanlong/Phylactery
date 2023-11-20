@@ -492,6 +492,11 @@ public class PhylacteryPlayerMovement : BasePlayerMovement
             _ammoHUD.PlayAmmoPickUpSound();
             Destroy(collision.gameObject);
         }
+
+        if (collision.tag == "EndLevelTrigger")
+        {
+            _gameControl.EndLevel();
+        }
     }
 
     private void OnTriggerStay2D(Collider2D collision)

@@ -11,6 +11,7 @@ TagManager:
   - StoneAmmo
   - BattleTrigger
   - TutorialTrigger
+  - EndLevelTrigger
   layers:
   - Default
   - TransparentFX

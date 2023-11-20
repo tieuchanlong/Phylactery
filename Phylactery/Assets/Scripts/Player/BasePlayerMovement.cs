@@ -31,6 +31,14 @@ public class BasePlayerMovement : MonoBehaviour
 
     protected bool _isDead = false;
 
+    public bool IsDead
+    {
+        get
+        {
+            return _isDead;
+        }
+    }
+
     // Start is called before the first frame update
     protected virtual void Start()
     {
