@@ -16,15 +16,16 @@ public class PhylacteryTutorialMenuControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.anyKeyDown)
-        {
-            gameObject.SetActive(false);
-        }
     }
 
     private void OnEnable()
     {
         Time.timeScale = 0.0f;
+    }
+
+    public void Continue()
+    {
+        gameObject.SetActive(false);
     }
 
     private void OnDisable()

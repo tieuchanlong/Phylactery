@@ -48,7 +48,7 @@ public class PauseMenuControl : MonoBehaviour
     {
         GameControl gameControl = FindObjectOfType<GameControl>();
         gameControl.RestartGame();
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(1);
     }
 
     public void ExitGame()

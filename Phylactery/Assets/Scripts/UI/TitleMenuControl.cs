@@ -17,6 +17,9 @@ public class TitleMenuControl : MonoBehaviour
     [SerializeField]
     private GameObject _continueBtn;
 
+    [SerializeField]
+    private GameObject _loadingMenu;
+
     private float _pressKeyTextAlpha = 255.0f;
     private float _pressKeyTextFadeSign = -1.0f;
 
@@ -51,7 +54,8 @@ public class TitleMenuControl : MonoBehaviour
         GameControl gameControl = FindObjectOfType<GameControl>();
         gameControl.SetNewGame(true);
         gameControl.BeginGame();
-        SceneManager.LoadScene(1);
+        _loadingMenu.SetActive(true);
+        SceneManager.LoadSceneAsync(1);
     }
 
     public void ContinueGame()
@@ -59,6 +63,7 @@ public class TitleMenuControl : MonoBehaviour
         GameControl gameControl = FindObjectOfType<GameControl>();
         gameControl.SetNewGame(false);
         gameControl.BeginGame();
-        SceneManager.LoadScene(1);
+        _loadingMenu.SetActive(true);
+        SceneManager.LoadSceneAsync(1);
     }
 }

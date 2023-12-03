@@ -31,7 +31,10 @@ public class TutorialTriggerControl : MonoBehaviour
 
     public virtual void ActivateTutorial()
     {
-        _tutorialMenu.SetActive(true);
-        gameObject.SetActive(false);
+        if (!IsUnlocked())
+        {
+            _tutorialMenu.SetActive(true);
+            gameObject.SetActive(false);
+        }
     }
 }

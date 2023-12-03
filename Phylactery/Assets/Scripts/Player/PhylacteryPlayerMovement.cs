@@ -87,6 +87,9 @@ public class PhylacteryPlayerMovement : BasePlayerMovement
     private float _currentDashTime = 0.0f;
     private TrailRenderer _trailRenderer;
     private BoxCollider2D _colliderBox;
+
+    [SerializeField]
+    private BoxCollider2D _dashColliderBox;
     #endregion
 
     #region Slingshot component
@@ -187,6 +190,7 @@ public class PhylacteryPlayerMovement : BasePlayerMovement
                     _doAxeAttackAnimation = false;
                     _startDashing = false;
                     _colliderBox.enabled = true;
+                    _dashColliderBox.enabled = false;
                     _trailRenderer.enabled = false;
                 }
             }
@@ -680,6 +684,7 @@ public class PhylacteryPlayerMovement : BasePlayerMovement
         // Dash player
         _startDashing = true;
         _colliderBox.enabled = false;
+        _dashColliderBox.enabled = true;
         _currentDashTime = 0.0f;
         _curDashDist = 0.0f;
         _trailRenderer.enabled = true;

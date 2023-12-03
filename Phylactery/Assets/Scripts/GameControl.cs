@@ -39,7 +39,7 @@ public class GameControl : MonoBehaviour
 
     private bool[] _weaponsUnlocked = { true, false, false };
     private int _savedWeaponSelected = 1;
-    private int _savedStoneAmmo = 0;
+    private int _savedStoneAmmo = 18;
 
     public bool IsMovementTutorialUnlocked = false;
     public bool IsHealingCrystalTutorialUnlocked = false;
@@ -76,7 +76,7 @@ public class GameControl : MonoBehaviour
                 PlayerSpawnControl _spawnControl = FindObjectOfType<PlayerSpawnControl>();
                 _playerSpawnPos = _spawnControl.transform.position;
                 _savedWeaponSelected = 1;
-                _savedStoneAmmo = 0;
+                _savedStoneAmmo = 18;
                 IsHealingCrystalTutorialUnlocked = false;
                 IsSlingshotTutorialUnlocked = false;
                 IsMovementTutorialUnlocked = false;
@@ -120,7 +120,7 @@ public class GameControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.Space))
         {
             PauseGame();
         }

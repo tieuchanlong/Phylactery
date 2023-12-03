@@ -149,6 +149,7 @@ public class AIControl : MonoBehaviour
         _audio.Play();
         _hp -= hpChangeAmount;
         _charRenderer.SetDirection(new Vector2(_headingDirection.x, _headingDirection.y), staticDirections);
+        StartCoroutine(PlayFlashDamageAnimation());
 
         if (_hp > 0)
         {
@@ -159,6 +160,17 @@ public class AIControl : MonoBehaviour
             _isDead = true;
             Die();
         }
+    }
+
+    IEnumerator PlayFlashDamageAnimation()
+    {
+        GetComponent<SpriteRenderer>().color = Color.red;
+        yield return new WaitForSeconds(0.1f);
+        GetComponent<SpriteRenderer>().color = Color.white;
+        yield return new WaitForSeconds(0.1f);
+        GetComponent<SpriteRenderer>().color = Color.red;
+        yield return new WaitForSeconds(0.1f);
+        GetComponent<SpriteRenderer>().color = Color.white;
     }
 
     public bool IsInPlayerAttackRange()

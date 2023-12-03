@@ -6,12 +6,12 @@ public class CrystalTutorialTriggerControl : TutorialTriggerControl
 {
     protected override bool IsUnlocked()
     {
-        return !_gameControl.IsHealingCrystalTutorialUnlocked;
+        return _gameControl.IsHealingCrystalTutorialUnlocked;
     }
 
     public override void ActivateTutorial()
     {
-        _gameControl.IsHealingCrystalTutorialUnlocked = true;
         base.ActivateTutorial();
+        _gameControl.IsHealingCrystalTutorialUnlocked = true;
     }
 }

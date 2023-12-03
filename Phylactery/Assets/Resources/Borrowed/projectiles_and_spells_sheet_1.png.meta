@@ -1,0 +1,3339 @@
+fileFormatVersion: 2
+guid: de7946bf5acab634ba38481e4ee43706
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_0
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1219
+        width: 117
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef454f65f16d394e93c47d7a6db922b
+      internalID: 297983913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_1
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1341
+        width: 98
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcbacc7597e20be40851dc29216db207
+      internalID: -23523148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_2
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 1260
+        width: 126
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be10f82a61b74f44295e41cf8c1b245e
+      internalID: 1577776259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_3
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 1138
+        width: 228
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 696c1bb168cef374585f2ca463a9ebdd
+      internalID: -371120849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_4
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 1322
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44619efeedabdf4586915b78bfca031
+      internalID: -1292161541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_5
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 1283
+        width: 36
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f345f4f79029d42806b582a27e053c
+      internalID: 1925338816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_6
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 1259
+        width: 163
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 960573675044c8b4a9345f650739d28a
+      internalID: 1049535986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_7
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 1308
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 027800bd83c902c49ba1ac2776b9782b
+      internalID: -1058916886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_8
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 1257
+        width: 70
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b2d6b00f22caa04eb00da8be55f78ce
+      internalID: 716087075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_9
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 1289
+        width: 78
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7248245bd08d4634ba67d657197a30d5
+      internalID: -266073024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_10
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 1274
+        width: 52
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f11a537251068546b7534c0803be86d
+      internalID: 1948300697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_11
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 1284
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79b9906270d8c7e49b24873823ec1e7f
+      internalID: -1793995149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_12
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1177
+        width: 44
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bb39785ce4b5c34580649f9d2f58f4a
+      internalID: 1348332117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_13
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1189
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ec54d4717600540992991739a8d685
+      internalID: -2051439759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_14
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1246
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e8b41368812054aafbc0ef437a07eb
+      internalID: -329308528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_15
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 1231
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bea8eb987d9b45b45be87e112e356c0e
+      internalID: -1728516501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_16
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1213
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c808ac049351543b3fc606460d10ab
+      internalID: -733882673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_17
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 1212
+        width: 17
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 392e2f6244aebec41a04dd7b4bd36abd
+      internalID: -343847414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_18
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 1179
+        width: 38
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b0a5ee437197d4cb41e4423fa7027d
+      internalID: -1254648133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_19
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 1183
+        width: 74
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae59f40312c07742b009cb02eb987d7
+      internalID: 315591137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_20
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 1180
+        width: 62
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cecc626eadc801d4193f425a2d436e3c
+      internalID: -733292511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_21
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 1188
+        width: 85
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d6cb84d3570a94998ff6a30355a424
+      internalID: -24063821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_22
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1172
+        width: 49
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f144a1388389b674b990d40a3b83ea21
+      internalID: 1746948887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_23
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 1196
+        width: 45
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b844feb84e1689344b19da6cc481ed80
+      internalID: 1562833747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_24
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1177
+        width: 29
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f8fe2511cf4e974a9ffbce72bbb2ef3
+      internalID: 1188513028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_25
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 1228
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d7d6035833cc4b4990a81daf5ff7122
+      internalID: 669075789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_26
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1138
+        width: 50
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ecb04bd9e5f4354a9836a203c06d8f1
+      internalID: -765231158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_27
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 1130
+        width: 59
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91f53f66eaa3d4545ac7cb1fa7e2b91a
+      internalID: 240946360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_28
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 1147
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57230ae9e2ee7d84086cecb1fe2f063a
+      internalID: -996952104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_29
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 895
+        width: 228
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e7fdd1d8025654a95b6914f05b5e10
+      internalID: 1466553134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_30
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 888
+        width: 235
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba64b9a508aa354a8f30bcfafd8f031
+      internalID: 5042722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_31
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 1108
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08dae1837d8566f4a8d4c9b1e178e852
+      internalID: 830416243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_32
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 1097
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b107903a839d164a9faa6f14a247406
+      internalID: 1868832847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_33
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 1092
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faebc319d8dc3da4d9481dc3ee38f19b
+      internalID: -1555528863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_34
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 1092
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d9b539d71354f449957c6cfcf8e9d98
+      internalID: -1220284117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_35
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 1089
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13ee12e0b3a43c048b08db1341a5c12d
+      internalID: 16404010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_36
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 1077
+        width: 65
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52c0b036ce10edb43b4ba5dba853b895
+      internalID: -1822130216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_37
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 1091
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfef8710f49c733478113d909b40b78a
+      internalID: -433287684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_38
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 1076
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677873fd7d335614baad300e35fc02be
+      internalID: 530147445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_39
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 1110
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1b896a4df1f6b64e81c729d0d72eb44
+      internalID: -271614360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_40
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 1105
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27b425be3872fe24bbd9437369045718
+      internalID: -1129971552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_41
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 1106
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1cfd8d83043e7a44b8ab42c1d03e08c
+      internalID: 472798149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_42
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 1081
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d3c8740fca1ed4aa685495defe4b61
+      internalID: 934517796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_43
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 1066
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f31182e95aada249a08de215ffc4325
+      internalID: -1446235944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_44
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 1083
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c60079e5e180535488e75a841d402c7c
+      internalID: 1426022427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_45
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 1018
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb2d94bd6a310d4c95a2378a1dff0c3
+      internalID: 1447008036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_46
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 1018
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a05465d7d15af4c91886584f13ee2f
+      internalID: -1050444350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_47
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 1015
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c87df3d4d4394fb41a93b6aa6e323b28
+      internalID: -844736022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_48
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 1009
+        width: 57
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 533deefebde7f4549aafeccfa9cb5925
+      internalID: 1319603157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_49
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 1046
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b546cf109a8f4240bdfc0156538aa0b
+      internalID: -1286360366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_50
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 1059
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62bf1743de2863c408989c790c2ab48c
+      internalID: -829236037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_51
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 1046
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e88eda56d3d793d4fade53be318449f9
+      internalID: 461176627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_52
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 1049
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d50def3fe89f1547ab40202d29241ba
+      internalID: -837494205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_53
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 1023
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70cdbc11d626ec44d8e9df8b33a31b30
+      internalID: -615256156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_54
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 1029
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67b5dc3cdf0ca0c47b0f4f1bab272633
+      internalID: 1932970858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_55
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 1048
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23dfe7b8b5bac824298fbf4358ee7907
+      internalID: -1193541562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_56
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 1034
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba44d3dfc243fc04ab38d0420e365cda
+      internalID: -148505319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_57
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 1034
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a6fc539d0dee2143865705533be587b
+      internalID: -2084909847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_58
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 1016
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 191cca3986e21104e9d904e69dd7ef56
+      internalID: -882278598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_59
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 1035
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e14b20640faea714e8679a80cc70ba2e
+      internalID: 1711653500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_60
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 1025
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad2a3054920d05f489956a9711435f39
+      internalID: 111548458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_61
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 1029
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec738a0515cdc9d4aaa906a819ae4634
+      internalID: 1448128140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_62
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 1023
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f499771e84d4e4eb9f00e5970c3cac
+      internalID: -63698600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_63
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 1004
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5e2973bacabf7f41a0a9536b39bb838
+      internalID: 2135855806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_64
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 1019
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5175a717a0a4e7d43aee9adca37f8efa
+      internalID: 1082116854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_65
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 1012
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fa3c4586f9c84d459ba202109964b24
+      internalID: 1029235404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_66
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 1012
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61538539009a9e644949b66c41a3d4ae
+      internalID: 1714275838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_67
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 1001
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25336726f188c3d459ab4bdbc6f0e7db
+      internalID: -719980744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_68
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 1006
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e5291834f92ab4b84e7ac58daae0e7
+      internalID: -1366423913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_69
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 939
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de74709e5bd89941b5d37b69c997337
+      internalID: 64894851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_70
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 939
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887feea5e3b1d714caebea4a4733ca94
+      internalID: 540858558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_71
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 936
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 331d2d26a4d4a64469eab4808421977c
+      internalID: -1247570901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_72
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 938
+        width: 65
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10c5c33b0ebe8bb4f96715d0be43b158
+      internalID: -579305099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_73
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 968
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa3eb3f076affc4a97a275c458b3386
+      internalID: -423945507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_74
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 977
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab197531b4ad1094a9c1728946445761
+      internalID: -148256233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_75
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 977
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa99b4b15cd5784498fc8c16d6287692
+      internalID: 1873077991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_76
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 975
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d082879fb4cb94388fe810874d7979
+      internalID: -1364814091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_77
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 955
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b74e16aa5059f4fa7596dd1a92fa7b
+      internalID: -391936910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_78
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 944
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d7a097932b16e2488e7ba441e66dea9
+      internalID: 61239282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_79
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 966
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6edf2d6ae8ed8584eb67a0dbad0722d5
+      internalID: 2046547036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_80
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 947
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1e49e9fa101b7b4da2454e0c084bb8c
+      internalID: 555398516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_81
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 965
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 619ba17718cf03a42b04e99f696a8b7a
+      internalID: 1210450619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_82
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 936
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa9f2de4475e59244867a656a94dc6d8
+      internalID: -459645688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_83
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 944
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abd1de94d81a9a44694fbbfe209ecb67
+      internalID: 1719985955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_84
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 951
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff1bbe8f02f59904c8f800efe9a6b210
+      internalID: -1110604319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_85
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 947
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df6b6b76b9ef4064aaab55debfe6f9e0
+      internalID: 1417952587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_86
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 935
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89dbe5823f9536458df854de78eccaa
+      internalID: -1195014746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_87
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 938
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5656eef31ed64f746aa161967ce281b1
+      internalID: -1347872919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_88
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 940
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba9aa25638103a429a1c0d3a1ed4085
+      internalID: -178243933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_89
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 915
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 121afa8aa81c623479bf1028fa74305d
+      internalID: 839331027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_90
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 906
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a6a5e2b330a7e247a4b8d609b88b188
+      internalID: -690095937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_91
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 908
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5757d95cec2da344936e0afabec4ed0
+      internalID: -555090562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_92
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 906
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 096a6a77eccdd3c49a69b21beabb21aa
+      internalID: -792381235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_93
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 896
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b9d8c089d16fb04bbc5c3af9a9b154f
+      internalID: 1957375785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_94
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 895
+        width: 31
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f059a7bf8974704c907ccd05f7211b1
+      internalID: 1738861462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_95
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 893
+        width: 57
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 415e8834e9760b24f8a15b050025c110
+      internalID: -344214215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_96
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 893
+        width: 58
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6a75b45419c8c43b097bbf590909b8
+      internalID: -702619073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_97
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 893
+        width: 58
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f1ae058212f4d4e90a7493c964409e
+      internalID: -450112593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_98
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 888
+        width: 35
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b481bf02affcd2f4180122f6fad5ed83
+      internalID: -994488097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_99
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 894
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6ac26754bcfd884eb2f05e28809f0f3
+      internalID: -1943001240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_100
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 887
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9295651bc8a022e428b70936caed6049
+      internalID: -716572745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_101
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 886
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d00103b24c5be49be0e4193fdf9443
+      internalID: -1567666365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_102
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 868
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6774b9d5c29b3ef4ba930bb20f21dc24
+      internalID: 1953642365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_103
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 873
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23fd5110e8eb1714ca7aadd59d51ef66
+      internalID: 1476202337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_104
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 646
+        width: 304
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd9d92ebe815e140a3d5b66e7dace77
+      internalID: 1104716147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_105
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 869
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac22dac5feeef141b3bbdddc3cac9cc
+      internalID: 1215898248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_106
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 715
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0400999cf75dfc4479659ce5dc0e1ef7
+      internalID: -1788277735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_107
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 690
+        width: 63
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 183b225db3e43fd4794c6a540979faf7
+      internalID: 182498309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_108
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 690
+        width: 71
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d97607a04eb9131459882fece1650488
+      internalID: -808026142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_109
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 693
+        width: 80
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b65d30608eceb244fb2ea3bb59807724
+      internalID: -850376319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_110
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 692
+        width: 93
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dac244e6d4ddbfb409a0328bd43c8e69
+      internalID: 969880601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_111
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 689
+        width: 97
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8776b112e98a86844b11bad297bd7e7f
+      internalID: 1877268811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_112
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 682
+        width: 105
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd67e3d081ce974593eb6ca9db2a8da
+      internalID: -93356782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_113
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 661
+        width: 208
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08764b080f6254d469623773e02d2f6c
+      internalID: 1351721696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_114
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 467
+        width: 377
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 332ef0ab998c7a14d8b6537e8997bc55
+      internalID: 443433575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_115
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 616
+        width: 44
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4bae61d272fd8940a39b77f984d3d3a
+      internalID: -58649447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_116
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 475
+        width: 303
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e1f117176428af47b5f7a0fb653ca2a
+      internalID: 1418600628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_117
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 580
+        width: 90
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 278309bb1b59c164d8af649ab529927e
+      internalID: 485500113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_118
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 624
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c019357fc65114191235299ccebb21
+      internalID: 1475342360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_119
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 627
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb3a2c3ae3c29445b5ef191a8f02a2c
+      internalID: -627650141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_120
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 566
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b341e9b6f62a1041b6e04e432574934
+      internalID: -941703684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_121
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 563
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fcb1bbf4fa136c4b91c1722ed2efee2
+      internalID: 668285516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_122
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 574
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91d9f6feb122e2498440b16f04576c3
+      internalID: -1320783618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_123
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 566
+        width: 44
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a018c32e1f70b744a0bc180663fb47b
+      internalID: -1913170871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_124
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 566
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf72085659ab2ec448f7f4ad515d9eb0
+      internalID: 1449300760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_125
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 535
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb60548973b510c4ab0a27bcdd3a9242
+      internalID: 994228151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_126
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 502
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a08e6f9409016449b8af741da1e2036
+      internalID: 770024175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_127
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 498
+        width: 68
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b1db50865f493489bf7c85378bcab6
+      internalID: 123564970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_128
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 529
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2efb90f77c59d8840bbd10f20df325c8
+      internalID: 40869829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_129
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 537
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c16235823ff88264abb4351ea0fd1f34
+      internalID: -653013601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_130
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 501
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af29d7c78304b74f80a1bd04345a0a8
+      internalID: 902176616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_131
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 285
+        width: 125
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db9c9af9a9cc5b45933905d90ab960e
+      internalID: 1313567008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_132
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 285
+        width: 125
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2210eceb7996e524ead140f013625d55
+      internalID: -848754294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_133
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 284
+        width: 125
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5681f3d3eaa375e4b94963d541c1d6d9
+      internalID: 1465331692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_134
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 284
+        width: 125
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94426a463171774459dfdf07b186b62e
+      internalID: -1775211612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_135
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 280
+        width: 125
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d7ac3a110248f04290ea15a5a0594a8
+      internalID: 1564794044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_136
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 281
+        width: 125
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785fc161fa8d24043a966b8aeb1718eb
+      internalID: 1364943909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_137
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 50
+        width: 125
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e30db0fce75e3439ed7dbcbaa149eb
+      internalID: 130402902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_138
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 51
+        width: 125
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44fac3922e40738448c39e461fa89492
+      internalID: -1503662429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_139
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 51
+        width: 125
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 289510715610e2443873a64358786a55
+      internalID: 1152376501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_140
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 34
+        width: 84
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e64d25708db8b5a4292eb5430671cd91
+      internalID: -890024588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_141
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 72
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99aa1d1f8be87ba4cb9c1d686b6027c1
+      internalID: -594507369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_142
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 73
+        width: 36
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf8d0a97cdb93a41994d9bbde0edf76
+      internalID: -1731899289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_spells_sheet_1_143
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 79
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b81ab5672f5392942a70a954e2e68d9a
+      internalID: 902188433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      projectiles_and_spells_sheet_1_0: 297983913
+      projectiles_and_spells_sheet_1_1: -23523148
+      projectiles_and_spells_sheet_1_10: 1948300697
+      projectiles_and_spells_sheet_1_100: -716572745
+      projectiles_and_spells_sheet_1_101: -1567666365
+      projectiles_and_spells_sheet_1_102: 1953642365
+      projectiles_and_spells_sheet_1_103: 1476202337
+      projectiles_and_spells_sheet_1_104: 1104716147
+      projectiles_and_spells_sheet_1_105: 1215898248
+      projectiles_and_spells_sheet_1_106: -1788277735
+      projectiles_and_spells_sheet_1_107: 182498309
+      projectiles_and_spells_sheet_1_108: -808026142
+      projectiles_and_spells_sheet_1_109: -850376319
+      projectiles_and_spells_sheet_1_11: -1793995149
+      projectiles_and_spells_sheet_1_110: 969880601
+      projectiles_and_spells_sheet_1_111: 1877268811
+      projectiles_and_spells_sheet_1_112: -93356782
+      projectiles_and_spells_sheet_1_113: 1351721696
+      projectiles_and_spells_sheet_1_114: 443433575
+      projectiles_and_spells_sheet_1_115: -58649447
+      projectiles_and_spells_sheet_1_116: 1418600628
+      projectiles_and_spells_sheet_1_117: 485500113
+      projectiles_and_spells_sheet_1_118: 1475342360
+      projectiles_and_spells_sheet_1_119: -627650141
+      projectiles_and_spells_sheet_1_12: 1348332117
+      projectiles_and_spells_sheet_1_120: -941703684
+      projectiles_and_spells_sheet_1_121: 668285516
+      projectiles_and_spells_sheet_1_122: -1320783618
+      projectiles_and_spells_sheet_1_123: -1913170871
+      projectiles_and_spells_sheet_1_124: 1449300760
+      projectiles_and_spells_sheet_1_125: 994228151
+      projectiles_and_spells_sheet_1_126: 770024175
+      projectiles_and_spells_sheet_1_127: 123564970
+      projectiles_and_spells_sheet_1_128: 40869829
+      projectiles_and_spells_sheet_1_129: -653013601
+      projectiles_and_spells_sheet_1_13: -2051439759
+      projectiles_and_spells_sheet_1_130: 902176616
+      projectiles_and_spells_sheet_1_131: 1313567008
+      projectiles_and_spells_sheet_1_132: -848754294
+      projectiles_and_spells_sheet_1_133: 1465331692
+      projectiles_and_spells_sheet_1_134: -1775211612
+      projectiles_and_spells_sheet_1_135: 1564794044
+      projectiles_and_spells_sheet_1_136: 1364943909
+      projectiles_and_spells_sheet_1_137: 130402902
+      projectiles_and_spells_sheet_1_138: -1503662429
+      projectiles_and_spells_sheet_1_139: 1152376501
+      projectiles_and_spells_sheet_1_14: -329308528
+      projectiles_and_spells_sheet_1_140: -890024588
+      projectiles_and_spells_sheet_1_141: -594507369
+      projectiles_and_spells_sheet_1_142: -1731899289
+      projectiles_and_spells_sheet_1_143: 902188433
+      projectiles_and_spells_sheet_1_15: -1728516501
+      projectiles_and_spells_sheet_1_16: -733882673
+      projectiles_and_spells_sheet_1_17: -343847414
+      projectiles_and_spells_sheet_1_18: -1254648133
+      projectiles_and_spells_sheet_1_19: 315591137
+      projectiles_and_spells_sheet_1_2: 1577776259
+      projectiles_and_spells_sheet_1_20: -733292511
+      projectiles_and_spells_sheet_1_21: -24063821
+      projectiles_and_spells_sheet_1_22: 1746948887
+      projectiles_and_spells_sheet_1_23: 1562833747
+      projectiles_and_spells_sheet_1_24: 1188513028
+      projectiles_and_spells_sheet_1_25: 669075789
+      projectiles_and_spells_sheet_1_26: -765231158
+      projectiles_and_spells_sheet_1_27: 240946360
+      projectiles_and_spells_sheet_1_28: -996952104
+      projectiles_and_spells_sheet_1_29: 1466553134
+      projectiles_and_spells_sheet_1_3: -371120849
+      projectiles_and_spells_sheet_1_30: 5042722
+      projectiles_and_spells_sheet_1_31: 830416243
+      projectiles_and_spells_sheet_1_32: 1868832847
+      projectiles_and_spells_sheet_1_33: -1555528863
+      projectiles_and_spells_sheet_1_34: -1220284117
+      projectiles_and_spells_sheet_1_35: 16404010
+      projectiles_and_spells_sheet_1_36: -1822130216
+      projectiles_and_spells_sheet_1_37: -433287684
+      projectiles_and_spells_sheet_1_38: 530147445
+      projectiles_and_spells_sheet_1_39: -271614360
+      projectiles_and_spells_sheet_1_4: -1292161541
+      projectiles_and_spells_sheet_1_40: -1129971552
+      projectiles_and_spells_sheet_1_41: 472798149
+      projectiles_and_spells_sheet_1_42: 934517796
+      projectiles_and_spells_sheet_1_43: -1446235944
+      projectiles_and_spells_sheet_1_44: 1426022427
+      projectiles_and_spells_sheet_1_45: 1447008036
+      projectiles_and_spells_sheet_1_46: -1050444350
+      projectiles_and_spells_sheet_1_47: -844736022
+      projectiles_and_spells_sheet_1_48: 1319603157
+      projectiles_and_spells_sheet_1_49: -1286360366
+      projectiles_and_spells_sheet_1_5: 1925338816
+      projectiles_and_spells_sheet_1_50: -829236037
+      projectiles_and_spells_sheet_1_51: 461176627
+      projectiles_and_spells_sheet_1_52: -837494205
+      projectiles_and_spells_sheet_1_53: -615256156
+      projectiles_and_spells_sheet_1_54: 1932970858
+      projectiles_and_spells_sheet_1_55: -1193541562
+      projectiles_and_spells_sheet_1_56: -148505319
+      projectiles_and_spells_sheet_1_57: -2084909847
+      projectiles_and_spells_sheet_1_58: -882278598
+      projectiles_and_spells_sheet_1_59: 1711653500
+      projectiles_and_spells_sheet_1_6: 1049535986
+      projectiles_and_spells_sheet_1_60: 111548458
+      projectiles_and_spells_sheet_1_61: 1448128140
+      projectiles_and_spells_sheet_1_62: -63698600
+      projectiles_and_spells_sheet_1_63: 2135855806
+      projectiles_and_spells_sheet_1_64: 1082116854
+      projectiles_and_spells_sheet_1_65: 1029235404
+      projectiles_and_spells_sheet_1_66: 1714275838
+      projectiles_and_spells_sheet_1_67: -719980744
+      projectiles_and_spells_sheet_1_68: -1366423913
+      projectiles_and_spells_sheet_1_69: 64894851
+      projectiles_and_spells_sheet_1_7: -1058916886
+      projectiles_and_spells_sheet_1_70: 540858558
+      projectiles_and_spells_sheet_1_71: -1247570901
+      projectiles_and_spells_sheet_1_72: -579305099
+      projectiles_and_spells_sheet_1_73: -423945507
+      projectiles_and_spells_sheet_1_74: -148256233
+      projectiles_and_spells_sheet_1_75: 1873077991
+      projectiles_and_spells_sheet_1_76: -1364814091
+      projectiles_and_spells_sheet_1_77: -391936910
+      projectiles_and_spells_sheet_1_78: 61239282
+      projectiles_and_spells_sheet_1_79: 2046547036
+      projectiles_and_spells_sheet_1_8: 716087075
+      projectiles_and_spells_sheet_1_80: 555398516
+      projectiles_and_spells_sheet_1_81: 1210450619
+      projectiles_and_spells_sheet_1_82: -459645688
+      projectiles_and_spells_sheet_1_83: 1719985955
+      projectiles_and_spells_sheet_1_84: -1110604319
+      projectiles_and_spells_sheet_1_85: 1417952587
+      projectiles_and_spells_sheet_1_86: -1195014746
+      projectiles_and_spells_sheet_1_87: -1347872919
+      projectiles_and_spells_sheet_1_88: -178243933
+      projectiles_and_spells_sheet_1_89: 839331027
+      projectiles_and_spells_sheet_1_9: -266073024
+      projectiles_and_spells_sheet_1_90: -690095937
+      projectiles_and_spells_sheet_1_91: -555090562
+      projectiles_and_spells_sheet_1_92: -792381235
+      projectiles_and_spells_sheet_1_93: 1957375785
+      projectiles_and_spells_sheet_1_94: 1738861462
+      projectiles_and_spells_sheet_1_95: -344214215
+      projectiles_and_spells_sheet_1_96: -702619073
+      projectiles_and_spells_sheet_1_97: -450112593
+      projectiles_and_spells_sheet_1_98: -994488097
+      projectiles_and_spells_sheet_1_99: -1943001240
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
