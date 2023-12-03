@@ -24,7 +24,6 @@ public class PhylacteryPlayerMovement : BasePlayerMovement
     private StaminaBarControl _staminaBar;
     private PlayerCharacterRenderer _playerRenderer;
 
-    private GameControl _gameControl;
     private int weaponSelected = 1;
     private Vector3 _headingDir = new Vector3(0.0f, 1.0f, 0.0f);
 
@@ -141,7 +140,6 @@ public class PhylacteryPlayerMovement : BasePlayerMovement
         _hpBar = GameObject.FindAnyObjectByType<HPBarControl>();
         _staminaBar = FindAnyObjectByType<StaminaBarControl>();
         _playerRenderer = GetComponent<PlayerCharacterRenderer>();
-        _gameControl = FindObjectOfType<GameControl>();
         _trailRenderer = GetComponent<TrailRenderer>();
         _colliderBox = GetComponent<BoxCollider2D>();
         _ammoHUD = FindObjectOfType<AmmoHUDControl>();
@@ -163,8 +161,8 @@ public class PhylacteryPlayerMovement : BasePlayerMovement
                 {
                     _currentSlingShotChargeTime += Time.deltaTime;
                 }
-                currentStam -= 10 * Time.deltaTime;
-                _staminaBar.UpdateStamina(-0.1f * Time.deltaTime);
+                currentStam -= 16 * Time.deltaTime;
+                _staminaBar.UpdateStamina(-0.30f * Time.deltaTime);
             }
 
             if (_startCountingAxeChargeTime)
@@ -174,8 +172,8 @@ public class PhylacteryPlayerMovement : BasePlayerMovement
                     _currentAxeChargeTime += Time.deltaTime;
                 }
                 _maxDashTime = _currentAxeChargeTime/3.0f;
-                currentStam -= 10 * Time.deltaTime;
-                _staminaBar.UpdateStamina(-0.1f * Time.deltaTime);
+                currentStam -= 16 * Time.deltaTime;
+                _staminaBar.UpdateStamina(-0.30f * Time.deltaTime);
             }
 
             if (_startDashing)
@@ -279,8 +277,8 @@ public class PhylacteryPlayerMovement : BasePlayerMovement
                         _speed = runspeed;
                         _playerRenderer.SetDirection(new Vector2(horizontal, vertical), runDirections);
 
-                        _staminaBar.UpdateStamina(-0.1f * Time.deltaTime);
-                        currentStam -= 10.0f * Time.deltaTime;
+                        _staminaBar.UpdateStamina(-0.16f * Time.deltaTime);
+                        currentStam -= 16.0f * Time.deltaTime;
 
                         if (currentStam < 0)
                         {
@@ -303,8 +301,8 @@ public class PhylacteryPlayerMovement : BasePlayerMovement
                 }
             }
 
-            _staminaBar.UpdateStamina(0.02f * Time.deltaTime);
-            currentStam += 2.0f * Time.deltaTime;
+            _staminaBar.UpdateStamina(0.08f * Time.deltaTime);
+            currentStam += 8.0f * Time.deltaTime;
 
             if (currentStam > totalStam)
             {
@@ -492,7 +490,7 @@ public class PhylacteryPlayerMovement : BasePlayerMovement
 
         if (collision.tag == "StoneAmmo")
         {
-            stone_count += 9;
+            stone_count += 24;
             _ammoHUD.PlayAmmoPickUpSound();
             Destroy(collision.gameObject);
         }
@@ -523,8 +521,8 @@ public class PhylacteryPlayerMovement : BasePlayerMovement
 
         if (currentStam > 0 && !_doAxeAttackAnimation)
         {
-            currentStam -= 10;
-            _staminaBar.UpdateStamina(-0.1f);
+            currentStam -= 12;
+            _staminaBar.UpdateStamina(-0.12f);
             StartCoroutine(DoAxeAttackAnimation());
 
             // attack range
@@ -553,7 +551,7 @@ public class PhylacteryPlayerMovement : BasePlayerMovement
         _audio.clip = _axeSwingSound;
         _audio.Play();
 
-        yield return new WaitForSeconds(1.0f);
+        yield return new WaitForSeconds(0.5f);
 
         _doAxeAttackAnimation = false;
     }
@@ -643,8 +641,8 @@ public class PhylacteryPlayerMovement : BasePlayerMovement
         GameObject stone = Instantiate(stonePrefab, transform.position, Quaternion.identity);
         ProjectTileControl projectTile = stone.GetComponent<ProjectTileControl>();
         stone.transform.position = transform.position + _headingDir.normalized * 0.3f;
-        projectTile.ProjectTileSpeed = _currentSlingShotChargeTime * 5.0f;
-        projectTile.ProjectTileLifeTime = _currentSlingShotChargeTime * 5.0f;
+        projectTile.ProjectTileSpeed = _currentSlingShotChargeTime * 10.0f;
+        projectTile.ProjectTileLifeTime = _currentSlingShotChargeTime * 10.0f;
         projectTile.ProjectTileDamage = _currentSlingShotChargeTime;
         projectTile.ProjectTileDirection = _headingDir.normalized;
     }

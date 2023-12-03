@@ -67,6 +67,16 @@ public class EnemyControl : AIControl
         }
     }
 
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.tag == "StonePebble")
+        {
+            ProjectTileControl projectTile = collision.GetComponent<ProjectTileControl>();
+            TakeDamage(projectTile.ProjectTileDamage);
+            Destroy(collision.gameObject);
+        }
+    }
+
     public override void Die()
     {
         _detectedPlayer = false;

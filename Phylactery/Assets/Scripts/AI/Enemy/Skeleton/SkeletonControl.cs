@@ -107,4 +107,11 @@ public class SkeletonControl : EnemyControl
 
         _delayAttack = false;
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        _destination = null;
+        _doDashAnimation = false;
+        StartCoroutine(DoDelayAction());
+    }
 }

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class AIControl : MonoBehaviour
 {
@@ -14,6 +15,8 @@ public class AIControl : MonoBehaviour
 
     [SerializeField]
     protected float _hp;
+
+    protected float _maxHP;
 
     public float HP
     {
@@ -51,6 +54,8 @@ public class AIControl : MonoBehaviour
     protected PhylacteryPlayerMovement _player;
     protected AudioSource _audio;
 
+    protected Slider _healthBar;
+
     // Start is called before the first frame update
     protected virtual void Start()
     {
@@ -58,11 +63,20 @@ public class AIControl : MonoBehaviour
         _rigidBody = GetComponent<Rigidbody2D>();
         _player = FindObjectOfType<PhylacteryPlayerMovement>();
         _audio = GetComponent<AudioSource>();
+        _healthBar = GetComponentInChildren<Slider>();
+        _healthBar.value = 1.0f;
+        _healthBar.gameObject.SetActive(false);
+        _maxHP = _hp;
     }
 
     // Update is called once per frame
     protected virtual void Update()
     {
+        if (!GetComponent<Renderer>().isVisible)
+        {
+            return;
+        }
+
         // Update AI Root node actions
         if (_aiRootNode != null)
         {
@@ -148,6 +162,7 @@ public class AIControl : MonoBehaviour
 
         _audio.Play();
         _hp -= hpChangeAmount;
+        _healthBar.value = _hp / _maxHP;
         _charRenderer.SetDirection(new Vector2(_headingDirection.x, _headingDirection.y), staticDirections);
         StartCoroutine(PlayFlashDamageAnimation());
 
@@ -165,12 +180,14 @@ public class AIControl : MonoBehaviour
     IEnumerator PlayFlashDamageAnimation()
     {
         GetComponent<SpriteRenderer>().color = Color.red;
+        _healthBar.gameObject.SetActive(true);
         yield return new WaitForSeconds(0.1f);
         GetComponent<SpriteRenderer>().color = Color.white;
         yield return new WaitForSeconds(0.1f);
         GetComponent<SpriteRenderer>().color = Color.red;
         yield return new WaitForSeconds(0.1f);
         GetComponent<SpriteRenderer>().color = Color.white;
+        _healthBar.gameObject.SetActive(false);
     }
 
     public bool IsInPlayerAttackRange()

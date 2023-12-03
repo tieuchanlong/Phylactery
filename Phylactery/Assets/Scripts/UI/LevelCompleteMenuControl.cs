@@ -8,6 +8,9 @@ public class LevelCompleteMenuControl : MonoBehaviour
     [SerializeField]
     private GameObject _tutorialMenu;
 
+    [SerializeField]
+    private GameObject _loadingMenu;
+
     private GameControl _gameControl;
 
     // Start is called before the first frame update
@@ -41,6 +44,7 @@ public class LevelCompleteMenuControl : MonoBehaviour
     public void QuitLevel()
     {
         Time.timeScale = 1;
+        _loadingMenu.SetActive(true);
         SceneManager.LoadScene(0);
     }
 }

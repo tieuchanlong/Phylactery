@@ -13,6 +13,9 @@ public class PauseMenuControl : MonoBehaviour
     [SerializeField]
     private Button _exitBtn;
 
+    [SerializeField]
+    private GameObject _loadingMenu;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -48,7 +51,8 @@ public class PauseMenuControl : MonoBehaviour
     {
         GameControl gameControl = FindObjectOfType<GameControl>();
         gameControl.RestartGame();
-        SceneManager.LoadScene(1);
+        _loadingMenu.SetActive(true);
+        SceneManager.LoadSceneAsync(1);
     }
 
     public void ExitGame()
@@ -56,6 +60,7 @@ public class PauseMenuControl : MonoBehaviour
         // Exit to title
         GameControl gameControl = FindObjectOfType<GameControl>();
         gameControl.ExitLevel();
-        SceneManager.LoadScene(0);
+        _loadingMenu.SetActive(true);
+        SceneManager.LoadSceneAsync(0);
     }
 }

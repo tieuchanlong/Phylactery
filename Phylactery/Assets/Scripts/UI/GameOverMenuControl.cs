@@ -12,6 +12,9 @@ public class GameOverMenuControl : MonoBehaviour
     [SerializeField]
     private Button _exitBtn;
 
+    [SerializeField]
+    private GameObject _loadingMenu;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -28,7 +31,8 @@ public class GameOverMenuControl : MonoBehaviour
     {
         GameControl gameControl = FindObjectOfType<GameControl>();
         gameControl.RestartGame();
-        SceneManager.LoadScene(2);
+        _loadingMenu.SetActive(true);
+        SceneManager.LoadScene(1);
     }
 
     public void ExitGame()
@@ -36,6 +40,7 @@ public class GameOverMenuControl : MonoBehaviour
         // Exit to title
         GameControl gameControl = FindObjectOfType<GameControl>();
         gameControl.ExitLevel();
+        _loadingMenu.SetActive(true);
         SceneManager.LoadScene(0);
     }
 }
