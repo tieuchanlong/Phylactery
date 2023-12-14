@@ -1,0 +1,1301 @@
+fileFormatVersion: 2
+guid: d10b11f1a8a537643bfc54b08d7484a4
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: brtick_second_for_splitting_0
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 1688
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab32695ba15db854db18ba775efb3ade
+      internalID: -1982062060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brtick_second_for_splitting_1
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 1688
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4960b2c2bc3ef043839aa7b090b523f
+      internalID: -1223490430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brtick_second_for_splitting_2
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 1688
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b651d91d5877774281df101cc45bcdf
+      internalID: 2057787818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brtick_second_for_splitting_3
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 1432
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f80083b9efdbcd14087ea0efc78b2b62
+      internalID: -1794829383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brtick_second_for_splitting_4
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 1432
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a683e03ea5dc4ad4eaa2bbfa10a4ebb2
+      internalID: 1624281599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brtick_second_for_splitting_5
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 1432
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c2d0c4cf2da384d9d57e4b2594aa8d
+      internalID: -1156057152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brtick_second_for_splitting_6
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 1432
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d0778f0908e29044b03168a29b7df88
+      internalID: -1090605209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brtick_second_for_splitting_7
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 1432
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d576c2f6fbd694e81150e6c2881242
+      internalID: -487554798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brtick_second_for_splitting_8
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1176
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9197fae813e349d42838fd0e4caf862e
+      internalID: -1511926166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brtick_second_for_splitting_9
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 1176
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed44ade8c757ae4185c0e8d5dd55d00
+      internalID: 1781888334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brtick_second_for_splitting_10
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 1176
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd74f2a545e44cc49a93bef9200b949b
+      internalID: -2069158017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brtick_second_for_splitting_11
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 1176
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2680650e25caade44bd7fd34eba5e1f3
+      internalID: -1994968654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brtick_second_for_splitting_12
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 1176
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01400a81a9d62024f9822ad8b666546f
+      internalID: 901266770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brtick_second_for_splitting_13
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 1176
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5883603c58e0264a98801ff4f9b5ed5
+      internalID: -1377881592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brtick_second_for_splitting_14
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 1176
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df0a4e8ce6d1784ba048cea24bea34c
+      internalID: -608851423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brtick_second_for_splitting_15
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 1176
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec9906ded1bc974da7c758695c36c81
+      internalID: 1534615241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brtick_second_for_splitting_16
+      rect:
+        serializedVersion: 2
+        x: 2173
+        y: 1176
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8db396ac96bb3a42b57c2c9ca63499c
+      internalID: -1880626040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brtick_second_for_splitting_17
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 920
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f83667d96f49a48801530d60d097d1
+      internalID: 623153209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brtick_second_for_splitting_18
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 920
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 683738cd6958c3f4585c7d92d84f8775
+      internalID: 307986132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brtick_second_for_splitting_19
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 920
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e44a2b7f7b5134e8f44f1a3a94d594
+      internalID: -1451873595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brtick_second_for_splitting_20
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 920
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b91f742a9d247040930ebb8424ddf4b
+      internalID: 341650083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brtick_second_for_splitting_21
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 920
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d3469748cb68464aacac745ad73e544
+      internalID: 885343461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brtick_second_for_splitting_22
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 920
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be47ca71cb14d834d897b508adf3488c
+      internalID: -412621144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brtick_second_for_splitting_23
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 920
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd2662e8a4235bf4bb231fa6a9b78ecd
+      internalID: 283483366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brtick_second_for_splitting_24
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 920
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d207b067bb2ecbc42af56050d290badb
+      internalID: 325835877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brtick_second_for_splitting_25
+      rect:
+        serializedVersion: 2
+        x: 2173
+        y: 920
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a762de154919b4ea807b4fd99e2121
+      internalID: 856691162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brtick_second_for_splitting_26
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 664
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e8ae5955556a446b060525cd8970e6
+      internalID: 138926294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brtick_second_for_splitting_27
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 664
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87e3390aa4059f841a149cc8709b1f23
+      internalID: 1198494856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brtick_second_for_splitting_28
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 664
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb5707112216384899c6f215d2eec3e
+      internalID: -724115819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brtick_second_for_splitting_29
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 664
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c1ad2fd14868fc479622d8f14efb7bc
+      internalID: 2095717198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brtick_second_for_splitting_30
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 664
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 211c2ba9a5779674fa16a685218394b0
+      internalID: -1854352063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brtick_second_for_splitting_31
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 664
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a599ec58405a876429df900c48a14f1b
+      internalID: 35552280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brtick_second_for_splitting_32
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 664
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad9a210ef0ad40544adff5412abc869f
+      internalID: 154805147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brtick_second_for_splitting_33
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 664
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f88de74540fa34f8e07ef5c0702ea8
+      internalID: -1088894195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brtick_second_for_splitting_34
+      rect:
+        serializedVersion: 2
+        x: 2173
+        y: 664
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f08704c9e91b24d9c609df979a5176
+      internalID: 325300744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brtick_second_for_splitting_35
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 408
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cab85badae367c4fa83187d1e183261
+      internalID: 669651682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brtick_second_for_splitting_36
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 408
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a367b4a9f29762a41a03b05a578659a4
+      internalID: -1720944307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brtick_second_for_splitting_37
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 408
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a5c92b0b4605c49b4b224d14f96c6d
+      internalID: -1738019058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brtick_second_for_splitting_38
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 408
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 437efa09266842341b2739f420a77703
+      internalID: 151389233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brtick_second_for_splitting_39
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 408
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20443862bfdc7a243a68838e645ab3aa
+      internalID: -242252368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brtick_second_for_splitting_40
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 408
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1197ab41f6ac29d4983514435d6dbe32
+      internalID: 1483692914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brtick_second_for_splitting_41
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 408
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e840bf7ef110bb74b9abde7070a4f7c3
+      internalID: -1254209103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brtick_second_for_splitting_42
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 408
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af47c4dcbdcae934bb6cac0fac837924
+      internalID: -1093186212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brtick_second_for_splitting_43
+      rect:
+        serializedVersion: 2
+        x: 2173
+        y: 408
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94fa18d0c6be2d143b31b09edf81a71a
+      internalID: 1527081155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brtick_second_for_splitting_44
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 152
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ba1bd36f1e6bfb40bea2a4e94644db8
+      internalID: 2073847652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brtick_second_for_splitting_45
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 152
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49f43c87b72df0b4f93503ec61487f04
+      internalID: -1709783062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brtick_second_for_splitting_46
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 152
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f03ac4472357c7241acb072fd839fe99
+      internalID: 1586395233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brtick_second_for_splitting_47
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 152
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: debc2df0f99dd424c93dbdd3ea2dfd59
+      internalID: -1743966924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brtick_second_for_splitting_48
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 152
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 977856afe8df31541aa3d7ded43ff101
+      internalID: 768301051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brtick_second_for_splitting_49
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 152
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a0ab58f7e3b47342b5b169ee4712b21
+      internalID: -1806163582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brtick_second_for_splitting_50
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 152
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4088ccc62b7b1544db13a27b89ab4468
+      internalID: 453667279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brtick_second_for_splitting_51
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 152
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 198b8096c3a5e60468d9043a9a943c9f
+      internalID: 950746438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brtick_second_for_splitting_52
+      rect:
+        serializedVersion: 2
+        x: 2173
+        y: 152
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 317b72a919bc00a41aa2885b6584a36c
+      internalID: -79991787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      brtick_second_for_splitting_0: -1982062060
+      brtick_second_for_splitting_1: -1223490430
+      brtick_second_for_splitting_10: -2069158017
+      brtick_second_for_splitting_11: -1994968654
+      brtick_second_for_splitting_12: 901266770
+      brtick_second_for_splitting_13: -1377881592
+      brtick_second_for_splitting_14: -608851423
+      brtick_second_for_splitting_15: 1534615241
+      brtick_second_for_splitting_16: -1880626040
+      brtick_second_for_splitting_17: 623153209
+      brtick_second_for_splitting_18: 307986132
+      brtick_second_for_splitting_19: -1451873595
+      brtick_second_for_splitting_2: 2057787818
+      brtick_second_for_splitting_20: 341650083
+      brtick_second_for_splitting_21: 885343461
+      brtick_second_for_splitting_22: -412621144
+      brtick_second_for_splitting_23: 283483366
+      brtick_second_for_splitting_24: 325835877
+      brtick_second_for_splitting_25: 856691162
+      brtick_second_for_splitting_26: 138926294
+      brtick_second_for_splitting_27: 1198494856
+      brtick_second_for_splitting_28: -724115819
+      brtick_second_for_splitting_29: 2095717198
+      brtick_second_for_splitting_3: -1794829383
+      brtick_second_for_splitting_30: -1854352063
+      brtick_second_for_splitting_31: 35552280
+      brtick_second_for_splitting_32: 154805147
+      brtick_second_for_splitting_33: -1088894195
+      brtick_second_for_splitting_34: 325300744
+      brtick_second_for_splitting_35: 669651682
+      brtick_second_for_splitting_36: -1720944307
+      brtick_second_for_splitting_37: -1738019058
+      brtick_second_for_splitting_38: 151389233
+      brtick_second_for_splitting_39: -242252368
+      brtick_second_for_splitting_4: 1624281599
+      brtick_second_for_splitting_40: 1483692914
+      brtick_second_for_splitting_41: -1254209103
+      brtick_second_for_splitting_42: -1093186212
+      brtick_second_for_splitting_43: 1527081155
+      brtick_second_for_splitting_44: 2073847652
+      brtick_second_for_splitting_45: -1709783062
+      brtick_second_for_splitting_46: 1586395233
+      brtick_second_for_splitting_47: -1743966924
+      brtick_second_for_splitting_48: 768301051
+      brtick_second_for_splitting_49: -1806163582
+      brtick_second_for_splitting_5: -1156057152
+      brtick_second_for_splitting_50: 453667279
+      brtick_second_for_splitting_51: 950746438
+      brtick_second_for_splitting_52: -79991787
+      brtick_second_for_splitting_6: -1090605209
+      brtick_second_for_splitting_7: -487554798
+      brtick_second_for_splitting_8: -1511926166
+      brtick_second_for_splitting_9: 1781888334
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

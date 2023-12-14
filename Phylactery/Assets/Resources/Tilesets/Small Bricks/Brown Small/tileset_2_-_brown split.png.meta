@@ -1,0 +1,1345 @@
+fileFormatVersion: 2
+guid: b3aaf9f2d31aa17489df182b6f26f7a1
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tileset_2_-_brown split_0
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 1693
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ed8dadef51ce44a9ef23503e77ddf1
+      internalID: -1250583974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_2_-_brown split_1
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 1693
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57d15cca66fe1fd4a9302818a48f0adb
+      internalID: 1611324087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_2_-_brown split_2
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 1693
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb66f15661d954243ade3c3fa1aa7b02
+      internalID: -1559042112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_2_-_brown split_3
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 1437
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 672a3b62623e29c428fa92672bae6744
+      internalID: -544803456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_2_-_brown split_4
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 1437
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7714a4d7f866efd41b1863ca6ac9ce62
+      internalID: 888960743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_2_-_brown split_5
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 1437
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b07d4ce0c848d41907fefecbc0e9e4
+      internalID: 1849227473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_2_-_brown split_6
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 1437
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6bf6add8e9fc4c4fbb30d02a8076614
+      internalID: -920583266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_2_-_brown split_7
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 1437
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5070009caf141ed40a6d2e1cdbfc755f
+      internalID: 619082350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_2_-_brown split_8
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 1437
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2608fa3a6cc691a42bd1a600fa44dab9
+      internalID: -802949367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_2_-_brown split_9
+      rect:
+        serializedVersion: 2
+        x: 2173
+        y: 1437
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f8a2a1c0597da44a3c6bee4d4da312
+      internalID: 1241369855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_2_-_brown split_10
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1181
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab59fe835de77cd4da29e312cd2938be
+      internalID: 679125634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_2_-_brown split_11
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 1181
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e992ef9a2792da4084a96a02e9c944f
+      internalID: 640047794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_2_-_brown split_12
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 1181
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 748428d1b28883944b92bb7923c7d295
+      internalID: -1835161402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_2_-_brown split_13
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 1181
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c60bcacb153fa64eb2ef2949f067c4e
+      internalID: 537371648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_2_-_brown split_14
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 1181
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17498a8b7c664d04598737844b38e174
+      internalID: 786889679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_2_-_brown split_15
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 1181
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d78585d58805a4743a58cc08d1582667
+      internalID: -468627909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_2_-_brown split_16
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 1181
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63ccbd9b1e6e0ae4cb93bafdfad38674
+      internalID: 1170084364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_2_-_brown split_17
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 1181
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 743ffa503f50f3c49857a96c67804a60
+      internalID: -1935210821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_2_-_brown split_18
+      rect:
+        serializedVersion: 2
+        x: 2173
+        y: 1181
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9612d54d7680e84da81bac8d8d6760a
+      internalID: 476964210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_2_-_brown split_19
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 925
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00b06efad8d4feb47afe21660952a224
+      internalID: -1042378458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_2_-_brown split_20
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 925
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ef4d639d16903a4d9db8784d1a3bd69
+      internalID: 536184991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_2_-_brown split_21
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 925
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87a7a37ed195ce4b9d82a579dbc8375
+      internalID: -775186414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_2_-_brown split_22
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 925
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f18619b5cd928d40b4b45606bfd6e8e
+      internalID: 45696963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_2_-_brown split_23
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 925
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 737c9f0a9f0252f419195bff866e23c1
+      internalID: -1468545225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_2_-_brown split_24
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 925
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0703bc3cee35a441b9cfdb65ddb51fe
+      internalID: -1636768878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_2_-_brown split_25
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 925
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec21f8749aa683640b070eb6a12228f9
+      internalID: 1373252509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_2_-_brown split_26
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 925
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 798764cc55c42174c9b081a016d427e5
+      internalID: 585613523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_2_-_brown split_27
+      rect:
+        serializedVersion: 2
+        x: 2173
+        y: 925
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a79aa15d4ac424b94d62da07a329f4
+      internalID: 1766043878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_2_-_brown split_28
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 669
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caf0e1f9560824e42b0f4e5d26a428c1
+      internalID: 645480489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_2_-_brown split_29
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 669
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e4e56c39e82ac46be2f641f8a4ce70
+      internalID: 511044023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_2_-_brown split_30
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 669
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ba6db00c90c1544a6ba483214950ad
+      internalID: -580022889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_2_-_brown split_31
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 669
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39917f31c02d3b94e8f45ede0aad975d
+      internalID: -1280413475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_2_-_brown split_32
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 669
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ce3a78319a3ca47ab2798e83b1ccaa
+      internalID: 1619077163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_2_-_brown split_33
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 669
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 273fe17494e95ca4ea58857da31dd98b
+      internalID: -1250708401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_2_-_brown split_34
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 669
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e96aa0b2ee905ea48b3411d4900cd7ee
+      internalID: 1744859065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_2_-_brown split_35
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 669
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eaf01c0559307e44adf5c241cbff964
+      internalID: 903930517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_2_-_brown split_36
+      rect:
+        serializedVersion: 2
+        x: 2173
+        y: 669
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e668e874b90ab941b017784dfc65296
+      internalID: 1774244256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_2_-_brown split_37
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 413
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c92ad9b38360f4e93099e5146c26ee
+      internalID: -1460590263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_2_-_brown split_38
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 413
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8592901e81cf66545b32109b0ecb9235
+      internalID: -1381695183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_2_-_brown split_39
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 413
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5acd76988ad64634c8942171d3fb0e2c
+      internalID: -570498088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_2_-_brown split_40
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 413
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e8547ccedcd4f64f95d20c2b2c1d87e
+      internalID: -1510139932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_2_-_brown split_41
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 413
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6213e7dd7eb2c1547896cf2d9d78ea6d
+      internalID: -472119533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_2_-_brown split_42
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 413
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a36fe87c412aa704f9ea1cea9d3b0af7
+      internalID: -775833308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_2_-_brown split_43
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 413
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c8aae02e4b548a438c52be4c944c032
+      internalID: 1000817948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_2_-_brown split_44
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 413
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1152d18bf3cdfd74aba922b3e469a1b3
+      internalID: 1912102158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_2_-_brown split_45
+      rect:
+        serializedVersion: 2
+        x: 2173
+        y: 413
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b358946e12098034fa56dd8eb483e8f5
+      internalID: 1684894366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_2_-_brown split_46
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 157
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3af0137b0e337a4ea1ce35f98099fc6
+      internalID: -313956105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_2_-_brown split_47
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 157
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6253a13b11182a488abecc3827e79d3
+      internalID: 797873983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_2_-_brown split_48
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 157
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d18058f3686c0d4b96428a8d82f9ce3
+      internalID: -137652005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_2_-_brown split_49
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 157
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c3ca6bc5e951554785e0ab4bb48928c
+      internalID: -984913854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_2_-_brown split_50
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 157
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cf6fa63e4354064089ba16710823a10
+      internalID: 2116740661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_2_-_brown split_51
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 157
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bdfa8c94fd9d264d96f9e16ed798e5f
+      internalID: -96388361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_2_-_brown split_52
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 157
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad952cd5473dede4ea821e5822a495d0
+      internalID: -1528843614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_2_-_brown split_53
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 157
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae96c6e1993333f44ae4069c80ad2bd5
+      internalID: 263452631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_2_-_brown split_54
+      rect:
+        serializedVersion: 2
+        x: 2173
+        y: 157
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac43f00bf648b848bcf77987abf8b02
+      internalID: 213458697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      tileset_2_-_brown split_0: -1250583974
+      tileset_2_-_brown split_1: 1611324087
+      tileset_2_-_brown split_10: 679125634
+      tileset_2_-_brown split_11: 640047794
+      tileset_2_-_brown split_12: -1835161402
+      tileset_2_-_brown split_13: 537371648
+      tileset_2_-_brown split_14: 786889679
+      tileset_2_-_brown split_15: -468627909
+      tileset_2_-_brown split_16: 1170084364
+      tileset_2_-_brown split_17: -1935210821
+      tileset_2_-_brown split_18: 476964210
+      tileset_2_-_brown split_19: -1042378458
+      tileset_2_-_brown split_2: -1559042112
+      tileset_2_-_brown split_20: 536184991
+      tileset_2_-_brown split_21: -775186414
+      tileset_2_-_brown split_22: 45696963
+      tileset_2_-_brown split_23: -1468545225
+      tileset_2_-_brown split_24: -1636768878
+      tileset_2_-_brown split_25: 1373252509
+      tileset_2_-_brown split_26: 585613523
+      tileset_2_-_brown split_27: 1766043878
+      tileset_2_-_brown split_28: 645480489
+      tileset_2_-_brown split_29: 511044023
+      tileset_2_-_brown split_3: -544803456
+      tileset_2_-_brown split_30: -580022889
+      tileset_2_-_brown split_31: -1280413475
+      tileset_2_-_brown split_32: 1619077163
+      tileset_2_-_brown split_33: -1250708401
+      tileset_2_-_brown split_34: 1744859065
+      tileset_2_-_brown split_35: 903930517
+      tileset_2_-_brown split_36: 1774244256
+      tileset_2_-_brown split_37: -1460590263
+      tileset_2_-_brown split_38: -1381695183
+      tileset_2_-_brown split_39: -570498088
+      tileset_2_-_brown split_4: 888960743
+      tileset_2_-_brown split_40: -1510139932
+      tileset_2_-_brown split_41: -472119533
+      tileset_2_-_brown split_42: -775833308
+      tileset_2_-_brown split_43: 1000817948
+      tileset_2_-_brown split_44: 1912102158
+      tileset_2_-_brown split_45: 1684894366
+      tileset_2_-_brown split_46: -313956105
+      tileset_2_-_brown split_47: 797873983
+      tileset_2_-_brown split_48: -137652005
+      tileset_2_-_brown split_49: -984913854
+      tileset_2_-_brown split_5: 1849227473
+      tileset_2_-_brown split_50: 2116740661
+      tileset_2_-_brown split_51: -96388361
+      tileset_2_-_brown split_52: -1528843614
+      tileset_2_-_brown split_53: 263452631
+      tileset_2_-_brown split_54: 213458697
+      tileset_2_-_brown split_6: -920583266
+      tileset_2_-_brown split_7: 619082350
+      tileset_2_-_brown split_8: -802949367
+      tileset_2_-_brown split_9: 1241369855
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

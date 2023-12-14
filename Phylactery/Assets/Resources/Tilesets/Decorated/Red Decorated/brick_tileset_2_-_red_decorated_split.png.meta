@@ -1,0 +1,1345 @@
+fileFormatVersion: 2
+guid: d8eb7b3b3988e8b4a8739b26683943d5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: brick_tileset_2_-_red_decorated_split_0
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 1693
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 197862efdadfcca4ba43a3f640b4b327
+      internalID: -134895653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_red_decorated_split_1
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 1693
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8174186de39160f42821d5413e36b3fc
+      internalID: -932590657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_red_decorated_split_2
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 1693
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c505938b0e5bca4ea6b5d76be49e455
+      internalID: -1888122244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_red_decorated_split_3
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 1437
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c7654ab55671f0409f9a43cdd4de12e
+      internalID: 1170198415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_red_decorated_split_4
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 1437
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c9fc1a19b7d3ad4980defaf3d158084
+      internalID: -1796307473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_red_decorated_split_5
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 1437
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76f774c8bdaadd248a43be140b1b837a
+      internalID: 1650415128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_red_decorated_split_6
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 1437
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4645b86b0846be046bc25c65c41b657c
+      internalID: -121256762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_red_decorated_split_7
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 1437
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f67052842ed134380704591f6744af
+      internalID: -169597163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_red_decorated_split_8
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 1437
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e3e21cb942be2f49ad8f879d8bf2d4e
+      internalID: 992523274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_red_decorated_split_9
+      rect:
+        serializedVersion: 2
+        x: 2173
+        y: 1437
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cfe2c5010e7de54cabdf130c322940a
+      internalID: -1372980992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_red_decorated_split_10
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1181
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f86935735632ba54ba77a42e8c3179f0
+      internalID: 1448604745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_red_decorated_split_11
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 1181
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5fa4827b0299394995a5f37c7804c02
+      internalID: 713897995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_red_decorated_split_12
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 1181
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 071256d12635ba3439ad717b24d7ba2b
+      internalID: -322747097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_red_decorated_split_13
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 1181
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5233c6d14c435eb4f8a3cbdd39459663
+      internalID: 1583311621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_red_decorated_split_14
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 1181
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03c71049d019c264698876f86206671c
+      internalID: 1950621349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_red_decorated_split_15
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 1181
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d929619588941b4c9b917988bfca77b
+      internalID: 1639548345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_red_decorated_split_16
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 1181
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c0c111895d0ac4cbc7c96df337af00
+      internalID: -72954691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_red_decorated_split_17
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 1181
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65ecc1fb6572c0e439758523bd85cc86
+      internalID: -1395003164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_red_decorated_split_18
+      rect:
+        serializedVersion: 2
+        x: 2173
+        y: 1181
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd58a82f9680b8746b0ab0fb6bea06bf
+      internalID: -1597440190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_red_decorated_split_19
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 925
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0978a1cfbb131c42bf825a1c30b7f9f
+      internalID: -988444525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_red_decorated_split_20
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 925
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76f1c77e2e6feda4fb1a14ae6e4e3e41
+      internalID: -571631724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_red_decorated_split_21
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 925
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f41b2bafdf9c3b4abfc4b33972a090f
+      internalID: -565080234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_red_decorated_split_22
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 925
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eba91a7a3b6b0b47b3e124ce1b38705
+      internalID: -758157262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_red_decorated_split_23
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 925
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe42c79a6ae98e48b6d1dba7cdb6a03
+      internalID: 889919228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_red_decorated_split_24
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 925
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 064db87c7ab61724a891dc0c7ae5db6f
+      internalID: -1732603270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_red_decorated_split_25
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 925
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 140b596424d89ac4c83ab32f0f4768ed
+      internalID: -229854349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_red_decorated_split_26
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 925
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb63b90b5ab1d724f8ba49747f77de2d
+      internalID: -1833661526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_red_decorated_split_27
+      rect:
+        serializedVersion: 2
+        x: 2173
+        y: 925
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a172378d113dd4d88ef5db0145787f
+      internalID: -2092883836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_red_decorated_split_28
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 669
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 523245862cf66574caff53c0210944c1
+      internalID: 1965233661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_red_decorated_split_29
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 669
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b43f77c6f844944baf4433a7c42bb0d
+      internalID: 1918930462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_red_decorated_split_30
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 669
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecaadfcebaf46d74688da5fa2280dfbd
+      internalID: 386387345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_red_decorated_split_31
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 669
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 796a0e7458deb5940a3c2f589d6a261e
+      internalID: 1790716199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_red_decorated_split_32
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 669
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b0259b718c4f6c449c4b723a77d170a
+      internalID: 249529967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_red_decorated_split_33
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 669
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c1bca9eee06c6c4d9f39795ed290688
+      internalID: -1024160392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_red_decorated_split_34
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 669
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c2afeff26e741478e91d2e4d4951b5
+      internalID: -1484312611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_red_decorated_split_35
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 669
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f712a266bc70804c877195ebd41ec01
+      internalID: -1942911103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_red_decorated_split_36
+      rect:
+        serializedVersion: 2
+        x: 2173
+        y: 669
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d822b65a2003548ac0bc71f8aecd7f
+      internalID: -1806427274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_red_decorated_split_37
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 413
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f02a3160f307b8a45847830973d30379
+      internalID: 1660830082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_red_decorated_split_38
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 413
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a30a37460dedc24a855d81fa4c9c072
+      internalID: -1121402755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_red_decorated_split_39
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 413
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd5028c4afd6ea9408bb50b4eb91b6f4
+      internalID: -836221905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_red_decorated_split_40
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 413
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff069a520cc75b41bd178cad3954868
+      internalID: -1051030342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_red_decorated_split_41
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 413
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba91c8cd6c68bba4ea89ea3f4e6916cf
+      internalID: -223253285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_red_decorated_split_42
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 413
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d89f630ef2d98b4ca5794edb05e282b
+      internalID: -1307350323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_red_decorated_split_43
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 413
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a57912ca2f8de794a8727e6b73778a0d
+      internalID: 359119445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_red_decorated_split_44
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 413
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d78f1cbe276ddb14d8c1d94eeab35ad2
+      internalID: 527347860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_red_decorated_split_45
+      rect:
+        serializedVersion: 2
+        x: 2173
+        y: 413
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3714eeafd679d044a8324eb0dcbe766b
+      internalID: 1476018133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_red_decorated_split_46
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 157
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b41735f95bca58478348f8bcacaa710
+      internalID: 335739695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_red_decorated_split_47
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 157
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0110ca1273bb84d44a21e4eee396ead2
+      internalID: -1047611987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_red_decorated_split_48
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 157
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e9ba706f56ff6469fb98b611bdb493
+      internalID: 1371483593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_red_decorated_split_49
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 157
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8801e5ddbe9878a43a56b3f2b94d6d23
+      internalID: -158453585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_red_decorated_split_50
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 157
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c849590bb2e7743861642d8a5dbf44
+      internalID: -47906773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_red_decorated_split_51
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 157
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa2dcc074ccf9fd4b838282ace81cea5
+      internalID: 189805916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_red_decorated_split_52
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 157
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec5221463a7dbe6429e64a66d64ac929
+      internalID: -1178105590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_red_decorated_split_53
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 157
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19c51809ca2546e48aacb537884c734a
+      internalID: 1638293145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_red_decorated_split_54
+      rect:
+        serializedVersion: 2
+        x: 2173
+        y: 157
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1616329b1722c14da0e391eaac0017c
+      internalID: 429661252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      brick_tileset_2_-_red_decorated_split_0: -134895653
+      brick_tileset_2_-_red_decorated_split_1: -932590657
+      brick_tileset_2_-_red_decorated_split_10: 1448604745
+      brick_tileset_2_-_red_decorated_split_11: 713897995
+      brick_tileset_2_-_red_decorated_split_12: -322747097
+      brick_tileset_2_-_red_decorated_split_13: 1583311621
+      brick_tileset_2_-_red_decorated_split_14: 1950621349
+      brick_tileset_2_-_red_decorated_split_15: 1639548345
+      brick_tileset_2_-_red_decorated_split_16: -72954691
+      brick_tileset_2_-_red_decorated_split_17: -1395003164
+      brick_tileset_2_-_red_decorated_split_18: -1597440190
+      brick_tileset_2_-_red_decorated_split_19: -988444525
+      brick_tileset_2_-_red_decorated_split_2: -1888122244
+      brick_tileset_2_-_red_decorated_split_20: -571631724
+      brick_tileset_2_-_red_decorated_split_21: -565080234
+      brick_tileset_2_-_red_decorated_split_22: -758157262
+      brick_tileset_2_-_red_decorated_split_23: 889919228
+      brick_tileset_2_-_red_decorated_split_24: -1732603270
+      brick_tileset_2_-_red_decorated_split_25: -229854349
+      brick_tileset_2_-_red_decorated_split_26: -1833661526
+      brick_tileset_2_-_red_decorated_split_27: -2092883836
+      brick_tileset_2_-_red_decorated_split_28: 1965233661
+      brick_tileset_2_-_red_decorated_split_29: 1918930462
+      brick_tileset_2_-_red_decorated_split_3: 1170198415
+      brick_tileset_2_-_red_decorated_split_30: 386387345
+      brick_tileset_2_-_red_decorated_split_31: 1790716199
+      brick_tileset_2_-_red_decorated_split_32: 249529967
+      brick_tileset_2_-_red_decorated_split_33: -1024160392
+      brick_tileset_2_-_red_decorated_split_34: -1484312611
+      brick_tileset_2_-_red_decorated_split_35: -1942911103
+      brick_tileset_2_-_red_decorated_split_36: -1806427274
+      brick_tileset_2_-_red_decorated_split_37: 1660830082
+      brick_tileset_2_-_red_decorated_split_38: -1121402755
+      brick_tileset_2_-_red_decorated_split_39: -836221905
+      brick_tileset_2_-_red_decorated_split_4: -1796307473
+      brick_tileset_2_-_red_decorated_split_40: -1051030342
+      brick_tileset_2_-_red_decorated_split_41: -223253285
+      brick_tileset_2_-_red_decorated_split_42: -1307350323
+      brick_tileset_2_-_red_decorated_split_43: 359119445
+      brick_tileset_2_-_red_decorated_split_44: 527347860
+      brick_tileset_2_-_red_decorated_split_45: 1476018133
+      brick_tileset_2_-_red_decorated_split_46: 335739695
+      brick_tileset_2_-_red_decorated_split_47: -1047611987
+      brick_tileset_2_-_red_decorated_split_48: 1371483593
+      brick_tileset_2_-_red_decorated_split_49: -158453585
+      brick_tileset_2_-_red_decorated_split_5: 1650415128
+      brick_tileset_2_-_red_decorated_split_50: -47906773
+      brick_tileset_2_-_red_decorated_split_51: 189805916
+      brick_tileset_2_-_red_decorated_split_52: -1178105590
+      brick_tileset_2_-_red_decorated_split_53: 1638293145
+      brick_tileset_2_-_red_decorated_split_54: 429661252
+      brick_tileset_2_-_red_decorated_split_6: -121256762
+      brick_tileset_2_-_red_decorated_split_7: -169597163
+      brick_tileset_2_-_red_decorated_split_8: 992523274
+      brick_tileset_2_-_red_decorated_split_9: -1372980992
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

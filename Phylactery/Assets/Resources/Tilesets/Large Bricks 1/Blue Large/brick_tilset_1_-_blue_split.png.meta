@@ -1,0 +1,1301 @@
+fileFormatVersion: 2
+guid: aa80a020d212db54599816f11432b15c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: brick_tilset_1_-_blue_split_0
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 1693
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a019d9efcdf99674b8bad70361732a69
+      internalID: 1629055359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tilset_1_-_blue_split_1
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 1693
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 938a027ebdc7152498721802dd6ec9de
+      internalID: 1651482430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tilset_1_-_blue_split_2
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 1693
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c409e903712952445801795e21007250
+      internalID: 1627562960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tilset_1_-_blue_split_3
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 1437
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81851c6dc171bb14c8b8a8ffdb8ce779
+      internalID: -1229169979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tilset_1_-_blue_split_4
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 1437
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d37fb9ee1de9d4789f23f968dbfc51
+      internalID: 2070866250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tilset_1_-_blue_split_5
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 1437
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5f031a7d227a154cadfb5d65386209d
+      internalID: -932809865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tilset_1_-_blue_split_6
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 1437
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcf4096f41206fb438d34e9a1c30daec
+      internalID: 880191187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tilset_1_-_blue_split_7
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 1437
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec98d2e80ac79274db9eee42086be95c
+      internalID: 58055943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tilset_1_-_blue_split_8
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1181
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa0bc56557d9f24798345272563ad7a
+      internalID: 697555821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tilset_1_-_blue_split_9
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 1181
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe989698c13c7e4491fbcd66a55e11f
+      internalID: -1402106999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tilset_1_-_blue_split_10
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 1181
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6178a65e12a31444d9b6dd5c96f7df28
+      internalID: 465145151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tilset_1_-_blue_split_11
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 1181
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a3484c4de55634d9bbfec5b69d06a4
+      internalID: -1787881641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tilset_1_-_blue_split_12
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 1181
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb2a425316d6a94280d8e891b5ee29d
+      internalID: -1916869152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tilset_1_-_blue_split_13
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 1181
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e72db22eafe174ea5fa07e0e04ff5f
+      internalID: 770225012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tilset_1_-_blue_split_14
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 1181
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c8cd74625406a4ba701c0f87fe05d6
+      internalID: -447842282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tilset_1_-_blue_split_15
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 1181
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb4a45237291bfa43afa9c808edb625b
+      internalID: 2053150739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tilset_1_-_blue_split_16
+      rect:
+        serializedVersion: 2
+        x: 2173
+        y: 1181
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a585925871a3cb4ba9fbc421c007ad4
+      internalID: 1684984315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tilset_1_-_blue_split_17
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 925
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc661ff1aed82204fb1551007374fab4
+      internalID: -1202603206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tilset_1_-_blue_split_18
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 925
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 161a5be5e07e8524485ddb8d0578d96d
+      internalID: 352541687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tilset_1_-_blue_split_19
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 925
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daf65691432b8d84a8bfc9c7131eae8f
+      internalID: 1493904518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tilset_1_-_blue_split_20
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 925
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c67948934f50b5b47abc1e1cb2e8d4eb
+      internalID: -660703576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tilset_1_-_blue_split_21
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 925
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58915352f7f79514c9b26695c1c03773
+      internalID: -1304320146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tilset_1_-_blue_split_22
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 925
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f71216724f15a44a3ef8ecb0787200
+      internalID: -1419711640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tilset_1_-_blue_split_23
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 925
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c59cad1d7f5297f489b62b085cf8ae03
+      internalID: -1762333026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tilset_1_-_blue_split_24
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 925
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbd80f133c5202c4fb3ebe49aba2b481
+      internalID: 2097933555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tilset_1_-_blue_split_25
+      rect:
+        serializedVersion: 2
+        x: 2173
+        y: 925
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0efa96f318a5f5b4f96e316aa2ede0cd
+      internalID: 481497312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tilset_1_-_blue_split_26
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 669
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a8e6f75534c77d4cbdd933521aef511
+      internalID: -2100329375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tilset_1_-_blue_split_27
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 669
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4019af56e9c9cb4bb390d4d8bef0e42
+      internalID: -1380901545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tilset_1_-_blue_split_28
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 669
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d49aaaf268a34947aceb203f01b9b93
+      internalID: -1920535515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tilset_1_-_blue_split_29
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 669
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69178496beab6e842b22b12509ca3c62
+      internalID: -860865289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tilset_1_-_blue_split_30
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 669
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c7f23e78bd58984d8c85b9c678e2640
+      internalID: 128005857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tilset_1_-_blue_split_31
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 669
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8302034671e9414585c121a1a319e00
+      internalID: -600751361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tilset_1_-_blue_split_32
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 669
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d69c5aecc1bc6fe49b3a1f8672bc0e0b
+      internalID: 524378927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tilset_1_-_blue_split_33
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 669
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa2b941b77b12d74c86a9ea45fdf782a
+      internalID: 978666828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tilset_1_-_blue_split_34
+      rect:
+        serializedVersion: 2
+        x: 2173
+        y: 669
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c48ee14fcdb8e40419ac957fa478055c
+      internalID: -212679785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tilset_1_-_blue_split_35
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 413
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef8097c770991f9438ea0442310d7c0b
+      internalID: -654115707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tilset_1_-_blue_split_36
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 413
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a58f88fd1a970549b35354459c1163e
+      internalID: -2042791287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tilset_1_-_blue_split_37
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 413
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e52f774b5b971e4186fa903e6c1dbb1
+      internalID: 51515997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tilset_1_-_blue_split_38
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 413
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 908b5f20eecb2ed4c924cd6cebd15184
+      internalID: -1280606631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tilset_1_-_blue_split_39
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 413
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 240e153163ee7f4499f536b0c440365c
+      internalID: 931960685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tilset_1_-_blue_split_40
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 413
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b92027c0c15e5149bdb81ac6a0af020
+      internalID: 1129554329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tilset_1_-_blue_split_41
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 413
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46aa2a7de2839f444b0b2eb9ae46c10e
+      internalID: 1312123492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tilset_1_-_blue_split_42
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 413
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4fb9c2caa5189b4c8c96417c8989b71
+      internalID: -2099712442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tilset_1_-_blue_split_43
+      rect:
+        serializedVersion: 2
+        x: 2173
+        y: 413
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb74490c80e39cc43a21302e0f076bad
+      internalID: -2105547912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tilset_1_-_blue_split_44
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 157
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1777b2780fe6c7f4cbb5b9bab88434c4
+      internalID: 469622106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tilset_1_-_blue_split_45
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 157
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 879876ec48ca67e449ac0c6ee9f46edd
+      internalID: 2103323526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tilset_1_-_blue_split_46
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 157
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d26901575d035fb45bec43677bbafa09
+      internalID: -194009294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tilset_1_-_blue_split_47
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 157
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8c325436e754e45a4aa10d326c2300
+      internalID: -1151627047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tilset_1_-_blue_split_48
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 157
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f50735892546b94a808ded9a6c35804
+      internalID: 607498593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tilset_1_-_blue_split_49
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 157
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 681b36cee99d87c48912a7a32cc4f800
+      internalID: 2036711978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tilset_1_-_blue_split_50
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 157
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3aad9a58bd49a84b8ca23a7ab5b6599
+      internalID: 368463374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tilset_1_-_blue_split_51
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 157
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4934113ba3324564d855150ab59759f8
+      internalID: -454404108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tilset_1_-_blue_split_52
+      rect:
+        serializedVersion: 2
+        x: 2173
+        y: 157
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f524732f60f364c83699054af52950
+      internalID: 2130661017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      brick_tilset_1_-_blue_split_0: 1629055359
+      brick_tilset_1_-_blue_split_1: 1651482430
+      brick_tilset_1_-_blue_split_10: 465145151
+      brick_tilset_1_-_blue_split_11: -1787881641
+      brick_tilset_1_-_blue_split_12: -1916869152
+      brick_tilset_1_-_blue_split_13: 770225012
+      brick_tilset_1_-_blue_split_14: -447842282
+      brick_tilset_1_-_blue_split_15: 2053150739
+      brick_tilset_1_-_blue_split_16: 1684984315
+      brick_tilset_1_-_blue_split_17: -1202603206
+      brick_tilset_1_-_blue_split_18: 352541687
+      brick_tilset_1_-_blue_split_19: 1493904518
+      brick_tilset_1_-_blue_split_2: 1627562960
+      brick_tilset_1_-_blue_split_20: -660703576
+      brick_tilset_1_-_blue_split_21: -1304320146
+      brick_tilset_1_-_blue_split_22: -1419711640
+      brick_tilset_1_-_blue_split_23: -1762333026
+      brick_tilset_1_-_blue_split_24: 2097933555
+      brick_tilset_1_-_blue_split_25: 481497312
+      brick_tilset_1_-_blue_split_26: -2100329375
+      brick_tilset_1_-_blue_split_27: -1380901545
+      brick_tilset_1_-_blue_split_28: -1920535515
+      brick_tilset_1_-_blue_split_29: -860865289
+      brick_tilset_1_-_blue_split_3: -1229169979
+      brick_tilset_1_-_blue_split_30: 128005857
+      brick_tilset_1_-_blue_split_31: -600751361
+      brick_tilset_1_-_blue_split_32: 524378927
+      brick_tilset_1_-_blue_split_33: 978666828
+      brick_tilset_1_-_blue_split_34: -212679785
+      brick_tilset_1_-_blue_split_35: -654115707
+      brick_tilset_1_-_blue_split_36: -2042791287
+      brick_tilset_1_-_blue_split_37: 51515997
+      brick_tilset_1_-_blue_split_38: -1280606631
+      brick_tilset_1_-_blue_split_39: 931960685
+      brick_tilset_1_-_blue_split_4: 2070866250
+      brick_tilset_1_-_blue_split_40: 1129554329
+      brick_tilset_1_-_blue_split_41: 1312123492
+      brick_tilset_1_-_blue_split_42: -2099712442
+      brick_tilset_1_-_blue_split_43: -2105547912
+      brick_tilset_1_-_blue_split_44: 469622106
+      brick_tilset_1_-_blue_split_45: 2103323526
+      brick_tilset_1_-_blue_split_46: -194009294
+      brick_tilset_1_-_blue_split_47: -1151627047
+      brick_tilset_1_-_blue_split_48: 607498593
+      brick_tilset_1_-_blue_split_49: 2036711978
+      brick_tilset_1_-_blue_split_5: -932809865
+      brick_tilset_1_-_blue_split_50: 368463374
+      brick_tilset_1_-_blue_split_51: -454404108
+      brick_tilset_1_-_blue_split_52: 2130661017
+      brick_tilset_1_-_blue_split_6: 880191187
+      brick_tilset_1_-_blue_split_7: 58055943
+      brick_tilset_1_-_blue_split_8: 697555821
+      brick_tilset_1_-_blue_split_9: -1402106999
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

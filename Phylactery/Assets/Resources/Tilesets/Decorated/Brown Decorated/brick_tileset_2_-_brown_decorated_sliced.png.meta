@@ -1,0 +1,1345 @@
+fileFormatVersion: 2
+guid: 7251f1292753fd7469bf167447578117
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: brick_tileset_2_-_brown_decorated_sliced_0
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 1693
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a7b840227552244084efdea0a54765f
+      internalID: 1819436843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_brown_decorated_sliced_1
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 1693
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c3faab56732f84ea8cbbc0be739979
+      internalID: 727048963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_brown_decorated_sliced_2
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 1693
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf497fcadea809d4b94323660bb3a15b
+      internalID: 486952590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_brown_decorated_sliced_3
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 1437
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7a8f51c4a7a6f4c8fef378fb9772c5
+      internalID: -41089973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_brown_decorated_sliced_4
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 1437
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44e15c00823122548956c3b7537305e9
+      internalID: -1884408687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_brown_decorated_sliced_5
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 1437
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c00e216053ae6f45b399a4ceae5bc65
+      internalID: 1602732838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_brown_decorated_sliced_6
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 1437
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59144e69afe92164d8945e002a5d3ac9
+      internalID: -1126552360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_brown_decorated_sliced_7
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 1437
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f77786eae41d8744a59c5b215f6e425
+      internalID: 1061066410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_brown_decorated_sliced_8
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 1437
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12769c28746998b48a9d4c6a6c3a0bcf
+      internalID: -220694140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_brown_decorated_sliced_9
+      rect:
+        serializedVersion: 2
+        x: 2173
+        y: 1437
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b589d9fa93fe59b49b56e176d4b98bf6
+      internalID: 1628237990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_brown_decorated_sliced_10
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1181
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a550dded07ee942b1d4dd74acb6c59
+      internalID: 832812064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_brown_decorated_sliced_11
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 1181
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3493e2ee710916b48a1026b8fec6dc20
+      internalID: 993817687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_brown_decorated_sliced_12
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 1181
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be17cfc6757c0e94e95a8e8cb49b9348
+      internalID: -1947330363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_brown_decorated_sliced_13
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 1181
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 072b20459dfacbc438f3fe63d6d08460
+      internalID: 806071091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_brown_decorated_sliced_14
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 1181
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da7f3a8b7ebeda4096ee82e1fa12f9a
+      internalID: 2014980482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_brown_decorated_sliced_15
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 1181
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5091bdfb744a8e148b93783f9607ee6e
+      internalID: -1096123241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_brown_decorated_sliced_16
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 1181
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c8dcab9a7e418e469f14658327890c2
+      internalID: 136268035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_brown_decorated_sliced_17
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 1181
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71fee12503c5d4948b562fb7772a1ce2
+      internalID: -990919860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_brown_decorated_sliced_18
+      rect:
+        serializedVersion: 2
+        x: 2173
+        y: 1181
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f69668ffeb1f9468e7a8689366b154
+      internalID: -1385007894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_brown_decorated_sliced_19
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 925
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738e0b0364911b546993995ad8040423
+      internalID: -389405250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_brown_decorated_sliced_20
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 925
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 415ada21846171d40931a32912912971
+      internalID: 887287037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_brown_decorated_sliced_21
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 925
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b85883b3c3ac154faa0f52d96cfe184
+      internalID: -1451453971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_brown_decorated_sliced_22
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 925
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71013f75ab86cdd4a8f6c721d915e37c
+      internalID: 635190006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_brown_decorated_sliced_23
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 925
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d493472534e6d24c89c3134dcf3da1e
+      internalID: 970461662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_brown_decorated_sliced_24
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 925
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc8d2c80afc1a934c8f42ad28280d4b6
+      internalID: 880793111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_brown_decorated_sliced_25
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 925
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489b5bb7062df284f8b990d08ef8046c
+      internalID: -436848729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_brown_decorated_sliced_26
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 925
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c3a79a18cea4344a8da875eae3d8b4
+      internalID: -1587009222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_brown_decorated_sliced_27
+      rect:
+        serializedVersion: 2
+        x: 2173
+        y: 925
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6750fd3f82ecb9f4681f2a2ebb5c9572
+      internalID: -128184125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_brown_decorated_sliced_28
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 669
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd65eeeb74a4e3a489e3d68eb47e0ea2
+      internalID: -322974549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_brown_decorated_sliced_29
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 669
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b218e0d9c92c24285fd10f0d53bb54
+      internalID: -923152555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_brown_decorated_sliced_30
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 669
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f222f51acc3c6649978a80df5ff1180
+      internalID: 24370160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_brown_decorated_sliced_31
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 669
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c8fec258cf4db4f9f46cbac1332ca4
+      internalID: -1378291531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_brown_decorated_sliced_32
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 669
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f564961fd406e145970ac25bdfaece1
+      internalID: -206834874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_brown_decorated_sliced_33
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 669
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e625eaf9982a1f542aa5ef7d4c70e67b
+      internalID: 1204548025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_brown_decorated_sliced_34
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 669
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 152e0bc39b857934eac3726baf5babce
+      internalID: -836526392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_brown_decorated_sliced_35
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 669
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de3fd82d4f0fa1a42bda35a2f8def3d6
+      internalID: -1165745568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_brown_decorated_sliced_36
+      rect:
+        serializedVersion: 2
+        x: 2173
+        y: 669
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd9ee0bdd2725242a2060001d5a2ca1
+      internalID: -1235965320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_brown_decorated_sliced_37
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 413
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fcb5c449aab80b4796b016210c43178
+      internalID: 1672926891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_brown_decorated_sliced_38
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 413
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c835f337f454ef4a83778baca0b57f7
+      internalID: 264320190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_brown_decorated_sliced_39
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 413
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e48f48c39d42e345827061a01e9764f
+      internalID: 765397015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_brown_decorated_sliced_40
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 413
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6076ae8f1e266448ba1c50024ea7671
+      internalID: 505781233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_brown_decorated_sliced_41
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 413
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502af2826ac32d54a854f1803807fff0
+      internalID: 2010420350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_brown_decorated_sliced_42
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 413
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b8cc472155941740ab9a1f7d1557d79
+      internalID: 1932756172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_brown_decorated_sliced_43
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 413
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bef8c76bda4fed47bd1db3a46bf6aa9
+      internalID: -1014246215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_brown_decorated_sliced_44
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 413
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25269fce666e2f146ad1148eff39589b
+      internalID: -802824755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_brown_decorated_sliced_45
+      rect:
+        serializedVersion: 2
+        x: 2173
+        y: 413
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a68d9a25f33eaee448734731499bcc29
+      internalID: -1743261555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_brown_decorated_sliced_46
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 157
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c219997aa1c0341bba1063fc1e3878
+      internalID: -1592257790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_brown_decorated_sliced_47
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 157
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c00a155aa62734a8c6c7954245267e
+      internalID: -1136808689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_brown_decorated_sliced_48
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 157
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28bbb36baa09e3a429ba16097f4bd9e4
+      internalID: 642484109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_brown_decorated_sliced_49
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 157
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f009971ddebb5046b368940cf98203e
+      internalID: 580793989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_brown_decorated_sliced_50
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 157
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5dd2c1ed0928f488352597a357b815
+      internalID: -2111350361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_brown_decorated_sliced_51
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 157
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9286ec48ee55644785698a9e9fef51d
+      internalID: 1988540940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_brown_decorated_sliced_52
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 157
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 834d01a660dda0149b98e626dd9f9bd1
+      internalID: 1663124654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_brown_decorated_sliced_53
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 157
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1546de5f1d7dc1489ca8de833b1ea72
+      internalID: -728417394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_tileset_2_-_brown_decorated_sliced_54
+      rect:
+        serializedVersion: 2
+        x: 2173
+        y: 157
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6daf53aa0aee7408bac80b04254cfd
+      internalID: 2058250243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      brick_tileset_2_-_brown_decorated_sliced_0: 1819436843
+      brick_tileset_2_-_brown_decorated_sliced_1: 727048963
+      brick_tileset_2_-_brown_decorated_sliced_10: 832812064
+      brick_tileset_2_-_brown_decorated_sliced_11: 993817687
+      brick_tileset_2_-_brown_decorated_sliced_12: -1947330363
+      brick_tileset_2_-_brown_decorated_sliced_13: 806071091
+      brick_tileset_2_-_brown_decorated_sliced_14: 2014980482
+      brick_tileset_2_-_brown_decorated_sliced_15: -1096123241
+      brick_tileset_2_-_brown_decorated_sliced_16: 136268035
+      brick_tileset_2_-_brown_decorated_sliced_17: -990919860
+      brick_tileset_2_-_brown_decorated_sliced_18: -1385007894
+      brick_tileset_2_-_brown_decorated_sliced_19: -389405250
+      brick_tileset_2_-_brown_decorated_sliced_2: 486952590
+      brick_tileset_2_-_brown_decorated_sliced_20: 887287037
+      brick_tileset_2_-_brown_decorated_sliced_21: -1451453971
+      brick_tileset_2_-_brown_decorated_sliced_22: 635190006
+      brick_tileset_2_-_brown_decorated_sliced_23: 970461662
+      brick_tileset_2_-_brown_decorated_sliced_24: 880793111
+      brick_tileset_2_-_brown_decorated_sliced_25: -436848729
+      brick_tileset_2_-_brown_decorated_sliced_26: -1587009222
+      brick_tileset_2_-_brown_decorated_sliced_27: -128184125
+      brick_tileset_2_-_brown_decorated_sliced_28: -322974549
+      brick_tileset_2_-_brown_decorated_sliced_29: -923152555
+      brick_tileset_2_-_brown_decorated_sliced_3: -41089973
+      brick_tileset_2_-_brown_decorated_sliced_30: 24370160
+      brick_tileset_2_-_brown_decorated_sliced_31: -1378291531
+      brick_tileset_2_-_brown_decorated_sliced_32: -206834874
+      brick_tileset_2_-_brown_decorated_sliced_33: 1204548025
+      brick_tileset_2_-_brown_decorated_sliced_34: -836526392
+      brick_tileset_2_-_brown_decorated_sliced_35: -1165745568
+      brick_tileset_2_-_brown_decorated_sliced_36: -1235965320
+      brick_tileset_2_-_brown_decorated_sliced_37: 1672926891
+      brick_tileset_2_-_brown_decorated_sliced_38: 264320190
+      brick_tileset_2_-_brown_decorated_sliced_39: 765397015
+      brick_tileset_2_-_brown_decorated_sliced_4: -1884408687
+      brick_tileset_2_-_brown_decorated_sliced_40: 505781233
+      brick_tileset_2_-_brown_decorated_sliced_41: 2010420350
+      brick_tileset_2_-_brown_decorated_sliced_42: 1932756172
+      brick_tileset_2_-_brown_decorated_sliced_43: -1014246215
+      brick_tileset_2_-_brown_decorated_sliced_44: -802824755
+      brick_tileset_2_-_brown_decorated_sliced_45: -1743261555
+      brick_tileset_2_-_brown_decorated_sliced_46: -1592257790
+      brick_tileset_2_-_brown_decorated_sliced_47: -1136808689
+      brick_tileset_2_-_brown_decorated_sliced_48: 642484109
+      brick_tileset_2_-_brown_decorated_sliced_49: 580793989
+      brick_tileset_2_-_brown_decorated_sliced_5: 1602732838
+      brick_tileset_2_-_brown_decorated_sliced_50: -2111350361
+      brick_tileset_2_-_brown_decorated_sliced_51: 1988540940
+      brick_tileset_2_-_brown_decorated_sliced_52: 1663124654
+      brick_tileset_2_-_brown_decorated_sliced_53: -728417394
+      brick_tileset_2_-_brown_decorated_sliced_54: 2058250243
+      brick_tileset_2_-_brown_decorated_sliced_6: -1126552360
+      brick_tileset_2_-_brown_decorated_sliced_7: 1061066410
+      brick_tileset_2_-_brown_decorated_sliced_8: -220694140
+      brick_tileset_2_-_brown_decorated_sliced_9: 1628237990
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1257 @@
+fileFormatVersion: 2
+guid: 28dd52876bcd6eb4987c6b512d377d39
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tile_set_test_for_splitting_0
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 1688
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d3a17beb6e92d1478c8e06cc46a7ad2
+      internalID: -253844675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_set_test_for_splitting_1
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 1432
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b8e319d1d87fc4db628ca98844e92a
+      internalID: 1656143202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_set_test_for_splitting_2
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 1432
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 421244d1d364efc4d8e46f205be8dd76
+      internalID: -548480691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_set_test_for_splitting_3
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 1432
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0624a7d1330be714d8691a42b5f5ce89
+      internalID: 951918633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_set_test_for_splitting_4
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 1432
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 596f56b44c1da124898bc517cdd403dd
+      internalID: -54634391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_set_test_for_splitting_5
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 1432
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b7a31e821362e4b94c55c3c83586d6
+      internalID: 1318727171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_set_test_for_splitting_6
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1176
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b7d25909efddb47b00e99a9c125b07
+      internalID: 317152756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_set_test_for_splitting_7
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 1176
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d0f61ec00756d4685230fa591cbd14
+      internalID: 2132889740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_set_test_for_splitting_8
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 1176
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6695825b6f5039948ba8e2173f263d38
+      internalID: 80888755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_set_test_for_splitting_9
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 1176
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47acdecfb129e0f46a8aa7041b533874
+      internalID: 1313756640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_set_test_for_splitting_10
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 1176
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d5400f132d443549a9a881a09569d53
+      internalID: -1348197159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_set_test_for_splitting_11
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 1176
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf325dcb2b85e654cb0c586b3b72fa1b
+      internalID: 1264546209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_set_test_for_splitting_12
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 1176
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c268c08e070c41b499872c6ac7ad75c5
+      internalID: 1742470269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_set_test_for_splitting_13
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 1176
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b26d3d4f04490914eb310bf341c07c17
+      internalID: 1799774701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_set_test_for_splitting_14
+      rect:
+        serializedVersion: 2
+        x: 2173
+        y: 1176
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44798b6d2cfe79648aebfc6d2bca69aa
+      internalID: -471527636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_set_test_for_splitting_15
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 920
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 370be9c4c5b66554d9d3442fe07827f0
+      internalID: -457922972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_set_test_for_splitting_16
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 920
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02aefa12916b9214e8f69a4f5dc847fc
+      internalID: 826112314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_set_test_for_splitting_17
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 920
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 543cc3dd47d0e4641b0dfd43cfe2c083
+      internalID: -1283813572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_set_test_for_splitting_18
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 920
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a0840e657ed1341aade3750fe03ee1
+      internalID: 1155758589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_set_test_for_splitting_19
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 920
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d479a2ff5c698141b740fdf0e5f1414
+      internalID: -1141306890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_set_test_for_splitting_20
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 920
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a2e05505266ea4d9b6bda9973f2d5c
+      internalID: -1629899644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_set_test_for_splitting_21
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 920
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8281dac0f8ee47499d3f7e45e60a90e
+      internalID: -234402169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_set_test_for_splitting_22
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 920
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3717f89c2d057d4c9c1824328fcbd86
+      internalID: 556277904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_set_test_for_splitting_23
+      rect:
+        serializedVersion: 2
+        x: 2173
+        y: 920
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a7595bccea64246bb6bd2e9b4491ce
+      internalID: -260137396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_set_test_for_splitting_24
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 664
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea2046c75aea7d429e28dc48b032fa7
+      internalID: -945493599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_set_test_for_splitting_25
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 664
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ca5450fff3ec904b9d6618dfffd54e2
+      internalID: 1670262545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_set_test_for_splitting_26
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 664
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de324e0ddb8d4c4dae80885fbcaa68d
+      internalID: -1378878729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_set_test_for_splitting_27
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 664
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc5413bceb8769d459f65635ba3f00e3
+      internalID: 1172898487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_set_test_for_splitting_28
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 664
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f7b356a1944ea540a44bb97a441cd36
+      internalID: 301883646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_set_test_for_splitting_29
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 664
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a03a9f1b348e43429f9672e6a3b7a18
+      internalID: 1235852090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_set_test_for_splitting_30
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 664
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fd79fdbae05a4f46a8e82ece83f77eb
+      internalID: 524955050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_set_test_for_splitting_31
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 664
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba383dcc267c223499cb8c30f5a500ae
+      internalID: -42614673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_set_test_for_splitting_32
+      rect:
+        serializedVersion: 2
+        x: 2173
+        y: 664
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a9d8b430f29064a9d9bafb0dd630db
+      internalID: -791780774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_set_test_for_splitting_33
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 408
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff96b672de194e2428efe0ee8ff67f8d
+      internalID: -1571895476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_set_test_for_splitting_34
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 408
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6db04b4a12090a4384d6e4b1263c702
+      internalID: 182970767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_set_test_for_splitting_35
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 408
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e23b7297c5274c4c9bb86212f4d3cd9
+      internalID: -477135011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_set_test_for_splitting_36
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 408
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b7e262db9f27f48b985b40ca4f73e5
+      internalID: 1509561860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_set_test_for_splitting_37
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 408
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e14ecbeec8ff8004d9e6635cc438ebc7
+      internalID: -19481249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_set_test_for_splitting_38
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 408
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82e9caf2c4a50bf4997d958ab1332feb
+      internalID: 304116882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_set_test_for_splitting_39
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 408
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 967fdf582ac7ab245bfd99692ef48bc4
+      internalID: -491606588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_set_test_for_splitting_40
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 408
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebf8d17bd71c17944b8f0c0035dd3e8f
+      internalID: -387590916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_set_test_for_splitting_41
+      rect:
+        serializedVersion: 2
+        x: 2173
+        y: 408
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d3f44ba28ffa9745b236b3ccecf6f70
+      internalID: 1431285208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_set_test_for_splitting_42
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 152
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d084a53cfe6eb6d4896a8a3d09c0ce6a
+      internalID: 348414734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_set_test_for_splitting_43
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 152
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd63de16b03180b4e9759d90a1e9732a
+      internalID: -1665555554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_set_test_for_splitting_44
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 152
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c746884194a63a44ab8b5949b6e77caa
+      internalID: 857682388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_set_test_for_splitting_45
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 152
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52d0dff65fabcf84b8bb713c41da30ff
+      internalID: -2128680873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_set_test_for_splitting_46
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 152
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1420896429e6be0448026a151b3d93de
+      internalID: 588638170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_set_test_for_splitting_47
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 152
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d46e4e05c1e5f48be1c7a9c2895ef5
+      internalID: -1406050831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_set_test_for_splitting_48
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 152
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9cccab4c24357e489e96c484d769ea9
+      internalID: -1360265300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_set_test_for_splitting_49
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 152
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4303ab9715bed0a47a96f89d8b52e8a0
+      internalID: 533744102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_set_test_for_splitting_50
+      rect:
+        serializedVersion: 2
+        x: 2173
+        y: 152
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a09b1e13af93b4caa4abdd5ca4578f
+      internalID: -1204990623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      tile_set_test_for_splitting_0: -253844675
+      tile_set_test_for_splitting_1: 1656143202
+      tile_set_test_for_splitting_10: -1348197159
+      tile_set_test_for_splitting_11: 1264546209
+      tile_set_test_for_splitting_12: 1742470269
+      tile_set_test_for_splitting_13: 1799774701
+      tile_set_test_for_splitting_14: -471527636
+      tile_set_test_for_splitting_15: -457922972
+      tile_set_test_for_splitting_16: 826112314
+      tile_set_test_for_splitting_17: -1283813572
+      tile_set_test_for_splitting_18: 1155758589
+      tile_set_test_for_splitting_19: -1141306890
+      tile_set_test_for_splitting_2: -548480691
+      tile_set_test_for_splitting_20: -1629899644
+      tile_set_test_for_splitting_21: -234402169
+      tile_set_test_for_splitting_22: 556277904
+      tile_set_test_for_splitting_23: -260137396
+      tile_set_test_for_splitting_24: -945493599
+      tile_set_test_for_splitting_25: 1670262545
+      tile_set_test_for_splitting_26: -1378878729
+      tile_set_test_for_splitting_27: 1172898487
+      tile_set_test_for_splitting_28: 301883646
+      tile_set_test_for_splitting_29: 1235852090
+      tile_set_test_for_splitting_3: 951918633
+      tile_set_test_for_splitting_30: 524955050
+      tile_set_test_for_splitting_31: -42614673
+      tile_set_test_for_splitting_32: -791780774
+      tile_set_test_for_splitting_33: -1571895476
+      tile_set_test_for_splitting_34: 182970767
+      tile_set_test_for_splitting_35: -477135011
+      tile_set_test_for_splitting_36: 1509561860
+      tile_set_test_for_splitting_37: -19481249
+      tile_set_test_for_splitting_38: 304116882
+      tile_set_test_for_splitting_39: -491606588
+      tile_set_test_for_splitting_4: -54634391
+      tile_set_test_for_splitting_40: -387590916
+      tile_set_test_for_splitting_41: 1431285208
+      tile_set_test_for_splitting_42: 348414734
+      tile_set_test_for_splitting_43: -1665555554
+      tile_set_test_for_splitting_44: 857682388
+      tile_set_test_for_splitting_45: -2128680873
+      tile_set_test_for_splitting_46: 588638170
+      tile_set_test_for_splitting_47: -1406050831
+      tile_set_test_for_splitting_48: -1360265300
+      tile_set_test_for_splitting_49: 533744102
+      tile_set_test_for_splitting_5: 1318727171
+      tile_set_test_for_splitting_50: -1204990623
+      tile_set_test_for_splitting_6: 317152756
+      tile_set_test_for_splitting_7: 2132889740
+      tile_set_test_for_splitting_8: 80888755
+      tile_set_test_for_splitting_9: 1313756640
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

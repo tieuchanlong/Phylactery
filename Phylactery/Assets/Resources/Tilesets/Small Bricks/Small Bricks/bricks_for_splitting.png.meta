@@ -1,0 +1,1257 @@
+fileFormatVersion: 2
+guid: fffb686198df9234baa13eb2d8da0c2a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bricks_for_splitting_0
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 1688
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e7d77b75190cda4a8604a704dd77d75
+      internalID: -941904510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_for_splitting_1
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 1432
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8207d26a1e04c614d8a7b9fc382c4ffb
+      internalID: 1793756539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_for_splitting_2
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 1432
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c64a1c1426d9674c8c2472797e9ee85
+      internalID: 729109423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_for_splitting_3
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 1432
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ed93fb7fe32b843bd907aace0f39fe
+      internalID: 1363220934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_for_splitting_4
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 1432
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 111764e3f08b2244c87bc2b2f52c3813
+      internalID: -502673359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_for_splitting_5
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 1432
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ae956bd2aeb0244a17d9f4f28ea369
+      internalID: 991067021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_for_splitting_6
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1176
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ede361b62f5b3340a94ef1efcf7b005
+      internalID: -1823085327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_for_splitting_7
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 1176
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b47f68b69e36be4196fdde577c33370
+      internalID: -1630438844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_for_splitting_8
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 1176
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d362eb69f4c7b654fbadb5f8d4985827
+      internalID: -332363232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_for_splitting_9
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 1176
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 640716cbb1dd1ed41b64e2155119515d
+      internalID: 385110837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_for_splitting_10
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 1176
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0be39a4fde7fa1348a7dc0cbe1832368
+      internalID: -1861260413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_for_splitting_11
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 1176
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac3c0d65b99c5e245bdedcc9a172e9bd
+      internalID: 317412714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_for_splitting_12
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 1176
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc51c6b4f8794c4c8511d058b0ce9cd
+      internalID: 1496705599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_for_splitting_13
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 1176
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dedd45d79e3a33a419a03be51f51e81a
+      internalID: 581325260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_for_splitting_14
+      rect:
+        serializedVersion: 2
+        x: 2173
+        y: 1176
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5abee91b7532f25468e07a9329af2d44
+      internalID: -187679542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_for_splitting_15
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 920
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc540fea2f4852e41beba661d97c3983
+      internalID: 1033878566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_for_splitting_16
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 920
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bac3960b7d1e56419d8a50ed1ff7098
+      internalID: 513515169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_for_splitting_17
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 920
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c1f21e28e2704c4c9f132c94585a22b
+      internalID: 175380065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_for_splitting_18
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 920
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a6beebb86ab465479f67caa40524926
+      internalID: 1254358813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_for_splitting_19
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 920
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cae67f8961adaa46a56bf2e10747339
+      internalID: -2048236335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_for_splitting_20
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 920
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c1476f972e30e649965e51646a2410f
+      internalID: 974880879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_for_splitting_21
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 920
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 671458c09863d8c47bb37aa2d0e32aa6
+      internalID: -520046335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_for_splitting_22
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 920
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 482616ec88acfce4ebbe1376f7075ce7
+      internalID: -914846091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_for_splitting_23
+      rect:
+        serializedVersion: 2
+        x: 2173
+        y: 920
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b528b8d515f6ea4a9fd060972f2676a
+      internalID: -2108333546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_for_splitting_24
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 664
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e5746d0d614bd48834e6eddbbb390f
+      internalID: 2128147096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_for_splitting_25
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 664
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c005bece2a9c5e04190b7dc90e65683b
+      internalID: 271669291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_for_splitting_26
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 664
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1460917f9bbf4c47b1249564f0ae0e7
+      internalID: -1225674178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_for_splitting_27
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 664
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b17a12b0a125c49bfe6ad93692ed77
+      internalID: -1076577260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_for_splitting_28
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 664
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62dc6a20ac7b6f647b243e2f0558e202
+      internalID: -1020773417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_for_splitting_29
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 664
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcdfa8b4fe0cb6c4e8800789be985da2
+      internalID: 1651229995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_for_splitting_30
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 664
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ddb2b72f95728444a9e5a1e15a1a478
+      internalID: -1102416901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_for_splitting_31
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 664
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31246975706d7ac46a211568e2248577
+      internalID: -2115532752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_for_splitting_32
+      rect:
+        serializedVersion: 2
+        x: 2173
+        y: 664
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cdc2afb080791a4b999588918886e2b
+      internalID: 1874122913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_for_splitting_33
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 408
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b93a4881f5ea57e449ece7aa3508a7c6
+      internalID: -2141227817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_for_splitting_34
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 408
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec8c604b597168b4b833819fc9ef481d
+      internalID: 497671808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_for_splitting_35
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 408
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9db0e4a43128e894daa9699ca0722ff4
+      internalID: 1879107869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_for_splitting_36
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 408
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97047f2ee25c66c4fa9eef4a124d4055
+      internalID: 1306124673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_for_splitting_37
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 408
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f5b2077129a7e43986dc2a52a1d646
+      internalID: 1625875365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_for_splitting_38
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 408
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 202b56f31d0539841b6a7734c42d0e38
+      internalID: -28064214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_for_splitting_39
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 408
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b48fabf9e65107a478d858212b3883d4
+      internalID: -1327039728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_for_splitting_40
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 408
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac20b8bc9ba83248949de6260a1f3a1
+      internalID: -977309194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_for_splitting_41
+      rect:
+        serializedVersion: 2
+        x: 2173
+        y: 408
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a5bd001736db8d43a96ee59f0d436cd
+      internalID: 343502811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_for_splitting_42
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 152
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe076e2951929140acf5fc2807fb237
+      internalID: 1781674827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_for_splitting_43
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 152
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5923d54007665c94aac577dbaab911b0
+      internalID: 322090545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_for_splitting_44
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 152
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8247fd8c1f011f542a3b7cf4e65f82b8
+      internalID: 1526985013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_for_splitting_45
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 152
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 614ddceb3d0fac7409e183c31fea59f7
+      internalID: -848817580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_for_splitting_46
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 152
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac0179da48ee56940b4af51706428fdf
+      internalID: 1883917510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_for_splitting_47
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 152
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bd02c14b3033f24cbea74ce399b0e26
+      internalID: 1481436815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_for_splitting_48
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 152
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd4a0ed26c20e5f4d83d68a0b0ac060d
+      internalID: 1704696941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_for_splitting_49
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 152
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc6b1bcc2708c74d8a0cb92413b1f25
+      internalID: -492188323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_for_splitting_50
+      rect:
+        serializedVersion: 2
+        x: 2173
+        y: 152
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47eb5ef4d2625a94e9e38fa00515c7d0
+      internalID: -90826753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      bricks_for_splitting_0: -941904510
+      bricks_for_splitting_1: 1793756539
+      bricks_for_splitting_10: -1861260413
+      bricks_for_splitting_11: 317412714
+      bricks_for_splitting_12: 1496705599
+      bricks_for_splitting_13: 581325260
+      bricks_for_splitting_14: -187679542
+      bricks_for_splitting_15: 1033878566
+      bricks_for_splitting_16: 513515169
+      bricks_for_splitting_17: 175380065
+      bricks_for_splitting_18: 1254358813
+      bricks_for_splitting_19: -2048236335
+      bricks_for_splitting_2: 729109423
+      bricks_for_splitting_20: 974880879
+      bricks_for_splitting_21: -520046335
+      bricks_for_splitting_22: -914846091
+      bricks_for_splitting_23: -2108333546
+      bricks_for_splitting_24: 2128147096
+      bricks_for_splitting_25: 271669291
+      bricks_for_splitting_26: -1225674178
+      bricks_for_splitting_27: -1076577260
+      bricks_for_splitting_28: -1020773417
+      bricks_for_splitting_29: 1651229995
+      bricks_for_splitting_3: 1363220934
+      bricks_for_splitting_30: -1102416901
+      bricks_for_splitting_31: -2115532752
+      bricks_for_splitting_32: 1874122913
+      bricks_for_splitting_33: -2141227817
+      bricks_for_splitting_34: 497671808
+      bricks_for_splitting_35: 1879107869
+      bricks_for_splitting_36: 1306124673
+      bricks_for_splitting_37: 1625875365
+      bricks_for_splitting_38: -28064214
+      bricks_for_splitting_39: -1327039728
+      bricks_for_splitting_4: -502673359
+      bricks_for_splitting_40: -977309194
+      bricks_for_splitting_41: 343502811
+      bricks_for_splitting_42: 1781674827
+      bricks_for_splitting_43: 322090545
+      bricks_for_splitting_44: 1526985013
+      bricks_for_splitting_45: -848817580
+      bricks_for_splitting_46: 1883917510
+      bricks_for_splitting_47: 1481436815
+      bricks_for_splitting_48: 1704696941
+      bricks_for_splitting_49: -492188323
+      bricks_for_splitting_5: 991067021
+      bricks_for_splitting_50: -90826753
+      bricks_for_splitting_6: -1823085327
+      bricks_for_splitting_7: -1630438844
+      bricks_for_splitting_8: -332363232
+      bricks_for_splitting_9: 385110837
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
