@@ -13,6 +13,9 @@ public class ProjectTileControl : MonoBehaviour
     [SerializeField]
     private Vector3 _projectTileDirection;
 
+    [SerializeField]
+    private int _hp = 1;
+
     private float _currentProjectTileLifeTime = 0.0f;
 
     public float ProjectTileLifeTime
@@ -36,6 +39,21 @@ public class ProjectTileControl : MonoBehaviour
         set
         {
             _projectTileDirection = value;
+        }
+    }
+
+    public void SetHP(int newHP)
+    {
+        _hp = newHP;
+    }
+
+    public void ReduceHP()
+    {
+        _hp--;
+
+        if (_hp <= 0)
+        {
+            Destroy(gameObject);
         }
     }
 

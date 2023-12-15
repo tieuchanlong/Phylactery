@@ -12,6 +12,7 @@ TagManager:
   - BattleTrigger
   - TutorialTrigger
   - EndLevelTrigger
+  - Door
   layers:
   - Default
   - TransparentFX

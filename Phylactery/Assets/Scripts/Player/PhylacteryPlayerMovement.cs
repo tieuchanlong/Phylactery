@@ -23,6 +23,7 @@ public class PhylacteryPlayerMovement : BasePlayerMovement
     private HPBarControl _hpBar;
     private StaminaBarControl _staminaBar;
     private PlayerCharacterRenderer _playerRenderer;
+    private SpriteRenderer _spriteRender;
 
     private int weaponSelected = 1;
     private Vector3 _headingDir = new Vector3(0.0f, 1.0f, 0.0f);
@@ -74,14 +75,14 @@ public class PhylacteryPlayerMovement : BasePlayerMovement
     private float _axeAttackAngle;
 
     private bool _startCountingAxeChargeTime = false;
-    private float _maxAxeChargeTime = 5.0f;
+    private float _maxAxeChargeTime = 15.0f;
     private float _currentAxeChargeTime = 0.0f;
-    private float _maxDashDist = 6.0f;
+    private float _maxDashDist = 18.0f;
     private float _curDashDist = 0.0f;
     public bool _startDashing = false;
 
     [SerializeField]
-    private float dashSpeed = 5.0f;
+    private float dashSpeed = 15.0f;
     private float _maxDashTime = 0.0f;
     private float _currentDashTime = 0.0f;
     private TrailRenderer _trailRenderer;
@@ -144,6 +145,7 @@ public class PhylacteryPlayerMovement : BasePlayerMovement
         _colliderBox = GetComponent<BoxCollider2D>();
         _ammoHUD = FindObjectOfType<AmmoHUDControl>();
         _footstepSoundControl = GetComponentInChildren<FootstepSoundControl>();
+        _spriteRender = GetComponent<SpriteRenderer>();
         base.Start();
     }
 
@@ -171,7 +173,7 @@ public class PhylacteryPlayerMovement : BasePlayerMovement
                 {
                     _currentAxeChargeTime += Time.deltaTime;
                 }
-                _maxDashTime = _currentAxeChargeTime/3.0f;
+                _maxDashTime = _currentAxeChargeTime / 5.0f;
                 currentStam -= 16 * Time.deltaTime;
                 _staminaBar.UpdateStamina(-0.30f * Time.deltaTime);
             }
@@ -179,12 +181,16 @@ public class PhylacteryPlayerMovement : BasePlayerMovement
             if (_startDashing)
             {
                 // Dash player
-                transform.position += _headingDir.normalized * dashSpeed * Time.deltaTime;
+                Vector2 headingDir = _headingDir;
+                headingDir.Normalize();
+                transform.position += new Vector3(headingDir.x, headingDir.y, 0.0f) * dashSpeed * Time.deltaTime;
                 _currentDashTime += Time.deltaTime;
                 _curDashDist += dashSpeed * Time.deltaTime;
+                _spriteRender.color = new Color(0, 0, 0, 0.4f);
 
                 if (_currentDashTime >= _maxDashTime || _curDashDist >= _maxDashDist)
                 {
+                    _spriteRender.color = new Color(1, 1, 1, 1);
                     _doAxeAttackAnimation = false;
                     _startDashing = false;
                     _colliderBox.enabled = true;
@@ -214,6 +220,7 @@ public class PhylacteryPlayerMovement : BasePlayerMovement
             // press left mouse to attack
             if (Input.GetMouseButtonDown(0))
             {
+                _headingDir = (Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position).normalized;
                 // check  weapon selected, then call function for the attack of the weapon
                 if (weaponSelected == 1)
                 {
@@ -250,6 +257,7 @@ public class PhylacteryPlayerMovement : BasePlayerMovement
             // press E for special attack
             if (Input.GetMouseButtonDown(1))
             {
+                _headingDir = (Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position).normalized;
                 if (weaponSelected == 1)
                 {
                     SpecialAttack1();
@@ -262,6 +270,11 @@ public class PhylacteryPlayerMovement : BasePlayerMovement
                 {
                     SpecialAttack3();
                 }
+            }
+
+            if (Input.GetMouseButton(1))
+            {
+                _headingDir = (Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position).normalized;
             }
 
             if (!_doAxeAttackAnimation && !_doSlingshotAnimation)
@@ -297,6 +310,7 @@ public class PhylacteryPlayerMovement : BasePlayerMovement
                 }
                 else if (!_doDamageAnimation)
                 {
+                    _headingDir = (Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position).normalized;
                     _playerRenderer.SetDirection(_headingDir, staticDirections);
                 }
             }
@@ -359,7 +373,7 @@ public class PhylacteryPlayerMovement : BasePlayerMovement
 
     public override void TakeDamage(float damageAmount)
     {
-        if (_isDead || _doDamageAnimation)
+        if (_isDead || _doDamageAnimation || _startDashing)
         {
             return;
         }
@@ -419,9 +433,10 @@ public class PhylacteryPlayerMovement : BasePlayerMovement
             return false;
         }
 
-        if (!_startDashing)
+        //if (!_startDashing)
         {
-            float angle = Vector3.Dot(_headingDir.normalized, (enemyPos - transform.position).normalized) * Mathf.Rad2Deg;
+            Vector2 headingDir = _headingDir;
+            float angle = Mathf.Abs(Vector3.Dot(headingDir.normalized, (enemyPos - transform.position).normalized) * Mathf.Rad2Deg);
 
             if (Mathf.Abs(angle) > _axeAttackAngle)
             {
@@ -593,7 +608,7 @@ public class PhylacteryPlayerMovement : BasePlayerMovement
     {
         if (!_doSlingshotAnimation)
         {
-            if (stone_count >= 3)
+            if (stone_count > 0)
             {
                 StartCoroutine(DoSlingshotSprayShotAnimation());
             }
@@ -640,10 +655,11 @@ public class PhylacteryPlayerMovement : BasePlayerMovement
         // Spawn stone
         GameObject stone = Instantiate(stonePrefab, transform.position, Quaternion.identity);
         ProjectTileControl projectTile = stone.GetComponent<ProjectTileControl>();
+        projectTile.SetHP(1);
         stone.transform.position = transform.position + _headingDir.normalized * 0.3f;
-        projectTile.ProjectTileSpeed = _currentSlingShotChargeTime * 10.0f;
-        projectTile.ProjectTileLifeTime = _currentSlingShotChargeTime * 10.0f;
-        projectTile.ProjectTileDamage = _currentSlingShotChargeTime;
+        projectTile.ProjectTileSpeed = _currentSlingShotChargeTime * 40.0f;
+        projectTile.ProjectTileLifeTime = _currentSlingShotChargeTime * 30.0f;
+        projectTile.ProjectTileDamage = _currentSlingShotChargeTime * 3.0f;
         projectTile.ProjectTileDirection = _headingDir.normalized;
     }
 
@@ -729,37 +745,49 @@ public class PhylacteryPlayerMovement : BasePlayerMovement
 
     IEnumerator DoSlingshotSprayShotAnimation()
     {
-        stone_count -= 3;
+        stone_count -= 1;
         _doSlingshotAnimation = true;
         _audio.clip = _slingshotSpraySound;
         _audio.Play();
         _playerRenderer.SetDirection(_headingDir, slingShotReleaseDirections);
 
         // Spawn stone
-        Vector3 headingDir = Quaternion.AngleAxis(-80, new Vector3(0, 0, 10)) * _headingDir;
-        float angleStep = 160/5;
+        Vector2 headingDir = Quaternion.AngleAxis(-80, new Vector3(0, 0, 1)) * _headingDir.normalized;
+        headingDir.Normalize();
+        float angleStep = 160/10;
 
-        for (int i = 0; i < 5; i++)
+        for (int i = 0; i < 11; i++)
         {
-            bool valid = (headingDir.x < -0.5f || headingDir.x > 0.5f || headingDir.y < -0.5f || headingDir.y > 0.5f);
-
-            if (!valid)
-            {
-                headingDir = Quaternion.AngleAxis(angleStep, new Vector3(0, 0, 10)) * headingDir.normalized;
-                continue;
-            }
-
             GameObject stone = Instantiate(stonePrefab, transform.position, Quaternion.identity);
             ProjectTileControl projectTile = stone.GetComponent<ProjectTileControl>();
             stone.transform.position = transform.position + _headingDir.normalized * 0.3f;
-            projectTile.ProjectTileSpeed = 8.0f;
+            projectTile.SetHP(1);
+            projectTile.ProjectTileSpeed = 5.0f;
             projectTile.ProjectTileLifeTime = 0.5f;
             projectTile.ProjectTileDamage = 1.0f;
-            projectTile.ProjectTileDirection = headingDir;
-            headingDir = Quaternion.AngleAxis(angleStep, new Vector3(0, 0, 10)) * headingDir.normalized;
+            projectTile.ProjectTileDirection = headingDir.normalized;
+            headingDir = Quaternion.AngleAxis(angleStep, new Vector3(0, 0, 1)) * headingDir.normalized;
+            headingDir.Normalize();
         }
 
         yield return new WaitForSeconds(1.0f);
         _doSlingshotAnimation = false;
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Door")
+        {
+            if (_startDashing)
+            {
+                _spriteRender.color = new Color(1, 1, 1, 1);
+                _doAxeAttackAnimation = false;
+                _startDashing = false;
+                _colliderBox.enabled = true;
+                _dashColliderBox.enabled = false;
+                _trailRenderer.enabled = false;
+                collision.gameObject.GetComponent<DoorControl>().TakeDamage();
+            }
+        }
     }
 }

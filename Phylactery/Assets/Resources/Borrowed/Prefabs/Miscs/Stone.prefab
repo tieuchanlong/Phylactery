@@ -101,6 +101,7 @@ MonoBehaviour:
   _projecttileLifeTime: 4
   _projectTileSpeed: 3
   _projectTileDirection: {x: 0, y: 0, z: 0}
+  _hp: 3
   ProjectTileDamage: 0.5
 --- !u!58 &5441843074971207597
 CircleCollider2D:

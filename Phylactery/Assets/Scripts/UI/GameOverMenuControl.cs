@@ -27,8 +27,14 @@ public class GameOverMenuControl : MonoBehaviour
         
     }
 
+    private void OnEnable()
+    {
+        Time.timeScale = 0.0f;
+    }
+
     public void RestartGame()
     {
+        Time.timeScale = 1.0f;
         GameControl gameControl = FindObjectOfType<GameControl>();
         gameControl.RestartGame();
         _loadingMenu.SetActive(true);
@@ -37,6 +43,7 @@ public class GameOverMenuControl : MonoBehaviour
 
     public void ExitGame()
     {
+        Time.timeScale = 1.0f;
         // Exit to title
         GameControl gameControl = FindObjectOfType<GameControl>();
         gameControl.ExitLevel();
