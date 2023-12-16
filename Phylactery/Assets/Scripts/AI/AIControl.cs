@@ -26,6 +26,14 @@ public class AIControl : MonoBehaviour
         }
     }
 
+    public float HPRatio
+    {
+        get
+        {
+            return _hp/_maxHP;
+        }
+    }
+
     private bool _isDead = false;
 
     #region Pathfinding variables
@@ -40,6 +48,7 @@ public class AIControl : MonoBehaviour
     private Rigidbody2D _rigidBody;
     protected Vector3 _headingDirection = new Vector3(0, 1, 0);
     private bool _takingDamage = false;
+    protected bool _invicible = false;
     private float _damageInviciblePeriod = 0.2f;
     private float _currentDamageInviciblePeriod = 0.0f;
     #endregion
@@ -155,7 +164,7 @@ public class AIControl : MonoBehaviour
 
     public virtual void TakeDamage(float hpChangeAmount)
     {
-        if (_takingDamage || _isDead)
+        if (_takingDamage || _isDead || _invicible)
         {
             return;
         }
@@ -190,9 +199,9 @@ public class AIControl : MonoBehaviour
         _healthBar.gameObject.SetActive(false);
     }
 
-    public bool IsInPlayerAttackRange()
+    public bool IsInPlayerAttackRange(float overrideAttackRange = -1.0f)
     {
-        return _player.IsInAxeAttackRange(transform.position);
+        return _player.IsInAxeAttackRange(transform.position, overrideAttackRange);
     }
 
     public bool IsTakingDamage()

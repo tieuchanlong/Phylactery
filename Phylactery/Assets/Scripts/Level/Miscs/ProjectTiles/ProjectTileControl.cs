@@ -32,6 +32,11 @@ public class ProjectTileControl : MonoBehaviour
         {
             _projectTileSpeed = value;
         }
+
+        get
+        {
+            return _projectTileSpeed;
+        }
     }
 
     public Vector3 ProjectTileDirection

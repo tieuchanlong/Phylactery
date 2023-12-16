@@ -13,6 +13,8 @@ TagManager:
   - TutorialTrigger
   - EndLevelTrigger
   - Door
+  - FromBelowTrap
+  - BossTrigger
   layers:
   - Default
   - TransparentFX

@@ -18,7 +18,13 @@ public class TitleMenuControl : MonoBehaviour
     private GameObject _continueBtn;
 
     [SerializeField]
+    private GameObject _creditBtn;
+
+    [SerializeField]
     private GameObject _loadingMenu;
+
+    [SerializeField]
+    private GameObject _creditMenu;
 
     private float _pressKeyTextAlpha = 255.0f;
     private float _pressKeyTextFadeSign = -1.0f;
@@ -45,6 +51,7 @@ public class TitleMenuControl : MonoBehaviour
             GameControl gameControl = FindObjectOfType<GameControl>();
             _continueBtn.SetActive(!gameControl.IsGameFirstTime);
             _newGameBtn.SetActive(true);
+            _creditBtn.SetActive(true);
             _pressKeyText.gameObject.SetActive(false);
         }
     }
@@ -65,5 +72,10 @@ public class TitleMenuControl : MonoBehaviour
         gameControl.BeginGame();
         _loadingMenu.SetActive(true);
         SceneManager.LoadSceneAsync(1);
+    }
+
+    public void OpenCreditMenu()
+    {
+        _creditMenu.gameObject.SetActive(true);
     }
 }

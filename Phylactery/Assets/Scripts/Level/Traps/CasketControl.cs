@@ -46,6 +46,7 @@ public class CasketControl : EnemyFactory
         if (_isTriggered)
         {
             base.SpawnEnemy();
+            Destroy(gameObject);
         }
     }
 }

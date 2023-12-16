@@ -285,6 +285,7 @@ public class PhylacteryPlayerMovement : BasePlayerMovement
                 if ((vertical > EPSILON || vertical < -EPSILON) || (horizontal > EPSILON || horizontal < -EPSILON))
                 {
                     _headingDir = new Vector2(horizontal, vertical);
+                    GetComponent<Rigidbody2D>().velocity = new Vector2(0.0f, 0.0f);
                     if ((Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift)) && currentStam > 0)
                     {
                         _speed = runspeed;
@@ -414,7 +415,7 @@ public class PhylacteryPlayerMovement : BasePlayerMovement
         _doDamageAnimation = false;
     }
 
-    public bool IsInAxeAttackRange(Vector3 enemyPos)
+    public bool IsInAxeAttackRange(Vector3 enemyPos, float overrideAttackRange = -1.0f)
     {
         if (!_doAxeAttackAnimation || _startCountingAxeChargeTime)
         {
@@ -428,7 +429,12 @@ public class PhylacteryPlayerMovement : BasePlayerMovement
 
         float dist = Vector3.Distance(transform.position, enemyPos);
 
-        if (dist > _axeAttackDist)
+        if (dist > _axeAttackDist && overrideAttackRange <= 0)
+        {
+            return false;
+        }
+
+        if (overrideAttackRange > 0 && dist > overrideAttackRange)
         {
             return false;
         }
@@ -514,6 +520,11 @@ public class PhylacteryPlayerMovement : BasePlayerMovement
         {
             _gameControl.EndLevel();
         }
+
+        if (collision.tag == "BossTrigger")
+        {
+            collision.GetComponent<BossLevelTrigger>().ActivateBoss();
+        }
     }
 
     private void OnTriggerStay2D(Collider2D collision)
@@ -527,6 +538,17 @@ public class PhylacteryPlayerMovement : BasePlayerMovement
         if (collision.tag == "TutorialTrigger")
         {
             collision.GetComponent<TutorialTriggerControl>().ActivateTutorial();
+        }
+
+        if (collision.tag == "FromBelowTrap")
+        {
+            FromBeneathSpikeControl fromBelowTile = collision.GetComponent<FromBeneathSpikeControl>();
+
+            if (fromBelowTile.CanDamagePlayer)
+            {
+                TakeDamage(fromBelowTile.Damage);
+                Destroy(collision.gameObject);
+            }
         }
     }
 

@@ -10,6 +10,9 @@ public class BattleControl : MonoBehaviour
     [SerializeField]
     private AudioClip _combatMusic;
 
+    [SerializeField]
+    private AudioClip _bossMusicPhase2;
+
     private AudioSource _audio;
     private bool _playingCombatMusic = true;
     private GameControl _gameControl;
@@ -58,5 +61,23 @@ public class BattleControl : MonoBehaviour
 
             _audio.Play();
         }
+    }
+
+    public void PlayBossPhase1()
+    {
+        _audio.clip = _combatMusic;
+        _audio.Play();
+    }
+
+    public void PlayBossPhase2()
+    {
+        _audio.clip = _bossMusicPhase2;
+        _audio.Play();
+    }
+
+    public void DefeatBoss()
+    {
+        _audio.clip = _ambientMusic;
+        _audio.Play();
     }
 }

@@ -230,7 +230,7 @@ MonoBehaviour:
   _projectTileSpeed: 5
   _projectTileDirection: {x: 0, y: 0, z: 0}
   _stopDist: 0.1
-  _attackRange: 2
+  _attackRange: 1
 --- !u!58 &7144566598929414754
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -357,7 +357,7 @@ MonoBehaviour:
   _stopDistance: 4
   _playerDetectionDistance: 12
   _playerDetectionAngle: 40
-  _attackRange: 4
+  _attackRange: 3
   _attackDamage: 1
 --- !u!114 &7144566599491103297
 MonoBehaviour:
